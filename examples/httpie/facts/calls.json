@@ -1,0 +1,4219 @@
+{
+ "backend": "ast-import-aware",
+ "approximate": true,
+ "nodes": {
+  "httpie/sessions.py:42": {
+   "name": "is_anonymous_session"
+  },
+  "httpie/sessions.py:46": {
+   "name": "session_hostname_to_dirname"
+  },
+  "httpie/sessions.py:56": {
+   "name": "strip_port"
+  },
+  "httpie/sessions.py:60": {
+   "name": "materialize_cookie"
+  },
+  "httpie/sessions.py:75": {
+   "name": "materialize_cookies"
+  },
+  "httpie/sessions.py:82": {
+   "name": "materialize_headers"
+  },
+  "httpie/sessions.py:92": {
+   "name": "get_httpie_session"
+  },
+  "httpie/sessions.py:128": {
+   "name": "__init__"
+  },
+  "httpie/sessions.py:158": {
+   "name": "_add_cookies"
+  },
+  "httpie/sessions.py:170": {
+   "name": "pre_process_data"
+  },
+  "httpie/sessions.py:185": {
+   "name": "post_process_data"
+  },
+  "httpie/sessions.py:200": {
+   "name": "_compute_new_headers"
+  },
+  "httpie/sessions.py:230": {
+   "name": "update_headers"
+  },
+  "httpie/sessions.py:251": {
+   "name": "headers"
+  },
+  "httpie/sessions.py:255": {
+   "name": "cookies"
+  },
+  "httpie/sessions.py:260": {
+   "name": "cookies"
+  },
+  "httpie/sessions.py:263": {
+   "name": "remove_cookies"
+  },
+  "httpie/sessions.py:273": {
+   "name": "auth"
+  },
+  "httpie/sessions.py:302": {
+   "name": "auth"
+  },
+  "httpie/sessions.py:307": {
+   "name": "is_anonymous"
+  },
+  "httpie/sessions.py:310": {
+   "name": "warn_legacy_usage"
+  },
+  "httpie/client.py:43": {
+   "name": "collect_messages"
+  },
+  "httpie/client.py:145": {
+   "name": "max_headers"
+  },
+  "httpie/client.py:156": {
+   "name": "build_requests_session"
+  },
+  "httpie/client.py:187": {
+   "name": "dump_request"
+  },
+  "httpie/client.py:192": {
+   "name": "finalize_headers"
+  },
+  "httpie/client.py:212": {
+   "name": "transform_headers"
+  },
+  "httpie/client.py:233": {
+   "name": "apply_missing_repeated_headers"
+  },
+  "httpie/client.py:263": {
+   "name": "make_default_headers"
+  },
+  "httpie/client.py:281": {
+   "name": "make_send_kwargs"
+  },
+  "httpie/client.py:288": {
+   "name": "make_send_kwargs_mergeable_from_env"
+  },
+  "httpie/client.py:314": {
+   "name": "json_dict_to_request_body"
+  },
+  "httpie/client.py:325": {
+   "name": "make_request_kwargs"
+  },
+  "httpie/client.py:377": {
+   "name": "ensure_path_as_is"
+  },
+  "httpie/config.py:20": {
+   "name": "get_default_config_dir"
+  },
+  "httpie/config.py:65": {
+   "name": "read_raw_config"
+  },
+  "httpie/config.py:85": {
+   "name": "__init__"
+  },
+  "httpie/config.py:89": {
+   "name": "ensure_directory"
+  },
+  "httpie/config.py:92": {
+   "name": "is_new"
+  },
+  "httpie/config.py:95": {
+   "name": "pre_process_data"
+  },
+  "httpie/config.py:99": {
+   "name": "post_process_data"
+  },
+  "httpie/config.py:103": {
+   "name": "load"
+  },
+  "httpie/config.py:110": {
+   "name": "save"
+  },
+  "httpie/config.py:131": {
+   "name": "version"
+  },
+  "httpie/config.py:143": {
+   "name": "__init__"
+  },
+  "httpie/config.py:149": {
+   "name": "default_options"
+  },
+  "httpie/config.py:152": {
+   "name": "_configured_path"
+  },
+  "httpie/config.py:158": {
+   "name": "plugins_dir"
+  },
+  "httpie/config.py:162": {
+   "name": "version_info_file"
+  },
+  "httpie/config.py:166": {
+   "name": "developer_mode"
+  },
+  "httpie/downloads.py:27": {
+   "name": "parse_content_range"
+  },
+  "httpie/downloads.py:85": {
+   "name": "filename_from_content_disposition"
+  },
+  "httpie/downloads.py:106": {
+   "name": "filename_from_url"
+  },
+  "httpie/downloads.py:126": {
+   "name": "trim_filename"
+  },
+  "httpie/downloads.py:137": {
+   "name": "get_filename_max_length"
+  },
+  "httpie/downloads.py:144": {
+   "name": "trim_filename_if_needed"
+  },
+  "httpie/downloads.py:151": {
+   "name": "get_unique_filename"
+  },
+  "httpie/downloads.py:164": {
+   "name": "__init__"
+  },
+  "httpie/downloads.py:186": {
+   "name": "pre_request"
+  },
+  "httpie/downloads.py:202": {
+   "name": "start"
+  },
+  "httpie/downloads.py:262": {
+   "name": "finish"
+  },
+  "httpie/downloads.py:267": {
+   "name": "failed"
+  },
+  "httpie/downloads.py:271": {
+   "name": "interrupted"
+  },
+  "httpie/downloads.py:278": {
+   "name": "chunk_downloaded"
+  },
+  "httpie/downloads.py:289": {
+   "name": "_get_output_file_from_response"
+  },
+  "httpie/downloads.py:310": {
+   "name": "__init__"
+  },
+  "httpie/downloads.py:318": {
+   "name": "started"
+  },
+  "httpie/downloads.py:325": {
+   "name": "start_display"
+  },
+  "httpie/downloads.py:349": {
+   "name": "chunk_downloaded"
+  },
+  "httpie/downloads.py:355": {
+   "name": "has_finished"
+  },
+  "httpie/downloads.py:359": {
+   "name": "time_spent"
+  },
+  "httpie/downloads.py:368": {
+   "name": "finished"
+  },
+  "httpie/downloads.py:375": {
+   "name": "terminate"
+  },
+  "httpie/core.py:32": {
+   "name": "raw_main"
+  },
+  "httpie/core.py:146": {
+   "name": "main"
+  },
+  "httpie/core.py:170": {
+   "name": "program"
+  },
+  "httpie/core.py:270": {
+   "name": "print_debug_info"
+  },
+  "httpie/core.py:285": {
+   "name": "decode_raw_args"
+  },
+  "httpie/core.py:54": {
+   "name": "handle_generic_error"
+  },
+  "httpie/core.py:182": {
+   "name": "separate"
+  },
+  "httpie/core.py:185": {
+   "name": "request_body_read_callback"
+  },
+  "httpie/adapters.py:7": {
+   "name": "build_response"
+  },
+  "httpie/uploads.py:65": {
+   "name": "as_bytes"
+  },
+  "httpie/uploads.py:75": {
+   "name": "_wrap_function_with_callback"
+  },
+  "httpie/uploads.py:87": {
+   "name": "is_stdin"
+  },
+  "httpie/uploads.py:99": {
+   "name": "observe_stdin_for_data_thread"
+  },
+  "httpie/uploads.py:130": {
+   "name": "_read_file_with_selectors"
+  },
+  "httpie/uploads.py:146": {
+   "name": "_prepare_file_for_upload"
+  },
+  "httpie/uploads.py:191": {
+   "name": "prepare_request_body"
+  },
+  "httpie/uploads.py:230": {
+   "name": "get_multipart_data_and_content_type"
+  },
+  "httpie/uploads.py:252": {
+   "name": "compress_request"
+  },
+  "httpie/uploads.py:21": {
+   "name": "__iter__"
+  },
+  "httpie/uploads.py:26": {
+   "name": "__init__"
+  },
+  "httpie/uploads.py:36": {
+   "name": "__iter__"
+  },
+  "httpie/uploads.py:47": {
+   "name": "__init__"
+  },
+  "httpie/uploads.py:55": {
+   "name": "__iter__"
+  },
+  "httpie/uploads.py:80": {
+   "name": "wrapped"
+  },
+  "httpie/uploads.py:111": {
+   "name": "worker"
+  },
+  "httpie/ssl_.py:92": {
+   "name": "_is_key_file_encrypted"
+  },
+  "httpie/ssl_.py:34": {
+   "name": "to_raw_cert"
+  },
+  "httpie/ssl_.py:41": {
+   "name": "__init__"
+  },
+  "httpie/ssl_.py:55": {
+   "name": "init_poolmanager"
+  },
+  "httpie/ssl_.py:59": {
+   "name": "proxy_manager_for"
+  },
+  "httpie/ssl_.py:63": {
+   "name": "cert_verify"
+  },
+  "httpie/ssl_.py:71": {
+   "name": "_create_ssl_context"
+  },
+  "httpie/ssl_.py:88": {
+   "name": "get_default_ciphers_names"
+  },
+  "httpie/cookies.py:9": {
+   "name": "return_ok_secure"
+  },
+  "httpie/cookies.py:22": {
+   "name": "_is_local_host"
+  },
+  "httpie/compat.py:79": {
+   "name": "find_entry_points"
+  },
+  "httpie/compat.py:86": {
+   "name": "get_dist_name"
+  },
+  "httpie/compat.py:104": {
+   "name": "ensure_default_certs_loaded"
+  },
+  "httpie/compat.py:38": {
+   "name": "func"
+  },
+  "httpie/compat.py:44": {
+   "name": "__init__"
+  },
+  "httpie/compat.py:48": {
+   "name": "__set_name__"
+  },
+  "httpie/compat.py:58": {
+   "name": "__get__"
+  },
+  "httpie/__main__.py:6": {
+   "name": "main"
+  },
+  "httpie/models.py:180": {
+   "name": "infer_requests_message_kind"
+  },
+  "httpie/models.py:26": {
+   "name": "__init__"
+  },
+  "httpie/models.py:29": {
+   "name": "iter_body"
+  },
+  "httpie/models.py:33": {
+   "name": "iter_lines"
+  },
+  "httpie/models.py:38": {
+   "name": "headers"
+  },
+  "httpie/models.py:43": {
+   "name": "metadata"
+  },
+  "httpie/models.py:48": {
+   "name": "encoding"
+  },
+  "httpie/models.py:53": {
+   "name": "content_type"
+  },
+  "httpie/models.py:64": {
+   "name": "iter_body"
+  },
+  "httpie/models.py:67": {
+   "name": "iter_lines"
+  },
+  "httpie/models.py:71": {
+   "name": "headers"
+  },
+  "httpie/models.py:89": {
+   "name": "metadata"
+  },
+  "httpie/models.py:104": {
+   "name": "version"
+  },
+  "httpie/models.py:133": {
+   "name": "iter_body"
+  },
+  "httpie/models.py:136": {
+   "name": "iter_lines"
+  },
+  "httpie/models.py:140": {
+   "name": "headers"
+  },
+  "httpie/models.py:164": {
+   "name": "body"
+  },
+  "httpie/models.py:208": {
+   "name": "any"
+  },
+  "httpie/models.py:216": {
+   "name": "from_message"
+  },
+  "httpie/status.py:23": {
+   "name": "http_status_to_exit_status"
+  },
+  "httpie/context.py:93": {
+   "name": "__init__"
+  },
+  "httpie/context.py:123": {
+   "name": "__str__"
+  },
+  "httpie/context.py:134": {
+   "name": "__repr__"
+  },
+  "httpie/context.py:140": {
+   "name": "config"
+  },
+  "httpie/context.py:152": {
+   "name": "devnull"
+  },
+  "httpie/context.py:158": {
+   "name": "as_silent"
+  },
+  "httpie/context.py:170": {
+   "name": "log_error"
+  },
+  "httpie/context.py:184": {
+   "name": "apply_warnings_filter"
+  },
+  "httpie/context.py:188": {
+   "name": "_make_rich_console"
+  },
+  "httpie/context.py:212": {
+   "name": "rich_console"
+  },
+  "httpie/context.py:216": {
+   "name": "rich_error_console"
+  },
+  "httpie/encoding.py:11": {
+   "name": "detect_encoding"
+  },
+  "httpie/encoding.py:32": {
+   "name": "smart_decode"
+  },
+  "httpie/encoding.py:44": {
+   "name": "smart_encode"
+  },
+  "httpie/utils.py:72": {
+   "name": "load_json_preserve_order_and_dupe_keys"
+  },
+  "httpie/utils.py:76": {
+   "name": "repr_dict"
+  },
+  "httpie/utils.py:80": {
+   "name": "humanize_bytes"
+  },
+  "httpie/utils.py:133": {
+   "name": "get_content_type"
+  },
+  "httpie/utils.py:143": {
+   "name": "split_cookies"
+  },
+  "httpie/utils.py:156": {
+   "name": "get_expired_cookies"
+  },
+  "httpie/utils.py:188": {
+   "name": "_max_age_to_expires"
+  },
+  "httpie/utils.py:203": {
+   "name": "parse_content_type_header"
+  },
+  "httpie/utils.py:221": {
+   "name": "as_site"
+  },
+  "httpie/utils.py:229": {
+   "name": "get_site_paths"
+  },
+  "httpie/utils.py:248": {
+   "name": "split_iterable"
+  },
+  "httpie/utils.py:258": {
+   "name": "unwrap_context"
+  },
+  "httpie/utils.py:266": {
+   "name": "url_as_host"
+  },
+  "httpie/utils.py:275": {
+   "name": "open_with_lockfile"
+  },
+  "httpie/utils.py:293": {
+   "name": "is_version_greater"
+  },
+  "httpie/utils.py:36": {
+   "name": "__init__"
+  },
+  "httpie/utils.py:40": {
+   "name": "_ensure_items_used"
+  },
+  "httpie/utils.py:65": {
+   "name": "items"
+  },
+  "httpie/utils.py:129": {
+   "name": "__call__"
+  },
+  "httpie/utils.py:163": {
+   "name": "is_expired"
+  },
+  "httpie/utils.py:300": {
+   "name": "split_version"
+  },
+  "httpie/output/streams.py:33": {
+   "name": "__init__"
+  },
+  "httpie/output/streams.py:51": {
+   "name": "get_headers"
+  },
+  "httpie/output/streams.py:55": {
+   "name": "get_metadata"
+  },
+  "httpie/output/streams.py:60": {
+   "name": "iter_body"
+  },
+  "httpie/output/streams.py:63": {
+   "name": "__iter__"
+  },
+  "httpie/output/streams.py:94": {
+   "name": "__init__"
+  },
+  "httpie/output/streams.py:98": {
+   "name": "iter_body"
+  },
+  "httpie/output/streams.py:115": {
+   "name": "__init__"
+  },
+  "httpie/output/streams.py:138": {
+   "name": "iter_body"
+  },
+  "httpie/output/streams.py:145": {
+   "name": "decode_chunk"
+  },
+  "httpie/output/streams.py:151": {
+   "name": "encoding"
+  },
+  "httpie/output/streams.py:166": {
+   "name": "encoding"
+  },
+  "httpie/output/streams.py:181": {
+   "name": "__init__"
+  },
+  "httpie/output/streams.py:190": {
+   "name": "get_headers"
+  },
+  "httpie/output/streams.py:194": {
+   "name": "get_metadata"
+  },
+  "httpie/output/streams.py:198": {
+   "name": "iter_body"
+  },
+  "httpie/output/streams.py:219": {
+   "name": "process_body"
+  },
+  "httpie/output/streams.py:238": {
+   "name": "iter_body"
+  },
+  "httpie/output/writer.py:27": {
+   "name": "write_message"
+  },
+  "httpie/output/writer.py:61": {
+   "name": "write_stream"
+  },
+  "httpie/output/writer.py:79": {
+   "name": "write_stream_with_colors_win"
+  },
+  "httpie/output/writer.py:100": {
+   "name": "write_raw_data"
+  },
+  "httpie/output/writer.py:122": {
+   "name": "build_output_stream_for_message"
+  },
+  "httpie/output/writer.py:153": {
+   "name": "get_stream_type_and_kwargs"
+  },
+  "httpie/output/models.py:28": {
+   "name": "get_prettify"
+  },
+  "httpie/output/models.py:35": {
+   "name": "from_raw_args"
+  },
+  "httpie/output/models.py:43": {
+   "name": "show_traceback"
+  },
+  "httpie/output/processing.py:12": {
+   "name": "is_valid_mime"
+  },
+  "httpie/output/processing.py:19": {
+   "name": "get_converter"
+  },
+  "httpie/output/processing.py:29": {
+   "name": "__init__"
+  },
+  "httpie/output/processing.py:44": {
+   "name": "format_headers"
+  },
+  "httpie/output/processing.py:49": {
+   "name": "format_body"
+  },
+  "httpie/output/processing.py:55": {
+   "name": "format_metadata"
+  },
+  "httpie/output/utils.py:9": {
+   "name": "load_prefixed_json"
+  },
+  "httpie/output/utils.py:27": {
+   "name": "parse_prefixed_json"
+  },
+  "httpie/output/ui/rich_progress.py:14": {
+   "name": "start"
+  },
+  "httpie/output/ui/rich_progress.py:19": {
+   "name": "update"
+  },
+  "httpie/output/ui/rich_progress.py:22": {
+   "name": "stop"
+  },
+  "httpie/output/ui/rich_progress.py:26": {
+   "name": "console"
+  },
+  "httpie/output/ui/rich_progress.py:30": {
+   "name": "_print_summary"
+  },
+  "httpie/output/ui/rich_progress.py:63": {
+   "name": "start"
+  },
+  "httpie/output/ui/rich_progress.py:74": {
+   "name": "update"
+  },
+  "httpie/output/ui/rich_progress.py:86": {
+   "name": "stop"
+  },
+  "httpie/output/ui/rich_progress.py:98": {
+   "name": "start"
+  },
+  "httpie/output/ui/rich_progress.py:129": {
+   "name": "update"
+  },
+  "httpie/output/ui/rich_progress.py:132": {
+   "name": "stop"
+  },
+  "httpie/output/ui/rich_utils.py:12": {
+   "name": "render_as_string"
+  },
+  "httpie/output/ui/rich_utils.py:23": {
+   "name": "enable_highlighter"
+  },
+  "httpie/output/ui/rich_help.py:54": {
+   "name": "unpack_argument"
+  },
+  "httpie/output/ui/rich_help.py:72": {
+   "name": "to_usage"
+  },
+  "httpie/output/ui/rich_help.py:128": {
+   "name": "to_help_message"
+  },
+  "httpie/output/ui/man_pages.py:16": {
+   "name": "is_available"
+  },
+  "httpie/output/ui/man_pages.py:39": {
+   "name": "display_for"
+  },
+  "httpie/output/ui/rich_palette.py:45": {
+   "name": "_make_rich_color_theme"
+  },
+  "httpie/output/ui/rich_palette.py:32": {
+   "name": "_translate"
+  },
+  "httpie/output/ui/rich_palette.py:38": {
+   "name": "__getitem__"
+  },
+  "httpie/output/ui/rich_palette.py:41": {
+   "name": "get"
+  },
+  "httpie/output/ui/palette.py:255": {
+   "name": "boldify"
+  },
+  "httpie/output/ui/palette.py:260": {
+   "name": "get_color"
+  },
+  "httpie/output/ui/palette.py:33": {
+   "name": "__or__"
+  },
+  "httpie/output/ui/palette.py:91": {
+   "name": "apply_style"
+  },
+  "httpie/output/lexers/common.py:1": {
+   "name": "precise"
+  },
+  "httpie/output/lexers/http.py:25": {
+   "name": "http_response_type"
+  },
+  "httpie/output/lexers/http.py:45": {
+   "name": "request_method"
+  },
+  "httpie/output/lexers/metadata.py:13": {
+   "name": "speed_based_token"
+  },
+  "httpie/output/formatters/headers.py:6": {
+   "name": "__init__"
+  },
+  "httpie/output/formatters/headers.py:10": {
+   "name": "format_headers"
+  },
+  "httpie/output/formatters/colors.py:36": {
+   "name": "get_available_styles"
+  },
+  "httpie/output/formatters/colors.py:142": {
+   "name": "get_lexer"
+  },
+  "httpie/output/formatters/colors.py:354": {
+   "name": "make_style"
+  },
+  "httpie/output/formatters/colors.py:371": {
+   "name": "make_styles"
+  },
+  "httpie/output/formatters/colors.py:51": {
+   "name": "__init__"
+  },
+  "httpie/output/formatters/colors.py:81": {
+   "name": "format_headers"
+  },
+  "httpie/output/formatters/colors.py:88": {
+   "name": "format_body"
+  },
+  "httpie/output/formatters/colors.py:98": {
+   "name": "format_metadata"
+  },
+  "httpie/output/formatters/colors.py:105": {
+   "name": "get_lexer_for_body"
+  },
+  "httpie/output/formatters/colors.py:115": {
+   "name": "get_formatters"
+  },
+  "httpie/output/formatters/colors.py:135": {
+   "name": "get_style_class"
+  },
+  "httpie/output/formatters/colors.py:355": {
+   "name": "format_value"
+  },
+  "httpie/output/formatters/json.py:8": {
+   "name": "__init__"
+  },
+  "httpie/output/formatters/json.py:12": {
+   "name": "format_body"
+  },
+  "httpie/output/formatters/xml.py:14": {
+   "name": "parse_xml"
+  },
+  "httpie/output/formatters/xml.py:20": {
+   "name": "parse_declaration"
+  },
+  "httpie/output/formatters/xml.py:29": {
+   "name": "pretty_xml"
+  },
+  "httpie/output/formatters/xml.py:55": {
+   "name": "__init__"
+  },
+  "httpie/output/formatters/xml.py:59": {
+   "name": "format_body"
+  },
+  "httpie/manager/cli.py:95": {
+   "name": "missing_subcommand"
+  },
+  "httpie/manager/cli.py:105": {
+   "name": "generate_subparsers"
+  },
+  "httpie/manager/core.py:26": {
+   "name": "dispatch_cli_task"
+  },
+  "httpie/manager/core.py:33": {
+   "name": "program"
+  },
+  "httpie/manager/compat.py:18": {
+   "name": "_discover_system_pip"
+  },
+  "httpie/manager/compat.py:45": {
+   "name": "_run_pip_subprocess"
+  },
+  "httpie/manager/compat.py:62": {
+   "name": "run_pip"
+  },
+  "httpie/manager/compat.py:13": {
+   "name": "__init__"
+  },
+  "httpie/manager/compat.py:25": {
+   "name": "_check_pip_version"
+  },
+  "httpie/manager/__main__.py:12": {
+   "name": "is_http_command"
+  },
+  "httpie/manager/__main__.py:32": {
+   "name": "main"
+  },
+  "httpie/manager/__main__.py:51": {
+   "name": "program"
+  },
+  "httpie/manager/tasks/check_updates.py:7": {
+   "name": "cli_check_updates"
+  },
+  "httpie/manager/tasks/sessions.py:17": {
+   "name": "cli_sessions"
+  },
+  "httpie/manager/tasks/sessions.py:30": {
+   "name": "upgrade_session"
+  },
+  "httpie/manager/tasks/sessions.py:63": {
+   "name": "cli_upgrade_session"
+  },
+  "httpie/manager/tasks/sessions.py:72": {
+   "name": "cli_upgrade_all_sessions"
+  },
+  "httpie/manager/tasks/plugins.py:240": {
+   "name": "cli_plugins"
+  },
+  "httpie/manager/tasks/plugins.py:23": {
+   "name": "__init__"
+  },
+  "httpie/manager/tasks/plugins.py:30": {
+   "name": "setup_plugins_dir"
+  },
+  "httpie/manager/tasks/plugins.py:45": {
+   "name": "fail"
+  },
+  "httpie/manager/tasks/plugins.py:60": {
+   "name": "_install"
+  },
+  "httpie/manager/tasks/plugins.py:105": {
+   "name": "install"
+  },
+  "httpie/manager/tasks/plugins.py:111": {
+   "name": "_clear_metadata"
+  },
+  "httpie/manager/tasks/plugins.py:132": {
+   "name": "upgrade"
+  },
+  "httpie/manager/tasks/plugins.py:148": {
+   "name": "_uninstall"
+  },
+  "httpie/manager/tasks/plugins.py:184": {
+   "name": "uninstall"
+  },
+  "httpie/manager/tasks/plugins.py:196": {
+   "name": "list"
+  },
+  "httpie/manager/tasks/plugins.py:217": {
+   "name": "run"
+  },
+  "httpie/manager/tasks/export_args.py:16": {
+   "name": "cli_export_args"
+  },
+  "httpie/cli/definition.py:249": {
+   "name": "format_style_help"
+  },
+  "httpie/cli/definition.py:626": {
+   "name": "format_auth_help"
+  },
+  "httpie/cli/requestitems.py:126": {
+   "name": "process_header_arg"
+  },
+  "httpie/cli/requestitems.py:130": {
+   "name": "process_embed_header_arg"
+  },
+  "httpie/cli/requestitems.py:134": {
+   "name": "process_empty_header_arg"
+  },
+  "httpie/cli/requestitems.py:142": {
+   "name": "process_query_param_arg"
+  },
+  "httpie/cli/requestitems.py:146": {
+   "name": "process_embed_query_param_arg"
+  },
+  "httpie/cli/requestitems.py:150": {
+   "name": "process_file_upload_arg"
+  },
+  "httpie/cli/requestitems.py:165": {
+   "name": "convert_json_value_to_form_if_needed"
+  },
+  "httpie/cli/requestitems.py:189": {
+   "name": "process_data_item_arg"
+  },
+  "httpie/cli/requestitems.py:193": {
+   "name": "process_data_embed_file_contents_arg"
+  },
+  "httpie/cli/requestitems.py:197": {
+   "name": "process_data_embed_raw_json_file_arg"
+  },
+  "httpie/cli/requestitems.py:203": {
+   "name": "process_data_raw_json_embed_arg"
+  },
+  "httpie/cli/requestitems.py:208": {
+   "name": "process_data_nested_json_embed_args"
+  },
+  "httpie/cli/requestitems.py:212": {
+   "name": "load_text_file"
+  },
+  "httpie/cli/requestitems.py:226": {
+   "name": "load_json"
+  },
+  "httpie/cli/requestitems.py:26": {
+   "name": "__init__"
+  },
+  "httpie/cli/requestitems.py:37": {
+   "name": "from_args"
+  },
+  "httpie/cli/requestitems.py:176": {
+   "name": "wrapper"
+  },
+  "httpie/cli/argtypes.py:194": {
+   "name": "readable_file_arg"
+  },
+  "httpie/cli/argtypes.py:202": {
+   "name": "parse_format_options"
+  },
+  "httpie/cli/argtypes.py:262": {
+   "name": "response_charset_type"
+  },
+  "httpie/cli/argtypes.py:271": {
+   "name": "response_mime_type"
+  },
+  "httpie/cli/argtypes.py:15": {
+   "name": "__init__"
+  },
+  "httpie/cli/argtypes.py:21": {
+   "name": "__eq__"
+  },
+  "httpie/cli/argtypes.py:24": {
+   "name": "__repr__"
+  },
+  "httpie/cli/argtypes.py:30": {
+   "name": "__init__"
+  },
+  "httpie/cli/argtypes.py:33": {
+   "name": "__call__"
+  },
+  "httpie/cli/argtypes.py:44": {
+   "name": "__repr__"
+  },
+  "httpie/cli/argtypes.py:58": {
+   "name": "__init__"
+  },
+  "httpie/cli/argtypes.py:64": {
+   "name": "__call__"
+  },
+  "httpie/cli/argtypes.py:110": {
+   "name": "tokenize"
+  },
+  "httpie/cli/argtypes.py:134": {
+   "name": "_prompt_password"
+  },
+  "httpie/cli/argtypes.py:143": {
+   "name": "_getpass"
+  },
+  "httpie/cli/argtypes.py:151": {
+   "name": "__init__"
+  },
+  "httpie/cli/argtypes.py:154": {
+   "name": "prompt_password"
+  },
+  "httpie/cli/argtypes.py:161": {
+   "name": "has_password"
+  },
+  "httpie/cli/argtypes.py:164": {
+   "name": "prompt_password"
+  },
+  "httpie/cli/argtypes.py:173": {
+   "name": "__call__"
+  },
+  "httpie/cli/dicts.py:18": {
+   "name": "add"
+  },
+  "httpie/cli/dicts.py:38": {
+   "name": "remove_item"
+  },
+  "httpie/cli/dicts.py:56": {
+   "name": "__setitem__"
+  },
+  "httpie/cli/dicts.py:73": {
+   "name": "items"
+  },
+  "httpie/cli/argparser.py:42": {
+   "name": "__init__"
+  },
+  "httpie/cli/argparser.py:47": {
+   "name": "_split_lines"
+  },
+  "httpie/cli/argparser.py:51": {
+   "name": "add_usage"
+  },
+  "httpie/cli/argparser.py:82": {
+   "name": "__init__"
+  },
+  "httpie/cli/argparser.py:90": {
+   "name": "parse_args"
+  },
+  "httpie/cli/argparser.py:109": {
+   "name": "_print_message"
+  },
+  "httpie/cli/argparser.py:129": {
+   "name": "parse_known_args"
+  },
+  "httpie/cli/argparser.py:146": {
+   "name": "__init__"
+  },
+  "httpie/cli/argparser.py:151": {
+   "name": "parse_args"
+  },
+  "httpie/cli/argparser.py:196": {
+   "name": "_process_request_type"
+  },
+  "httpie/cli/argparser.py:205": {
+   "name": "_process_url"
+  },
+  "httpie/cli/argparser.py:227": {
+   "name": "_setup_standard_streams"
+  },
+  "httpie/cli/argparser.py:269": {
+   "name": "_process_ssl_cert"
+  },
+  "httpie/cli/argparser.py:282": {
+   "name": "_process_auth"
+  },
+  "httpie/cli/argparser.py:357": {
+   "name": "_apply_no_options"
+  },
+  "httpie/cli/argparser.py:382": {
+   "name": "_body_from_file"
+  },
+  "httpie/cli/argparser.py:391": {
+   "name": "_body_from_input"
+  },
+  "httpie/cli/argparser.py:399": {
+   "name": "_ensure_one_data_source"
+  },
+  "httpie/cli/argparser.py:409": {
+   "name": "_guess_method"
+  },
+  "httpie/cli/argparser.py:448": {
+   "name": "_parse_items"
+  },
+  "httpie/cli/argparser.py:492": {
+   "name": "_process_output_options"
+  },
+  "httpie/cli/argparser.py:531": {
+   "name": "_process_pretty_options"
+  },
+  "httpie/cli/argparser.py:542": {
+   "name": "_process_download_options"
+  },
+  "httpie/cli/argparser.py:554": {
+   "name": "_process_format_options"
+  },
+  "httpie/cli/argparser.py:561": {
+   "name": "print_manual"
+  },
+  "httpie/cli/argparser.py:575": {
+   "name": "print_usage"
+  },
+  "httpie/cli/argparser.py:598": {
+   "name": "error"
+  },
+  "httpie/cli/argparser.py:499": {
+   "name": "check_options"
+  },
+  "httpie/cli/options.py:19": {
+   "name": "map_qualifiers"
+  },
+  "httpie/cli/options.py:28": {
+   "name": "drop_keys"
+  },
+  "httpie/cli/options.py:193": {
+   "name": "to_argparse"
+  },
+  "httpie/cli/options.py:238": {
+   "name": "to_data"
+  },
+  "httpie/cli/options.py:242": {
+   "name": "parser_to_parser_spec"
+  },
+  "httpie/cli/options.py:50": {
+   "name": "finalize"
+  },
+  "httpie/cli/options.py:59": {
+   "name": "add_group"
+  },
+  "httpie/cli/options.py:64": {
+   "name": "serialize"
+  },
+  "httpie/cli/options.py:79": {
+   "name": "finalize"
+  },
+  "httpie/cli/options.py:83": {
+   "name": "add_argument"
+  },
+  "httpie/cli/options.py:89": {
+   "name": "serialize"
+  },
+  "httpie/cli/options.py:102": {
+   "name": "post_init"
+  },
+  "httpie/cli/options.py:113": {
+   "name": "serialize"
+  },
+  "httpie/cli/options.py:168": {
+   "name": "is_positional"
+  },
+  "httpie/cli/options.py:172": {
+   "name": "is_hidden"
+  },
+  "httpie/cli/options.py:175": {
+   "name": "__getattr__"
+  },
+  "httpie/cli/utils.py:8": {
+   "name": "__init__"
+  },
+  "httpie/cli/utils.py:23": {
+   "name": "__call__"
+  },
+  "httpie/cli/utils.py:29": {
+   "name": "__init__"
+  },
+  "httpie/cli/utils.py:49": {
+   "name": "load"
+  },
+  "httpie/cli/utils.py:57": {
+   "name": "help"
+  },
+  "httpie/cli/utils.py:66": {
+   "name": "help"
+  },
+  "httpie/cli/utils.py:69": {
+   "name": "__contains__"
+  },
+  "httpie/cli/utils.py:72": {
+   "name": "__iter__"
+  },
+  "httpie/cli/utils.py:78": {
+   "name": "__call__"
+  },
+  "httpie/cli/nested_json/interpret.py:23": {
+   "name": "interpret_nested_json"
+  },
+  "httpie/cli/nested_json/interpret.py:30": {
+   "name": "interpret"
+  },
+  "httpie/cli/nested_json/interpret.py:107": {
+   "name": "wrap_with_dict"
+  },
+  "httpie/cli/nested_json/interpret.py:119": {
+   "name": "unwrap_top_level_list_if_needed"
+  },
+  "httpie/cli/nested_json/interpret.py:36": {
+   "name": "type_check"
+  },
+  "httpie/cli/nested_json/interpret.py:60": {
+   "name": "object_for"
+  },
+  "httpie/cli/nested_json/tokens.py:18": {
+   "name": "to_name"
+  },
+  "httpie/cli/nested_json/tokens.py:51": {
+   "name": "to_string"
+  },
+  "httpie/cli/nested_json/tokens.py:56": {
+   "name": "__init__"
+  },
+  "httpie/cli/nested_json/tokens.py:68": {
+   "name": "reconstruct"
+  },
+  "httpie/cli/nested_json/parse.py:23": {
+   "name": "parse"
+  },
+  "httpie/cli/nested_json/parse.py:127": {
+   "name": "tokenize"
+  },
+  "httpie/cli/nested_json/parse.py:181": {
+   "name": "check_escaped_int"
+  },
+  "httpie/cli/nested_json/parse.py:192": {
+   "name": "assert_cant_happen"
+  },
+  "httpie/cli/nested_json/parse.py:42": {
+   "name": "can_advance"
+  },
+  "httpie/cli/nested_json/parse.py:46": {
+   "name": "expect"
+  },
+  "httpie/cli/nested_json/parse.py:70": {
+   "name": "parse_root"
+  },
+  "httpie/cli/nested_json/parse.py:132": {
+   "name": "send_buffer"
+  },
+  "httpie/cli/nested_json/parse.py:159": {
+   "name": "can_advance"
+  },
+  "httpie/cli/nested_json/errors.py:7": {
+   "name": "__init__"
+  },
+  "httpie/cli/nested_json/errors.py:19": {
+   "name": "__str__"
+  },
+  "httpie/legacy/v3_1_0_session_cookie_format.py:36": {
+   "name": "pre_process"
+  },
+  "httpie/legacy/v3_1_0_session_cookie_format.py:67": {
+   "name": "post_process"
+  },
+  "httpie/legacy/v3_1_0_session_cookie_format.py:84": {
+   "name": "fix_layout"
+  },
+  "httpie/legacy/v3_2_0_session_header_format.py:26": {
+   "name": "pre_process"
+  },
+  "httpie/legacy/v3_2_0_session_header_format.py:49": {
+   "name": "post_process"
+  },
+  "httpie/legacy/v3_2_0_session_header_format.py:67": {
+   "name": "fix_layout"
+  },
+  "httpie/plugins/manager.py:28": {
+   "name": "_load_directories"
+  },
+  "httpie/plugins/manager.py:41": {
+   "name": "enable_plugins"
+  },
+  "httpie/plugins/manager.py:49": {
+   "name": "register"
+  },
+  "httpie/plugins/manager.py:53": {
+   "name": "unregister"
+  },
+  "httpie/plugins/manager.py:56": {
+   "name": "filter"
+  },
+  "httpie/plugins/manager.py:59": {
+   "name": "iter_entry_points"
+  },
+  "httpie/plugins/manager.py:66": {
+   "name": "load_installed_plugins"
+  },
+  "httpie/plugins/manager.py:83": {
+   "name": "get_auth_plugins"
+  },
+  "httpie/plugins/manager.py:86": {
+   "name": "get_auth_plugin_mapping"
+  },
+  "httpie/plugins/manager.py:91": {
+   "name": "get_auth_plugin"
+  },
+  "httpie/plugins/manager.py:95": {
+   "name": "get_formatters"
+  },
+  "httpie/plugins/manager.py:98": {
+   "name": "get_formatters_grouped"
+  },
+  "httpie/plugins/manager.py:105": {
+   "name": "get_converters"
+  },
+  "httpie/plugins/manager.py:109": {
+   "name": "get_transport_plugins"
+  },
+  "httpie/plugins/manager.py:112": {
+   "name": "__str__"
+  },
+  "httpie/plugins/manager.py:120": {
+   "name": "__repr__"
+  },
+  "httpie/plugins/base.py:58": {
+   "name": "get_auth"
+  },
+  "httpie/plugins/base.py:87": {
+   "name": "get_adapter"
+  },
+  "httpie/plugins/base.py:106": {
+   "name": "__init__"
+  },
+  "httpie/plugins/base.py:109": {
+   "name": "convert"
+  },
+  "httpie/plugins/base.py:120": {
+   "name": "supports"
+  },
+  "httpie/plugins/base.py:131": {
+   "name": "__init__"
+  },
+  "httpie/plugins/base.py:142": {
+   "name": "format_headers"
+  },
+  "httpie/plugins/base.py:150": {
+   "name": "format_body"
+  },
+  "httpie/plugins/base.py:159": {
+   "name": "format_metadata"
+  },
+  "httpie/plugins/builtin.py:15": {
+   "name": "__call__"
+  },
+  "httpie/plugins/builtin.py:31": {
+   "name": "make_header"
+  },
+  "httpie/plugins/builtin.py:39": {
+   "name": "__init__"
+  },
+  "httpie/plugins/builtin.py:42": {
+   "name": "__call__"
+  },
+  "httpie/plugins/builtin.py:53": {
+   "name": "get_auth"
+  },
+  "httpie/plugins/builtin.py:63": {
+   "name": "get_auth"
+  },
+  "httpie/plugins/builtin.py:78": {
+   "name": "get_auth"
+  },
+  "httpie/internal/update_warnings.py:31": {
+   "name": "_read_data_error_free"
+  },
+  "httpie/internal/update_warnings.py:40": {
+   "name": "_fetch_updates"
+  },
+  "httpie/internal/update_warnings.py:55": {
+   "name": "fetch_updates"
+  },
+  "httpie/internal/update_warnings.py:62": {
+   "name": "maybe_fetch_updates"
+  },
+  "httpie/internal/update_warnings.py:78": {
+   "name": "_get_suppress_context"
+  },
+  "httpie/internal/update_warnings.py:91": {
+   "name": "_update_checker"
+  },
+  "httpie/internal/update_warnings.py:107": {
+   "name": "_get_update_status"
+  },
+  "httpie/internal/update_warnings.py:136": {
+   "name": "get_update_status"
+  },
+  "httpie/internal/update_warnings.py:141": {
+   "name": "check_updates"
+  },
+  "httpie/internal/update_warnings.py:97": {
+   "name": "wrapper"
+  },
+  "httpie/internal/daemon_runner.py:12": {
+   "name": "_check_status"
+  },
+  "httpie/internal/daemon_runner.py:30": {
+   "name": "_parse_options"
+  },
+  "httpie/internal/daemon_runner.py:37": {
+   "name": "is_daemon_mode"
+  },
+  "httpie/internal/daemon_runner.py:41": {
+   "name": "run_daemon_task"
+  },
+  "httpie/internal/daemons.py:22": {
+   "name": "_start_process"
+  },
+  "httpie/internal/daemons.py:32": {
+   "name": "_spawn_windows"
+  },
+  "httpie/internal/daemons.py:55": {
+   "name": "_spawn_posix"
+  },
+  "httpie/internal/daemons.py:102": {
+   "name": "_spawn"
+  },
+  "httpie/internal/daemons.py:112": {
+   "name": "spawn_daemon"
+  },
+  "httpie/sessions.py:124": {
+   "name": "Session"
+  },
+  "httpie/config.py:61": {
+   "name": "ConfigFileError"
+  },
+  "httpie/config.py:80": {
+   "name": "BaseConfigDict"
+  },
+  "httpie/config.py:137": {
+   "name": "Config"
+  },
+  "httpie/downloads.py:23": {
+   "name": "ContentRangeError"
+  },
+  "httpie/downloads.py:162": {
+   "name": "Downloader"
+  },
+  "httpie/downloads.py:307": {
+   "name": "DownloadStatus"
+  },
+  "httpie/adapters.py:5": {
+   "name": "HTTPieHTTPAdapter"
+  },
+  "httpie/uploads.py:20": {
+   "name": "ChunkedStream"
+  },
+  "httpie/uploads.py:25": {
+   "name": "ChunkedUploadStream"
+  },
+  "httpie/uploads.py:44": {
+   "name": "ChunkedMultipartUploadStream"
+  },
+  "httpie/ssl_.py:29": {
+   "name": "HTTPieCertificate"
+  },
+  "httpie/ssl_.py:40": {
+   "name": "HTTPieHTTPSAdapter"
+  },
+  "httpie/cookies.py:8": {
+   "name": "HTTPieCookiePolicy"
+  },
+  "httpie/compat.py:25": {
+   "name": "cached_property"
+  },
+  "httpie/models.py:23": {
+   "name": "HTTPMessage"
+  },
+  "httpie/models.py:61": {
+   "name": "HTTPResponse"
+  },
+  "httpie/models.py:130": {
+   "name": "HTTPRequest"
+  },
+  "httpie/models.py:175": {
+   "name": "RequestsMessageKind"
+  },
+  "httpie/models.py:202": {
+   "name": "OutputOptions"
+  },
+  "httpie/status.py:5": {
+   "name": "ExitStatus"
+  },
+  "httpie/context.py:27": {
+   "name": "LogLevel"
+  },
+  "httpie/context.py:46": {
+   "name": "Environment"
+  },
+  "httpie/utils.py:27": {
+   "name": "JsonDictPreservingDuplicateKeys"
+  },
+  "httpie/utils.py:124": {
+   "name": "ExplicitNullAuth"
+  },
+  "httpie/utils.py:270": {
+   "name": "LockFileError"
+  },
+  "httpie/output/streams.py:20": {
+   "name": "DataSuppressedError"
+  },
+  "httpie/output/streams.py:24": {
+   "name": "BinarySuppressedError"
+  },
+  "httpie/output/streams.py:30": {
+   "name": "BaseStream"
+  },
+  "httpie/output/streams.py:88": {
+   "name": "RawStream"
+  },
+  "httpie/output/streams.py:105": {
+   "name": "EncodedStream"
+  },
+  "httpie/output/streams.py:170": {
+   "name": "PrettyStream"
+  },
+  "httpie/output/streams.py:228": {
+   "name": "BufferedPrettyStream"
+  },
+  "httpie/output/models.py:10": {
+   "name": "ProcessingOptions"
+  },
+  "httpie/output/processing.py:16": {
+   "name": "Conversion"
+  },
+  "httpie/output/processing.py:26": {
+   "name": "Formatting"
+  },
+  "httpie/output/ui/rich_progress.py:11": {
+   "name": "BaseDisplay"
+  },
+  "httpie/output/ui/rich_progress.py:55": {
+   "name": "DummyDisplay"
+  },
+  "httpie/output/ui/rich_progress.py:62": {
+   "name": "StatusDisplay"
+  },
+  "httpie/output/ui/rich_progress.py:97": {
+   "name": "ProgressDisplay"
+  },
+  "httpie/output/ui/rich_help.py:44": {
+   "name": "OptionsHighlighter"
+  },
+  "httpie/output/ui/rich_palette.py:26": {
+   "name": "_GenericColorCaster"
+  },
+  "httpie/output/ui/palette.py:11": {
+   "name": "Styles"
+  },
+  "httpie/output/ui/palette.py:16": {
+   "name": "PieStyle"
+  },
+  "httpie/output/ui/palette.py:32": {
+   "name": "ColorString"
+  },
+  "httpie/output/ui/palette.py:55": {
+   "name": "PieColor"
+  },
+  "httpie/output/ui/palette.py:74": {
+   "name": "GenericColor"
+  },
+  "httpie/output/ui/palette.py:105": {
+   "name": "_StyledGenericColor"
+  },
+  "httpie/output/lexers/http.py:54": {
+   "name": "SimplifiedHTTPLexer"
+  },
+  "httpie/output/lexers/metadata.py:33": {
+   "name": "MetadataLexer"
+  },
+  "httpie/output/lexers/json.py:11": {
+   "name": "EnhancedJsonLexer"
+  },
+  "httpie/output/formatters/headers.py:4": {
+   "name": "HeadersFormatter"
+  },
+  "httpie/output/formatters/colors.py:40": {
+   "name": "ColorFormatter"
+  },
+  "httpie/output/formatters/colors.py:197": {
+   "name": "Solarized256Style"
+  },
+  "httpie/output/formatters/json.py:6": {
+   "name": "JSONFormatter"
+  },
+  "httpie/output/formatters/xml.py:53": {
+   "name": "XMLFormatter"
+  },
+  "httpie/manager/compat.py:10": {
+   "name": "PipError"
+  },
+  "httpie/manager/tasks/plugins.py:21": {
+   "name": "PluginInstaller"
+  },
+  "httpie/cli/requestitems.py:24": {
+   "name": "RequestItems"
+  },
+  "httpie/cli/argtypes.py:12": {
+   "name": "KeyValueArg"
+  },
+  "httpie/cli/argtypes.py:28": {
+   "name": "SessionNameValidator"
+  },
+  "httpie/cli/argtypes.py:41": {
+   "name": "Escaped"
+  },
+  "httpie/cli/argtypes.py:48": {
+   "name": "KeyValueArgType"
+  },
+  "httpie/cli/argtypes.py:133": {
+   "name": "PromptMixin"
+  },
+  "httpie/cli/argtypes.py:148": {
+   "name": "SSLCredentials"
+  },
+  "httpie/cli/argtypes.py:158": {
+   "name": "AuthCredentials"
+  },
+  "httpie/cli/argtypes.py:168": {
+   "name": "AuthCredentialsArgType"
+  },
+  "httpie/cli/constants.py:96": {
+   "name": "PrettyOptions"
+  },
+  "httpie/cli/constants.py:131": {
+   "name": "RequestType"
+  },
+  "httpie/cli/dicts.py:6": {
+   "name": "BaseMultiDict"
+  },
+  "httpie/cli/dicts.py:12": {
+   "name": "HTTPHeadersDict"
+  },
+  "httpie/cli/dicts.py:49": {
+   "name": "RequestJSONDataDict"
+  },
+  "httpie/cli/dicts.py:53": {
+   "name": "MultiValueOrderedDict"
+  },
+  "httpie/cli/dicts.py:81": {
+   "name": "RequestQueryParamsDict"
+  },
+  "httpie/cli/dicts.py:85": {
+   "name": "RequestDataDict"
+  },
+  "httpie/cli/dicts.py:89": {
+   "name": "MultipartRequestDataDict"
+  },
+  "httpie/cli/dicts.py:93": {
+   "name": "RequestFilesDict"
+  },
+  "httpie/cli/exceptions.py:1": {
+   "name": "ParseError"
+  },
+  "httpie/cli/argparser.py:32": {
+   "name": "HTTPieHelpFormatter"
+  },
+  "httpie/cli/argparser.py:81": {
+   "name": "BaseHTTPieArgumentParser"
+  },
+  "httpie/cli/argparser.py:128": {
+   "name": "HTTPieManagerArgumentParser"
+  },
+  "httpie/cli/argparser.py:138": {
+   "name": "HTTPieArgumentParser"
+  },
+  "httpie/cli/options.py:12": {
+   "name": "Qualifiers"
+  },
+  "httpie/cli/options.py:42": {
+   "name": "ParserSpec"
+  },
+  "httpie/cli/options.py:73": {
+   "name": "Group"
+  },
+  "httpie/cli/options.py:98": {
+   "name": "Argument"
+  },
+  "httpie/cli/utils.py:7": {
+   "name": "Manual"
+  },
+  "httpie/cli/utils.py:28": {
+   "name": "LazyChoices"
+  },
+  "httpie/cli/nested_json/tokens.py:11": {
+   "name": "TokenKind"
+  },
+  "httpie/cli/nested_json/tokens.py:37": {
+   "name": "Token"
+  },
+  "httpie/cli/nested_json/tokens.py:44": {
+   "name": "PathAction"
+  },
+  "httpie/cli/nested_json/tokens.py:55": {
+   "name": "Path"
+  },
+  "httpie/cli/nested_json/tokens.py:79": {
+   "name": "NestedJSONArray"
+  },
+  "httpie/cli/nested_json/errors.py:6": {
+   "name": "NestedJSONSyntaxError"
+  },
+  "httpie/plugins/manager.py:48": {
+   "name": "PluginManager"
+  },
+  "httpie/plugins/base.py:4": {
+   "name": "BasePlugin"
+  },
+  "httpie/plugins/base.py:16": {
+   "name": "AuthPlugin"
+  },
+  "httpie/plugins/base.py:72": {
+   "name": "TransportPlugin"
+  },
+  "httpie/plugins/base.py:96": {
+   "name": "ConverterPlugin"
+  },
+  "httpie/plugins/base.py:124": {
+   "name": "FormatterPlugin"
+  },
+  "httpie/plugins/builtin.py:9": {
+   "name": "BuiltinAuthPlugin"
+  },
+  "httpie/plugins/builtin.py:13": {
+   "name": "HTTPBasicAuth"
+  },
+  "httpie/plugins/builtin.py:37": {
+   "name": "HTTPBearerAuth"
+  },
+  "httpie/plugins/builtin.py:47": {
+   "name": "BasicAuthPlugin"
+  },
+  "httpie/plugins/builtin.py:57": {
+   "name": "DigestAuthPlugin"
+  },
+  "httpie/plugins/builtin.py:71": {
+   "name": "BearerAuthPlugin"
+  }
+ },
+ "edges": [
+  {
+   "src": "httpie/__main__.py:6",
+   "dst": "httpie/core.py:146",
+   "line": 9
+  },
+  {
+   "src": "httpie/adapters.py:7",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 12
+  },
+  {
+   "src": "httpie/cli/argparser.py:109",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 117
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:129",
+   "line": 159
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:196",
+   "line": 170
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:205",
+   "line": 178
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:227",
+   "line": 172
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:269",
+   "line": 180
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:282",
+   "line": 179
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:357",
+   "line": 169
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:382",
+   "line": 185
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:391",
+   "line": 183
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:409",
+   "line": 176
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:448",
+   "line": 177
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:492",
+   "line": 173
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:531",
+   "line": 174
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:542",
+   "line": 171
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:554",
+   "line": 175
+  },
+  {
+   "src": "httpie/cli/argparser.py:151",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 190
+  },
+  {
+   "src": "httpie/cli/argparser.py:227",
+   "dst": "httpie/context.py:184",
+   "line": 267
+  },
+  {
+   "src": "httpie/cli/argparser.py:269",
+   "dst": "httpie/cli/argtypes.py:148",
+   "line": 273
+  },
+  {
+   "src": "httpie/cli/argparser.py:269",
+   "dst": "httpie/ssl_.py:92",
+   "line": 278
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 320
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/cli/argtypes.py:158",
+   "line": 294
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/cli/argtypes.py:161",
+   "line": 335
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/plugins/manager.py:83",
+   "line": 285
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/plugins/manager.py:91",
+   "line": 304
+  },
+  {
+   "src": "httpie/cli/argparser.py:282",
+   "dst": "httpie/utils.py:124",
+   "line": 355
+  },
+  {
+   "src": "httpie/cli/argparser.py:357",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 380
+  },
+  {
+   "src": "httpie/cli/argparser.py:382",
+   "dst": "httpie/cli/argparser.py:399",
+   "line": 388
+  },
+  {
+   "src": "httpie/cli/argparser.py:391",
+   "dst": "httpie/cli/argparser.py:399",
+   "line": 395
+  },
+  {
+   "src": "httpie/cli/argparser.py:399",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 404
+  },
+  {
+   "src": "httpie/cli/argparser.py:399",
+   "dst": "httpie/models.py:208",
+   "line": 403
+  },
+  {
+   "src": "httpie/cli/argparser.py:409",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 434
+  },
+  {
+   "src": "httpie/cli/argparser.py:409",
+   "dst": "httpie/cli/argtypes.py:48",
+   "line": 428
+  },
+  {
+   "src": "httpie/cli/argparser.py:409",
+   "dst": "httpie/models.py:208",
+   "line": 442
+  },
+  {
+   "src": "httpie/cli/argparser.py:448",
+   "dst": "httpie/cli/argparser.py:382",
+   "line": 485
+  },
+  {
+   "src": "httpie/cli/argparser.py:448",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 462
+  },
+  {
+   "src": "httpie/cli/argparser.py:448",
+   "dst": "httpie/cli/requestitems.py:37",
+   "line": 455
+  },
+  {
+   "src": "httpie/cli/argparser.py:448",
+   "dst": "httpie/utils.py:133",
+   "line": 488
+  },
+  {
+   "src": "httpie/cli/argparser.py:492",
+   "dst": "httpie/cli/argparser.py:499",
+   "line": 522
+  },
+  {
+   "src": "httpie/cli/argparser.py:492",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 502
+  },
+  {
+   "src": "httpie/cli/argparser.py:499",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 502
+  },
+  {
+   "src": "httpie/cli/argparser.py:531",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 537
+  },
+  {
+   "src": "httpie/cli/argparser.py:542",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 552
+  },
+  {
+   "src": "httpie/cli/argparser.py:554",
+   "dst": "httpie/cli/argtypes.py:202",
+   "line": 558
+  },
+  {
+   "src": "httpie/cli/argparser.py:561",
+   "dst": "httpie/output/ui/man_pages.py:16",
+   "line": 564
+  },
+  {
+   "src": "httpie/cli/argparser.py:561",
+   "dst": "httpie/output/ui/man_pages.py:39",
+   "line": 565
+  },
+  {
+   "src": "httpie/cli/argparser.py:575",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 591
+  },
+  {
+   "src": "httpie/cli/argparser.py:575",
+   "dst": "httpie/output/ui/rich_help.py:72",
+   "line": 595
+  },
+  {
+   "src": "httpie/cli/argparser.py:598",
+   "dst": "httpie/cli/argparser.py:575",
+   "line": 601
+  },
+  {
+   "src": "httpie/cli/argparser.py:90",
+   "dst": "httpie/cli/argparser.py:129",
+   "line": 97
+  },
+  {
+   "src": "httpie/cli/argtypes.py:110",
+   "dst": "httpie/cli/argtypes.py:41",
+   "line": 127
+  },
+  {
+   "src": "httpie/cli/argtypes.py:134",
+   "dst": "httpie/cli/argtypes.py:143",
+   "line": 137
+  },
+  {
+   "src": "httpie/cli/argtypes.py:154",
+   "dst": "httpie/cli/argtypes.py:134",
+   "line": 155
+  },
+  {
+   "src": "httpie/cli/argtypes.py:164",
+   "dst": "httpie/cli/argtypes.py:134",
+   "line": 165
+  },
+  {
+   "src": "httpie/cli/definition.py:626",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 633
+  },
+  {
+   "src": "httpie/cli/dicts.py:38",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 46
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:107",
+   "dst": "httpie/cli/nested_json/tokens.py:79",
+   "line": 112
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:119",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 125
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:23",
+   "dst": "httpie/cli/nested_json/interpret.py:107",
+   "line": 27
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:23",
+   "dst": "httpie/cli/nested_json/interpret.py:30",
+   "line": 26
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/errors.py:6",
+   "line": 53
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/interpret.py:36",
+   "line": 73
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/interpret.py:60",
+   "line": 71
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/parse.py:192",
+   "line": 66
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/parse.py:23",
+   "line": 32
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/tokens.py:37",
+   "line": 39
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/tokens.py:51",
+   "line": 49
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 33
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/cli/nested_json/tokens.py:68",
+   "line": 50
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 32
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:30",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 47
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:36",
+   "dst": "httpie/cli/nested_json/errors.py:6",
+   "line": 53
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:36",
+   "dst": "httpie/cli/nested_json/tokens.py:37",
+   "line": 39
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:36",
+   "dst": "httpie/cli/nested_json/tokens.py:51",
+   "line": 49
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:36",
+   "dst": "httpie/cli/nested_json/tokens.py:68",
+   "line": 50
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:36",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 47
+  },
+  {
+   "src": "httpie/cli/nested_json/interpret.py:60",
+   "dst": "httpie/cli/nested_json/parse.py:192",
+   "line": 66
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:127",
+   "dst": "httpie/cli/nested_json/parse.py:132",
+   "line": 178
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:127",
+   "dst": "httpie/cli/nested_json/parse.py:42",
+   "line": 162
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:127",
+   "dst": "httpie/cli/nested_json/tokens.py:37",
+   "line": 150
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:132",
+   "dst": "httpie/cli/nested_json/tokens.py:37",
+   "line": 150
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/errors.py:6",
+   "line": 67
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/parse.py:127",
+   "line": 39
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/parse.py:192",
+   "line": 97
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/parse.py:42",
+   "line": 109
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/parse.py:46",
+   "line": 79
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/parse.py:70",
+   "line": 106
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/tokens.py:18",
+   "line": 62
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 99
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:23",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 39
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:46",
+   "dst": "httpie/cli/nested_json/errors.py:6",
+   "line": 67
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:46",
+   "dst": "httpie/cli/nested_json/parse.py:42",
+   "line": 49
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:46",
+   "dst": "httpie/cli/nested_json/tokens.py:18",
+   "line": 62
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:70",
+   "dst": "httpie/cli/nested_json/parse.py:192",
+   "line": 97
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:70",
+   "dst": "httpie/cli/nested_json/parse.py:42",
+   "line": 72
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:70",
+   "dst": "httpie/cli/nested_json/parse.py:46",
+   "line": 79
+  },
+  {
+   "src": "httpie/cli/nested_json/parse.py:70",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 99
+  },
+  {
+   "src": "httpie/cli/options.py:102",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 105
+  },
+  {
+   "src": "httpie/cli/options.py:113",
+   "dst": "httpie/cli/utils.py:28",
+   "line": 123
+  },
+  {
+   "src": "httpie/cli/options.py:113",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 128
+  },
+  {
+   "src": "httpie/cli/options.py:113",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 141
+  },
+  {
+   "src": "httpie/cli/options.py:172",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 173
+  },
+  {
+   "src": "httpie/cli/options.py:193",
+   "dst": "httpie/cli/options.py:19",
+   "line": 216
+  },
+  {
+   "src": "httpie/cli/options.py:193",
+   "dst": "httpie/cli/options.py:28",
+   "line": 216
+  },
+  {
+   "src": "httpie/cli/options.py:193",
+   "dst": "httpie/cli/options.py:83",
+   "line": 214
+  },
+  {
+   "src": "httpie/cli/options.py:193",
+   "dst": "httpie/plugins/manager.py:49",
+   "line": 203
+  },
+  {
+   "src": "httpie/cli/options.py:242",
+   "dst": "httpie/cli/options.py:42",
+   "line": 244
+  },
+  {
+   "src": "httpie/cli/options.py:59",
+   "dst": "httpie/cli/options.py:73",
+   "line": 60
+  },
+  {
+   "src": "httpie/cli/options.py:83",
+   "dst": "httpie/cli/options.py:102",
+   "line": 85
+  },
+  {
+   "src": "httpie/cli/options.py:83",
+   "dst": "httpie/cli/options.py:98",
+   "line": 84
+  },
+  {
+   "src": "httpie/cli/options.py:83",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 84
+  },
+  {
+   "src": "httpie/cli/requestitems.py:130",
+   "dst": "httpie/cli/requestitems.py:212",
+   "line": 131
+  },
+  {
+   "src": "httpie/cli/requestitems.py:134",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 137
+  },
+  {
+   "src": "httpie/cli/requestitems.py:146",
+   "dst": "httpie/cli/requestitems.py:212",
+   "line": 147
+  },
+  {
+   "src": "httpie/cli/requestitems.py:150",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 157
+  },
+  {
+   "src": "httpie/cli/requestitems.py:150",
+   "dst": "httpie/utils.py:133",
+   "line": 161
+  },
+  {
+   "src": "httpie/cli/requestitems.py:165",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 184
+  },
+  {
+   "src": "httpie/cli/requestitems.py:176",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 184
+  },
+  {
+   "src": "httpie/cli/requestitems.py:193",
+   "dst": "httpie/cli/requestitems.py:212",
+   "line": 194
+  },
+  {
+   "src": "httpie/cli/requestitems.py:197",
+   "dst": "httpie/cli/requestitems.py:212",
+   "line": 198
+  },
+  {
+   "src": "httpie/cli/requestitems.py:197",
+   "dst": "httpie/cli/requestitems.py:226",
+   "line": 199
+  },
+  {
+   "src": "httpie/cli/requestitems.py:203",
+   "dst": "httpie/cli/requestitems.py:226",
+   "line": 204
+  },
+  {
+   "src": "httpie/cli/requestitems.py:208",
+   "dst": "httpie/cli/nested_json/interpret.py:23",
+   "line": 209
+  },
+  {
+   "src": "httpie/cli/requestitems.py:212",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 218
+  },
+  {
+   "src": "httpie/cli/requestitems.py:226",
+   "dst": "httpie/cli/exceptions.py:1",
+   "line": 230
+  },
+  {
+   "src": "httpie/cli/requestitems.py:226",
+   "dst": "httpie/utils.py:72",
+   "line": 228
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 27
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:49",
+   "line": 30
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:81",
+   "line": 32
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:85",
+   "line": 30
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:89",
+   "line": 34
+  },
+  {
+   "src": "httpie/cli/requestitems.py:26",
+   "dst": "httpie/cli/dicts.py:93",
+   "line": 31
+  },
+  {
+   "src": "httpie/cli/requestitems.py:37",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 116
+  },
+  {
+   "src": "httpie/cli/requestitems.py:37",
+   "dst": "httpie/cli/requestitems.py:165",
+   "line": 81
+  },
+  {
+   "src": "httpie/cli/requestitems.py:37",
+   "dst": "httpie/utils.py:248",
+   "line": 97
+  },
+  {
+   "src": "httpie/cli/utils.py:23",
+   "dst": "httpie/cli/argparser.py:561",
+   "line": 24
+  },
+  {
+   "src": "httpie/client.py:156",
+   "dst": "httpie/adapters.py:5",
+   "line": 164
+  },
+  {
+   "src": "httpie/client.py:156",
+   "dst": "httpie/plugins/base.py:87",
+   "line": 181
+  },
+  {
+   "src": "httpie/client.py:156",
+   "dst": "httpie/plugins/manager.py:109",
+   "line": 177
+  },
+  {
+   "src": "httpie/client.py:156",
+   "dst": "httpie/sessions.py:124",
+   "line": 161
+  },
+  {
+   "src": "httpie/client.py:156",
+   "dst": "httpie/ssl_.py:40",
+   "line": 165
+  },
+  {
+   "src": "httpie/client.py:187",
+   "dst": "httpie/utils.py:76",
+   "line": 189
+  },
+  {
+   "src": "httpie/client.py:192",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 193
+  },
+  {
+   "src": "httpie/client.py:192",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 208
+  },
+  {
+   "src": "httpie/client.py:212",
+   "dst": "httpie/client.py:233",
+   "line": 227
+  },
+  {
+   "src": "httpie/client.py:212",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 222
+  },
+  {
+   "src": "httpie/client.py:233",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 241
+  },
+  {
+   "src": "httpie/client.py:233",
+   "dst": "httpie/plugins/manager.py:56",
+   "line": 246
+  },
+  {
+   "src": "httpie/client.py:263",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 264
+  },
+  {
+   "src": "httpie/client.py:288",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 304
+  },
+  {
+   "src": "httpie/client.py:288",
+   "dst": "httpie/ssl_.py:29",
+   "line": 299
+  },
+  {
+   "src": "httpie/client.py:314",
+   "dst": "httpie/cli/nested_json/interpret.py:119",
+   "line": 315
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/client.py:192",
+   "line": 351
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/client.py:263",
+   "line": 343
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/client.py:314",
+   "line": 340
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 357
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/uploads.py:191",
+   "line": 364
+  },
+  {
+   "src": "httpie/client.py:325",
+   "dst": "httpie/uploads.py:230",
+   "line": 354
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:145",
+   "line": 113
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:156",
+   "line": 68
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:187",
+   "line": 89
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:212",
+   "line": 93
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:281",
+   "line": 66
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:288",
+   "line": 67
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:325",
+   "line": 60
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/client.py:377",
+   "line": 95
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/config.py:110",
+   "line": 140
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/config.py:92",
+   "line": 137
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 55
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/sessions.py:230",
+   "line": 75
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/sessions.py:263",
+   "line": 139
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/sessions.py:92",
+   "line": 51
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/uploads.py:252",
+   "line": 100
+  },
+  {
+   "src": "httpie/client.py:43",
+   "dst": "httpie/utils.py:156",
+   "line": 120
+  },
+  {
+   "src": "httpie/compat.py:58",
+   "dst": "httpie/compat.py:38",
+   "line": 66
+  },
+  {
+   "src": "httpie/compat.py:79",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 83
+  },
+  {
+   "src": "httpie/compat.py:86",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 101
+  },
+  {
+   "src": "httpie/config.py:103",
+   "dst": "httpie/config.py:65",
+   "line": 105
+  },
+  {
+   "src": "httpie/config.py:110",
+   "dst": "httpie/config.py:89",
+   "line": 120
+  },
+  {
+   "src": "httpie/config.py:131",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 132
+  },
+  {
+   "src": "httpie/config.py:143",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 144
+  },
+  {
+   "src": "httpie/config.py:152",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 153
+  },
+  {
+   "src": "httpie/config.py:152",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 154
+  },
+  {
+   "src": "httpie/config.py:158",
+   "dst": "httpie/config.py:152",
+   "line": 159
+  },
+  {
+   "src": "httpie/config.py:162",
+   "dst": "httpie/config.py:152",
+   "line": 163
+  },
+  {
+   "src": "httpie/config.py:166",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 172
+  },
+  {
+   "src": "httpie/config.py:20",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 37
+  },
+  {
+   "src": "httpie/config.py:20",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 35
+  },
+  {
+   "src": "httpie/config.py:65",
+   "dst": "httpie/config.py:61",
+   "line": 77
+  },
+  {
+   "src": "httpie/context.py:123",
+   "dst": "httpie/utils.py:76",
+   "line": 128
+  },
+  {
+   "src": "httpie/context.py:140",
+   "dst": "httpie/config.py:137",
+   "line": 143
+  },
+  {
+   "src": "httpie/context.py:140",
+   "dst": "httpie/config.py:92",
+   "line": 144
+  },
+  {
+   "src": "httpie/context.py:140",
+   "dst": "httpie/context.py:170",
+   "line": 148
+  },
+  {
+   "src": "httpie/context.py:170",
+   "dst": "httpie/context.py:188",
+   "line": 175
+  },
+  {
+   "src": "httpie/context.py:188",
+   "dst": "httpie/output/ui/rich_palette.py:45",
+   "line": 197
+  },
+  {
+   "src": "httpie/context.py:212",
+   "dst": "httpie/context.py:188",
+   "line": 213
+  },
+  {
+   "src": "httpie/context.py:216",
+   "dst": "httpie/context.py:188",
+   "line": 217
+  },
+  {
+   "src": "httpie/cookies.py:9",
+   "dst": "httpie/cookies.py:22",
+   "line": 20
+  },
+  {
+   "src": "httpie/core.py:146",
+   "dst": "httpie/context.py:46",
+   "line": 148
+  },
+  {
+   "src": "httpie/core.py:146",
+   "dst": "httpie/core.py:32",
+   "line": 162
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/client.py:43",
+   "line": 207
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/context.py:170",
+   "line": 257
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/core.py:182",
+   "line": 246
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/downloads.py:162",
+   "line": 205
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/downloads.py:186",
+   "line": 206
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/downloads.py:262",
+   "line": 254
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/downloads.py:267",
+   "line": 265
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/models.py:208",
+   "line": 217
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/models.py:216",
+   "line": 214
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/output/models.py:35",
+   "line": 180
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/output/writer.py:100",
+   "line": 195
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/output/writer.py:27",
+   "line": 234
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/output/writer.py:61",
+   "line": 253
+  },
+  {
+   "src": "httpie/core.py:170",
+   "dst": "httpie/status.py:23",
+   "line": 231
+  },
+  {
+   "src": "httpie/core.py:185",
+   "dst": "httpie/output/writer.py:100",
+   "line": 195
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/context.py:170",
+   "line": 65
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/context.py:46",
+   "line": 36
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/core.py:270",
+   "line": 70
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/core.py:285",
+   "line": 41
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/core.py:54",
+   "line": 136
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/internal/daemon_runner.py:37",
+   "line": 43
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/internal/daemon_runner.py:41",
+   "line": 44
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/internal/update_warnings.py:141",
+   "line": 98
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/plugins/manager.py:66",
+   "line": 46
+  },
+  {
+   "src": "httpie/core.py:32",
+   "dst": "httpie/utils.py:258",
+   "line": 126
+  },
+  {
+   "src": "httpie/core.py:54",
+   "dst": "httpie/context.py:170",
+   "line": 65
+  },
+  {
+   "src": "httpie/downloads.py:144",
+   "dst": "httpie/downloads.py:126",
+   "line": 147
+  },
+  {
+   "src": "httpie/downloads.py:144",
+   "dst": "httpie/downloads.py:137",
+   "line": 145
+  },
+  {
+   "src": "httpie/downloads.py:151",
+   "dst": "httpie/downloads.py:144",
+   "line": 155
+  },
+  {
+   "src": "httpie/downloads.py:164",
+   "dst": "httpie/downloads.py:307",
+   "line": 181
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/downloads.py:27",
+   "line": 234
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/downloads.py:289",
+   "line": 227
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/downloads.py:318",
+   "line": 254
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/models.py:216",
+   "line": 247
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/models.py:61",
+   "line": 249
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/output/streams.py:88",
+   "line": 248
+  },
+  {
+   "src": "httpie/downloads.py:202",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 235
+  },
+  {
+   "src": "httpie/downloads.py:262",
+   "dst": "httpie/downloads.py:368",
+   "line": 265
+  },
+  {
+   "src": "httpie/downloads.py:267",
+   "dst": "httpie/downloads.py:375",
+   "line": 268
+  },
+  {
+   "src": "httpie/downloads.py:27",
+   "dst": "httpie/downloads.py:23",
+   "line": 40
+  },
+  {
+   "src": "httpie/downloads.py:289",
+   "dst": "httpie/downloads.py:106",
+   "line": 299
+  },
+  {
+   "src": "httpie/downloads.py:289",
+   "dst": "httpie/downloads.py:151",
+   "line": 303
+  },
+  {
+   "src": "httpie/downloads.py:289",
+   "dst": "httpie/downloads.py:85",
+   "line": 296
+  },
+  {
+   "src": "httpie/downloads.py:289",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 301
+  },
+  {
+   "src": "httpie/downloads.py:318",
+   "dst": "httpie/downloads.py:325",
+   "line": 323
+  },
+  {
+   "src": "httpie/downloads.py:325",
+   "dst": "httpie/output/ui/rich_progress.py:55",
+   "line": 341
+  },
+  {
+   "src": "httpie/downloads.py:325",
+   "dst": "httpie/output/ui/rich_progress.py:62",
+   "line": 337
+  },
+  {
+   "src": "httpie/downloads.py:325",
+   "dst": "httpie/output/ui/rich_progress.py:97",
+   "line": 339
+  },
+  {
+   "src": "httpie/encoding.py:32",
+   "dst": "httpie/encoding.py:11",
+   "line": 40
+  },
+  {
+   "src": "httpie/internal/daemon_runner.py:12",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 20
+  },
+  {
+   "src": "httpie/internal/daemon_runner.py:30",
+   "dst": "httpie/cli/argparser.py:129",
+   "line": 34
+  },
+  {
+   "src": "httpie/internal/daemon_runner.py:30",
+   "dst": "httpie/cli/options.py:83",
+   "line": 32
+  },
+  {
+   "src": "httpie/internal/daemon_runner.py:41",
+   "dst": "httpie/internal/daemon_runner.py:30",
+   "line": 42
+  },
+  {
+   "src": "httpie/internal/daemon_runner.py:41",
+   "dst": "httpie/internal/update_warnings.py:78",
+   "line": 47
+  },
+  {
+   "src": "httpie/internal/daemons.py:102",
+   "dst": "httpie/internal/daemons.py:32",
+   "line": 107
+  },
+  {
+   "src": "httpie/internal/daemons.py:102",
+   "dst": "httpie/internal/daemons.py:55",
+   "line": 109
+  },
+  {
+   "src": "httpie/internal/daemons.py:112",
+   "dst": "httpie/internal/daemons.py:102",
+   "line": 121
+  },
+  {
+   "src": "httpie/internal/daemons.py:32",
+   "dst": "httpie/internal/daemons.py:22",
+   "line": 47
+  },
+  {
+   "src": "httpie/internal/daemons.py:55",
+   "dst": "httpie/core.py:146",
+   "line": 97
+  },
+  {
+   "src": "httpie/internal/daemons.py:55",
+   "dst": "httpie/internal/daemons.py:22",
+   "line": 90
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:107",
+   "dst": "httpie/internal/update_warnings.py:78",
+   "line": 114
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:107",
+   "dst": "httpie/utils.py:275",
+   "line": 117
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:107",
+   "dst": "httpie/utils.py:293",
+   "line": 126
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:136",
+   "dst": "httpie/internal/update_warnings.py:107",
+   "line": 137
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:141",
+   "dst": "httpie/context.py:170",
+   "line": 167
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:141",
+   "dst": "httpie/internal/update_warnings.py:107",
+   "line": 146
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:141",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 142
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:141",
+   "dst": "httpie/utils.py:275",
+   "line": 153
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:40",
+   "dst": "httpie/internal/update_warnings.py:31",
+   "line": 42
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:40",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 44
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:40",
+   "dst": "httpie/utils.py:275",
+   "line": 51
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:55",
+   "dst": "httpie/internal/daemons.py:112",
+   "line": 57
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:55",
+   "dst": "httpie/internal/update_warnings.py:40",
+   "line": 59
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:62",
+   "dst": "httpie/internal/update_warnings.py:31",
+   "line": 66
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:62",
+   "dst": "httpie/internal/update_warnings.py:55",
+   "line": 75
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:62",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 63
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:91",
+   "dst": "httpie/compat.py:38",
+   "line": 99
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:91",
+   "dst": "httpie/internal/update_warnings.py:62",
+   "line": 102
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:91",
+   "dst": "httpie/internal/update_warnings.py:78",
+   "line": 98
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:97",
+   "dst": "httpie/compat.py:38",
+   "line": 99
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:97",
+   "dst": "httpie/internal/update_warnings.py:62",
+   "line": 102
+  },
+  {
+   "src": "httpie/internal/update_warnings.py:97",
+   "dst": "httpie/internal/update_warnings.py:78",
+   "line": 98
+  },
+  {
+   "src": "httpie/legacy/v3_1_0_session_cookie_format.py:36",
+   "dst": "httpie/models.py:208",
+   "line": 52
+  },
+  {
+   "src": "httpie/legacy/v3_1_0_session_cookie_format.py:36",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 53
+  },
+  {
+   "src": "httpie/legacy/v3_1_0_session_cookie_format.py:36",
+   "dst": "httpie/sessions.py:310",
+   "line": 62
+  },
+  {
+   "src": "httpie/legacy/v3_2_0_session_header_format.py:26",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 32
+  },
+  {
+   "src": "httpie/legacy/v3_2_0_session_header_format.py:26",
+   "dst": "httpie/sessions.py:310",
+   "line": 44
+  },
+  {
+   "src": "httpie/legacy/v3_2_0_session_header_format.py:67",
+   "dst": "httpie/sessions.py:82",
+   "line": 73
+  },
+  {
+   "src": "httpie/manager/__main__.py:12",
+   "dst": "httpie/context.py:158",
+   "line": 23
+  },
+  {
+   "src": "httpie/manager/__main__.py:32",
+   "dst": "httpie/context.py:46",
+   "line": 32
+  },
+  {
+   "src": "httpie/manager/__main__.py:32",
+   "dst": "httpie/core.py:32",
+   "line": 36
+  },
+  {
+   "src": "httpie/manager/__main__.py:32",
+   "dst": "httpie/manager/__main__.py:12",
+   "line": 45
+  },
+  {
+   "src": "httpie/manager/__main__.py:51",
+   "dst": "httpie/manager/__main__.py:32",
+   "line": 53
+  },
+  {
+   "src": "httpie/manager/cli.py:105",
+   "dst": "httpie/cli/options.py:19",
+   "line": 125
+  },
+  {
+   "src": "httpie/manager/cli.py:105",
+   "dst": "httpie/cli/options.py:59",
+   "line": 121
+  },
+  {
+   "src": "httpie/manager/cli.py:105",
+   "dst": "httpie/cli/options.py:83",
+   "line": 125
+  },
+  {
+   "src": "httpie/manager/compat.py:18",
+   "dst": "httpie/manager/compat.py:25",
+   "line": 39
+  },
+  {
+   "src": "httpie/manager/compat.py:45",
+   "dst": "httpie/manager/compat.py:10",
+   "line": 57
+  },
+  {
+   "src": "httpie/manager/compat.py:45",
+   "dst": "httpie/manager/tasks/plugins.py:217",
+   "line": 49
+  },
+  {
+   "src": "httpie/manager/compat.py:62",
+   "dst": "httpie/manager/compat.py:18",
+   "line": 64
+  },
+  {
+   "src": "httpie/manager/compat.py:62",
+   "dst": "httpie/manager/compat.py:45",
+   "line": 68
+  },
+  {
+   "src": "httpie/manager/core.py:26",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 28
+  },
+  {
+   "src": "httpie/manager/core.py:26",
+   "dst": "httpie/manager/cli.py:95",
+   "line": 28
+  },
+  {
+   "src": "httpie/manager/core.py:33",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 35
+  },
+  {
+   "src": "httpie/manager/core.py:33",
+   "dst": "httpie/manager/core.py:26",
+   "line": 38
+  },
+  {
+   "src": "httpie/manager/tasks/check_updates.py:7",
+   "dst": "httpie/internal/update_warnings.py:136",
+   "line": 9
+  },
+  {
+   "src": "httpie/manager/tasks/check_updates.py:7",
+   "dst": "httpie/internal/update_warnings.py:55",
+   "line": 8
+  },
+  {
+   "src": "httpie/manager/tasks/export_args.py:16",
+   "dst": "httpie/cli/options.py:238",
+   "line": 18
+  },
+  {
+   "src": "httpie/manager/tasks/export_args.py:16",
+   "dst": "httpie/output/writer.py:100",
+   "line": 22
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:105",
+   "dst": "httpie/manager/tasks/plugins.py:60",
+   "line": 108
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:111",
+   "dst": "httpie/utils.py:229",
+   "line": 116
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:132",
+   "dst": "httpie/manager/tasks/plugins.py:111",
+   "line": 146
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:132",
+   "dst": "httpie/manager/tasks/plugins.py:60",
+   "line": 136
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:148",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 154
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:148",
+   "dst": "httpie/manager/tasks/plugins.py:45",
+   "line": 159
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:148",
+   "dst": "httpie/models.py:208",
+   "line": 178
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:184",
+   "dst": "httpie/manager/tasks/plugins.py:148",
+   "line": 193
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:184",
+   "dst": "httpie/status.py:5",
+   "line": 194
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:196",
+   "dst": "httpie/compat.py:86",
+   "line": 203
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:196",
+   "dst": "httpie/plugins/manager.py:59",
+   "line": 201
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 225
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/manager/cli.py:95",
+   "line": 225
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/manager/tasks/plugins.py:105",
+   "line": 229
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/manager/tasks/plugins.py:132",
+   "line": 231
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/manager/tasks/plugins.py:184",
+   "line": 233
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 235
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:217",
+   "dst": "httpie/plugins/manager.py:41",
+   "line": 227
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:23",
+   "dst": "httpie/manager/tasks/plugins.py:30",
+   "line": 28
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:240",
+   "dst": "httpie/manager/tasks/plugins.py:21",
+   "line": 241
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:240",
+   "dst": "httpie/manager/tasks/plugins.py:217",
+   "line": 248
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:60",
+   "dst": "httpie/manager/compat.py:62",
+   "line": 74
+  },
+  {
+   "src": "httpie/manager/tasks/plugins.py:60",
+   "dst": "httpie/manager/tasks/plugins.py:45",
+   "line": 99
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:17",
+   "dst": "httpie/cli/argparser.py:598",
+   "line": 20
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:17",
+   "dst": "httpie/manager/cli.py:95",
+   "line": 20
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:17",
+   "dst": "httpie/manager/tasks/sessions.py:63",
+   "line": 23
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:17",
+   "dst": "httpie/manager/tasks/sessions.py:72",
+   "line": 25
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:30",
+   "dst": "httpie/config.py:110",
+   "line": 58
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:30",
+   "dst": "httpie/config.py:92",
+   "line": 41
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:30",
+   "dst": "httpie/context.py:170",
+   "line": 42
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:30",
+   "dst": "httpie/sessions.py:92",
+   "line": 31
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:30",
+   "dst": "httpie/utils.py:293",
+   "line": 48
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:63",
+   "dst": "httpie/manager/tasks/sessions.py:30",
+   "line": 64
+  },
+  {
+   "src": "httpie/manager/tasks/sessions.py:72",
+   "dst": "httpie/manager/tasks/sessions.py:30",
+   "line": 80
+  },
+  {
+   "src": "httpie/models.py:216",
+   "dst": "httpie/models.py:180",
+   "line": 222
+  },
+  {
+   "src": "httpie/models.py:48",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 50
+  },
+  {
+   "src": "httpie/models.py:48",
+   "dst": "httpie/utils.py:203",
+   "line": 49
+  },
+  {
+   "src": "httpie/models.py:53",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 55
+  },
+  {
+   "src": "httpie/models.py:71",
+   "dst": "httpie/utils.py:143",
+   "line": 83
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:105",
+   "dst": "httpie/output/formatters/colors.py:142",
+   "line": 109
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:115",
+   "dst": "httpie/output/formatters/colors.py:135",
+   "line": 124
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:142",
+   "dst": "httpie/output/lexers/json.py:11",
+   "line": 192
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:354",
+   "dst": "httpie/output/formatters/colors.py:355",
+   "line": 364
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:354",
+   "dst": "httpie/output/ui/palette.py:260",
+   "line": 357
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:355",
+   "dst": "httpie/output/ui/palette.py:260",
+   "line": 357
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:371",
+   "dst": "httpie/output/formatters/colors.py:354",
+   "line": 376
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:51",
+   "dst": "httpie/output/lexers/http.py:54",
+   "line": 73
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:51",
+   "dst": "httpie/output/lexers/metadata.py:33",
+   "line": 79
+  },
+  {
+   "src": "httpie/output/formatters/colors.py:88",
+   "dst": "httpie/output/formatters/colors.py:105",
+   "line": 89
+  },
+  {
+   "src": "httpie/output/formatters/json.py:12",
+   "dst": "httpie/models.py:208",
+   "line": 19
+  },
+  {
+   "src": "httpie/output/formatters/json.py:12",
+   "dst": "httpie/output/utils.py:9",
+   "line": 22
+  },
+  {
+   "src": "httpie/output/formatters/xml.py:29",
+   "dst": "httpie/output/formatters/xml.py:20",
+   "line": 45
+  },
+  {
+   "src": "httpie/output/formatters/xml.py:59",
+   "dst": "httpie/output/formatters/xml.py:14",
+   "line": 68
+  },
+  {
+   "src": "httpie/output/formatters/xml.py:59",
+   "dst": "httpie/output/formatters/xml.py:20",
+   "line": 66
+  },
+  {
+   "src": "httpie/output/formatters/xml.py:59",
+   "dst": "httpie/output/formatters/xml.py:29",
+   "line": 74
+  },
+  {
+   "src": "httpie/output/lexers/common.py:1",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 9
+  },
+  {
+   "src": "httpie/output/lexers/http.py:25",
+   "dst": "httpie/output/lexers/common.py:1",
+   "line": 31
+  },
+  {
+   "src": "httpie/output/lexers/http.py:25",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 33
+  },
+  {
+   "src": "httpie/output/lexers/http.py:45",
+   "dst": "httpie/output/lexers/common.py:1",
+   "line": 46
+  },
+  {
+   "src": "httpie/output/lexers/http.py:45",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 48
+  },
+  {
+   "src": "httpie/output/lexers/metadata.py:13",
+   "dst": "httpie/output/lexers/common.py:1",
+   "line": 25
+  },
+  {
+   "src": "httpie/output/processing.py:19",
+   "dst": "httpie/output/processing.py:12",
+   "line": 20
+  },
+  {
+   "src": "httpie/output/processing.py:19",
+   "dst": "httpie/plugins/base.py:120",
+   "line": 22
+  },
+  {
+   "src": "httpie/output/processing.py:19",
+   "dst": "httpie/plugins/manager.py:105",
+   "line": 21
+  },
+  {
+   "src": "httpie/output/processing.py:29",
+   "dst": "httpie/context.py:46",
+   "line": 29
+  },
+  {
+   "src": "httpie/output/processing.py:29",
+   "dst": "httpie/plugins/manager.py:98",
+   "line": 36
+  },
+  {
+   "src": "httpie/output/processing.py:49",
+   "dst": "httpie/output/processing.py:12",
+   "line": 50
+  },
+  {
+   "src": "httpie/output/streams.py:115",
+   "dst": "httpie/context.py:46",
+   "line": 117
+  },
+  {
+   "src": "httpie/output/streams.py:115",
+   "dst": "httpie/utils.py:203",
+   "line": 126
+  },
+  {
+   "src": "httpie/output/streams.py:138",
+   "dst": "httpie/encoding.py:44",
+   "line": 143
+  },
+  {
+   "src": "httpie/output/streams.py:138",
+   "dst": "httpie/output/streams.py:145",
+   "line": 142
+  },
+  {
+   "src": "httpie/output/streams.py:138",
+   "dst": "httpie/output/streams.py:24",
+   "line": 141
+  },
+  {
+   "src": "httpie/output/streams.py:145",
+   "dst": "httpie/encoding.py:32",
+   "line": 146
+  },
+  {
+   "src": "httpie/output/streams.py:198",
+   "dst": "httpie/output/processing.py:19",
+   "line": 204
+  },
+  {
+   "src": "httpie/output/streams.py:198",
+   "dst": "httpie/output/streams.py:219",
+   "line": 216
+  },
+  {
+   "src": "httpie/output/streams.py:198",
+   "dst": "httpie/output/streams.py:24",
+   "line": 215
+  },
+  {
+   "src": "httpie/output/streams.py:198",
+   "dst": "httpie/plugins/base.py:109",
+   "line": 211
+  },
+  {
+   "src": "httpie/output/streams.py:219",
+   "dst": "httpie/encoding.py:44",
+   "line": 225
+  },
+  {
+   "src": "httpie/output/streams.py:219",
+   "dst": "httpie/output/streams.py:145",
+   "line": 223
+  },
+  {
+   "src": "httpie/output/streams.py:238",
+   "dst": "httpie/output/processing.py:19",
+   "line": 246
+  },
+  {
+   "src": "httpie/output/streams.py:238",
+   "dst": "httpie/output/streams.py:219",
+   "line": 254
+  },
+  {
+   "src": "httpie/output/streams.py:238",
+   "dst": "httpie/output/streams.py:24",
+   "line": 248
+  },
+  {
+   "src": "httpie/output/streams.py:238",
+   "dst": "httpie/plugins/base.py:109",
+   "line": 252
+  },
+  {
+   "src": "httpie/output/streams.py:33",
+   "dst": "httpie/models.py:208",
+   "line": 45
+  },
+  {
+   "src": "httpie/output/ui/man_pages.py:16",
+   "dst": "httpie/manager/tasks/plugins.py:217",
+   "line": 24
+  },
+  {
+   "src": "httpie/output/ui/man_pages.py:39",
+   "dst": "httpie/manager/tasks/plugins.py:217",
+   "line": 44
+  },
+  {
+   "src": "httpie/output/ui/palette.py:33",
+   "dst": "httpie/output/ui/palette.py:105",
+   "line": 45
+  },
+  {
+   "src": "httpie/output/ui/palette.py:33",
+   "dst": "httpie/output/ui/palette.py:32",
+   "line": 41
+  },
+  {
+   "src": "httpie/output/ui/palette.py:91",
+   "dst": "httpie/output/ui/palette.py:16",
+   "line": 98
+  },
+  {
+   "src": "httpie/output/ui/palette.py:91",
+   "dst": "httpie/output/ui/palette.py:260",
+   "line": 99
+  },
+  {
+   "src": "httpie/output/ui/rich_help.py:128",
+   "dst": "httpie/output/ui/rich_help.py:54",
+   "line": 150
+  },
+  {
+   "src": "httpie/output/ui/rich_help.py:128",
+   "dst": "httpie/output/ui/rich_help.py:72",
+   "line": 140
+  },
+  {
+   "src": "httpie/output/ui/rich_help.py:128",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 163
+  },
+  {
+   "src": "httpie/output/ui/rich_help.py:72",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 99
+  },
+  {
+   "src": "httpie/output/ui/rich_palette.py:38",
+   "dst": "httpie/output/ui/rich_palette.py:32",
+   "line": 39
+  },
+  {
+   "src": "httpie/output/ui/rich_palette.py:41",
+   "dst": "httpie/output/ui/rich_palette.py:32",
+   "line": 42
+  },
+  {
+   "src": "httpie/output/ui/rich_palette.py:45",
+   "dst": "httpie/output/ui/palette.py:16",
+   "line": 50
+  },
+  {
+   "src": "httpie/output/ui/rich_palette.py:45",
+   "dst": "httpie/output/ui/palette.py:91",
+   "line": 67
+  },
+  {
+   "src": "httpie/output/ui/rich_palette.py:45",
+   "dst": "httpie/output/ui/rich_palette.py:26",
+   "line": 72
+  },
+  {
+   "src": "httpie/output/ui/rich_progress.py:132",
+   "dst": "httpie/output/ui/rich_progress.py:30",
+   "line": 137
+  },
+  {
+   "src": "httpie/output/ui/rich_progress.py:86",
+   "dst": "httpie/output/ui/rich_progress.py:30",
+   "line": 90
+  },
+  {
+   "src": "httpie/output/ui/rich_utils.py:12",
+   "dst": "httpie/output/ui/rich_palette.py:45",
+   "line": 17
+  },
+  {
+   "src": "httpie/output/utils.py:9",
+   "dst": "httpie/output/utils.py:27",
+   "line": 20
+  },
+  {
+   "src": "httpie/output/utils.py:9",
+   "dst": "httpie/utils.py:72",
+   "line": 15
+  },
+  {
+   "src": "httpie/output/writer.py:100",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 111
+  },
+  {
+   "src": "httpie/output/writer.py:100",
+   "dst": "httpie/models.py:216",
+   "line": 112
+  },
+  {
+   "src": "httpie/output/writer.py:100",
+   "dst": "httpie/output/models.py:10",
+   "line": 117
+  },
+  {
+   "src": "httpie/output/writer.py:100",
+   "dst": "httpie/output/writer.py:27",
+   "line": 113
+  },
+  {
+   "src": "httpie/output/writer.py:122",
+   "dst": "httpie/output/writer.py:153",
+   "line": 133
+  },
+  {
+   "src": "httpie/output/writer.py:153",
+   "dst": "httpie/output/models.py:28",
+   "line": 163
+  },
+  {
+   "src": "httpie/output/writer.py:153",
+   "dst": "httpie/output/processing.py:16",
+   "line": 194
+  },
+  {
+   "src": "httpie/output/writer.py:153",
+   "dst": "httpie/output/processing.py:26",
+   "line": 195
+  },
+  {
+   "src": "httpie/output/writer.py:153",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 167
+  },
+  {
+   "src": "httpie/output/writer.py:153",
+   "dst": "httpie/utils.py:203",
+   "line": 169
+  },
+  {
+   "src": "httpie/output/writer.py:27",
+   "dst": "httpie/models.py:208",
+   "line": 34
+  },
+  {
+   "src": "httpie/output/writer.py:27",
+   "dst": "httpie/output/models.py:28",
+   "line": 49
+  },
+  {
+   "src": "httpie/output/writer.py:27",
+   "dst": "httpie/output/writer.py:122",
+   "line": 37
+  },
+  {
+   "src": "httpie/output/writer.py:27",
+   "dst": "httpie/output/writer.py:61",
+   "line": 52
+  },
+  {
+   "src": "httpie/output/writer.py:27",
+   "dst": "httpie/output/writer.py:79",
+   "line": 50
+  },
+  {
+   "src": "httpie/plugins/builtin.py:15",
+   "dst": "httpie/plugins/builtin.py:31",
+   "line": 26
+  },
+  {
+   "src": "httpie/plugins/builtin.py:53",
+   "dst": "httpie/plugins/builtin.py:13",
+   "line": 54
+  },
+  {
+   "src": "httpie/plugins/builtin.py:78",
+   "dst": "httpie/plugins/builtin.py:37",
+   "line": 79
+  },
+  {
+   "src": "httpie/plugins/manager.py:105",
+   "dst": "httpie/plugins/manager.py:56",
+   "line": 106
+  },
+  {
+   "src": "httpie/plugins/manager.py:109",
+   "dst": "httpie/plugins/manager.py:56",
+   "line": 110
+  },
+  {
+   "src": "httpie/plugins/manager.py:112",
+   "dst": "httpie/plugins/manager.py:105",
+   "line": 116
+  },
+  {
+   "src": "httpie/plugins/manager.py:112",
+   "dst": "httpie/plugins/manager.py:109",
+   "line": 114
+  },
+  {
+   "src": "httpie/plugins/manager.py:112",
+   "dst": "httpie/plugins/manager.py:83",
+   "line": 115
+  },
+  {
+   "src": "httpie/plugins/manager.py:112",
+   "dst": "httpie/utils.py:76",
+   "line": 113
+  },
+  {
+   "src": "httpie/plugins/manager.py:41",
+   "dst": "httpie/plugins/manager.py:28",
+   "line": 45
+  },
+  {
+   "src": "httpie/plugins/manager.py:41",
+   "dst": "httpie/utils.py:229",
+   "line": 45
+  },
+  {
+   "src": "httpie/plugins/manager.py:59",
+   "dst": "httpie/compat.py:79",
+   "line": 64
+  },
+  {
+   "src": "httpie/plugins/manager.py:59",
+   "dst": "httpie/plugins/manager.py:41",
+   "line": 60
+  },
+  {
+   "src": "httpie/plugins/manager.py:66",
+   "dst": "httpie/compat.py:86",
+   "line": 68
+  },
+  {
+   "src": "httpie/plugins/manager.py:66",
+   "dst": "httpie/plugins/manager.py:49",
+   "line": 80
+  },
+  {
+   "src": "httpie/plugins/manager.py:66",
+   "dst": "httpie/plugins/manager.py:59",
+   "line": 67
+  },
+  {
+   "src": "httpie/plugins/manager.py:83",
+   "dst": "httpie/plugins/manager.py:56",
+   "line": 84
+  },
+  {
+   "src": "httpie/plugins/manager.py:86",
+   "dst": "httpie/plugins/manager.py:83",
+   "line": 88
+  },
+  {
+   "src": "httpie/plugins/manager.py:91",
+   "dst": "httpie/plugins/manager.py:86",
+   "line": 92
+  },
+  {
+   "src": "httpie/plugins/manager.py:95",
+   "dst": "httpie/plugins/manager.py:56",
+   "line": 96
+  },
+  {
+   "src": "httpie/plugins/manager.py:98",
+   "dst": "httpie/manager/tasks/plugins.py:196",
+   "line": 100
+  },
+  {
+   "src": "httpie/sessions.py:128",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 149
+  },
+  {
+   "src": "httpie/sessions.py:128",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 136
+  },
+  {
+   "src": "httpie/sessions.py:128",
+   "dst": "httpie/cookies.py:8",
+   "line": 152
+  },
+  {
+   "src": "httpie/sessions.py:158",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 160
+  },
+  {
+   "src": "httpie/sessions.py:170",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 175
+  },
+  {
+   "src": "httpie/sessions.py:185",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 190
+  },
+  {
+   "src": "httpie/sessions.py:200",
+   "dst": "httpie/cli/dicts.py:12",
+   "line": 201
+  },
+  {
+   "src": "httpie/sessions.py:200",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 226
+  },
+  {
+   "src": "httpie/sessions.py:200",
+   "dst": "httpie/cli/dicts.py:38",
+   "line": 219
+  },
+  {
+   "src": "httpie/sessions.py:230",
+   "dst": "httpie/cli/dicts.py:18",
+   "line": 246
+  },
+  {
+   "src": "httpie/sessions.py:230",
+   "dst": "httpie/sessions.py:200",
+   "line": 237
+  },
+  {
+   "src": "httpie/sessions.py:263",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 268
+  },
+  {
+   "src": "httpie/sessions.py:273",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 274
+  },
+  {
+   "src": "httpie/sessions.py:273",
+   "dst": "httpie/plugins/manager.py:91",
+   "line": 278
+  },
+  {
+   "src": "httpie/sessions.py:307",
+   "dst": "httpie/sessions.py:42",
+   "line": 308
+  },
+  {
+   "src": "httpie/sessions.py:310",
+   "dst": "httpie/context.py:170",
+   "line": 314
+  },
+  {
+   "src": "httpie/sessions.py:60",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 67
+  },
+  {
+   "src": "httpie/sessions.py:75",
+   "dst": "httpie/sessions.py:60",
+   "line": 77
+  },
+  {
+   "src": "httpie/sessions.py:92",
+   "dst": "httpie/sessions.py:124",
+   "line": 113
+  },
+  {
+   "src": "httpie/sessions.py:92",
+   "dst": "httpie/sessions.py:42",
+   "line": 106
+  },
+  {
+   "src": "httpie/sessions.py:92",
+   "dst": "httpie/sessions.py:46",
+   "line": 110
+  },
+  {
+   "src": "httpie/sessions.py:92",
+   "dst": "httpie/sessions.py:56",
+   "line": 117
+  },
+  {
+   "src": "httpie/sessions.py:92",
+   "dst": "httpie/utils.py:266",
+   "line": 101
+  },
+  {
+   "src": "httpie/ssl_.py:41",
+   "dst": "httpie/ssl_.py:71",
+   "line": 48
+  },
+  {
+   "src": "httpie/ssl_.py:63",
+   "dst": "httpie/ssl_.py:34",
+   "line": 66
+  },
+  {
+   "src": "httpie/ssl_.py:71",
+   "dst": "httpie/compat.py:104",
+   "line": 84
+  },
+  {
+   "src": "httpie/ssl_.py:88",
+   "dst": "httpie/ssl_.py:71",
+   "line": 89
+  },
+  {
+   "src": "httpie/uploads.py:130",
+   "dst": "httpie/uploads.py:65",
+   "line": 143
+  },
+  {
+   "src": "httpie/uploads.py:130",
+   "dst": "httpie/uploads.py:87",
+   "line": 131
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:130",
+   "line": 167
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:25",
+   "line": 182
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:44",
+   "line": 177
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:75",
+   "line": 169
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:87",
+   "line": 155
+  },
+  {
+   "src": "httpie/uploads.py:146",
+   "dst": "httpie/uploads.py:99",
+   "line": 156
+  },
+  {
+   "src": "httpie/uploads.py:191",
+   "dst": "httpie/uploads.py:146",
+   "line": 214
+  },
+  {
+   "src": "httpie/uploads.py:191",
+   "dst": "httpie/uploads.py:25",
+   "line": 222
+  },
+  {
+   "src": "httpie/uploads.py:191",
+   "dst": "httpie/uploads.py:65",
+   "line": 201
+  },
+  {
+   "src": "httpie/uploads.py:75",
+   "dst": "httpie/compat.py:38",
+   "line": 81
+  },
+  {
+   "src": "httpie/uploads.py:80",
+   "dst": "httpie/compat.py:38",
+   "line": 81
+  },
+  {
+   "src": "httpie/utils.py:156",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 181
+  },
+  {
+   "src": "httpie/utils.py:156",
+   "dst": "httpie/utils.py:143",
+   "line": 167
+  },
+  {
+   "src": "httpie/utils.py:156",
+   "dst": "httpie/utils.py:163",
+   "line": 184
+  },
+  {
+   "src": "httpie/utils.py:156",
+   "dst": "httpie/utils.py:188",
+   "line": 176
+  },
+  {
+   "src": "httpie/utils.py:188",
+   "dst": "httpie/output/ui/rich_palette.py:41",
+   "line": 198
+  },
+  {
+   "src": "httpie/utils.py:221",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 226
+  },
+  {
+   "src": "httpie/utils.py:229",
+   "dst": "httpie/utils.py:221",
+   "line": 245
+  },
+  {
+   "src": "httpie/utils.py:275",
+   "dst": "httpie/cli/nested_json/tokens.py:55",
+   "line": 277
+  },
+  {
+   "src": "httpie/utils.py:275",
+   "dst": "httpie/utils.py:270",
+   "line": 284
+  },
+  {
+   "src": "httpie/utils.py:293",
+   "dst": "httpie/utils.py:300",
+   "line": 309
+  },
+  {
+   "src": "httpie/utils.py:36",
+   "dst": "httpie/utils.py:40",
+   "line": 38
+  }
+ ]
+}

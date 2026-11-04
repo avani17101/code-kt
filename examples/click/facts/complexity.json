@@ -1,0 +1,112 @@
+{
+ "top_functions": [
+  {
+   "name": "get_help_extra",
+   "ccn": 36,
+   "nloc": 64,
+   "at": "src/click/core.py:3614"
+  },
+  {
+   "name": "_wrap_chunks",
+   "ccn": 30,
+   "nloc": 71,
+   "at": "src/click/_textwrap.py:66"
+  },
+  {
+   "name": "__init__",
+   "ccn": 28,
+   "nloc": 89,
+   "at": "src/click/core.py:370"
+  },
+  {
+   "name": "open_stream",
+   "ccn": 21,
+   "nloc": 61,
+   "at": "src/click/_compat.py:374"
+  },
+  {
+   "name": "style",
+   "ccn": 21,
+   "nloc": 41,
+   "at": "src/click/termui.py:641"
+  },
+  {
+   "name": "open_url",
+   "ccn": 20,
+   "nloc": 57,
+   "at": "src/click/_termui_impl.py:799"
+  },
+  {
+   "name": "main",
+   "ccn": 19,
+   "nloc": 56,
+   "at": "src/click/core.py:1515"
+  },
+  {
+   "name": "_parse_decls",
+   "ccn": 18,
+   "nloc": 58,
+   "at": "src/click/core.py:3449"
+  },
+  {
+   "name": "consume_value",
+   "ccn": 18,
+   "nloc": 32,
+   "at": "src/click/core.py:3820"
+  },
+  {
+   "name": "convert",
+   "ccn": 18,
+   "nloc": 65,
+   "at": "src/click/types.py:1161"
+  },
+  {
+   "name": "get_params",
+   "ccn": 17,
+   "nloc": 44,
+   "at": "src/click/core.py:1132"
+  },
+  {
+   "name": "handle_parse_result",
+   "ccn": 17,
+   "nloc": 50,
+   "at": "src/click/core.py:2929"
+  },
+  {
+   "name": "prompt",
+   "ccn": 16,
+   "nloc": 46,
+   "at": "src/click/termui.py:168"
+  },
+  {
+   "name": "shell_complete",
+   "ccn": 15,
+   "nloc": 29,
+   "at": "src/click/core.py:1448"
+  },
+  {
+   "name": "__init__",
+   "ccn": 14,
+   "nloc": 42,
+   "at": "src/click/core.py:1762"
+  }
+ ],
+ "max_ccn_per_file": {
+  "src/click/_compat.py": 21,
+  "src/click/decorators.py": 10,
+  "src/click/__init__.py": 7,
+  "src/click/_termui_impl.py": 20,
+  "src/click/shell_completion.py": 10,
+  "src/click/formatting.py": 7,
+  "src/click/termui.py": 21,
+  "src/click/core.py": 36,
+  "src/click/parser.py": 10,
+  "src/click/exceptions.py": 13,
+  "src/click/_utils.py": 1,
+  "src/click/types.py": 18,
+  "src/click/_winconsole.py": 7,
+  "src/click/globals.py": 3,
+  "src/click/_textwrap.py": 30,
+  "src/click/utils.py": 13
+ }
+}

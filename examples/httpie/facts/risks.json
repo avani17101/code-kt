@@ -1,0 +1,80 @@
+{
+ "count": 15,
+ "markers": [
+  {
+   "tag": "HACK",
+   "text": "/FIXME: httpie-unixsocket's URLs have no hostname.",
+   "at": "httpie/sessions.py:103"
+  },
+  {
+   "tag": "TODO",
+   "text": "reflect the split between request and send kwargs.",
+   "at": "httpie/client.py:88"
+  },
+  {
+   "tag": "TODO",
+   "text": "Use \"If-Range: mtime\" to make sure it's fresh?",
+   "at": "httpie/downloads.py:198"
+  },
+  {
+   "tag": "FIXME",
+   "text": "some servers still might sent Content-Encoding: gzip",
+   "at": "httpie/downloads.py:219"
+  },
+  {
+   "tag": "TODO",
+   "text": "Further distinction between expected and unexpected errors.",
+   "at": "httpie/core.py:139"
+  },
+  {
+   "tag": "TODO",
+   "text": "Refactor and drastically simplify, especially so that the separator logic is elsewhere.",
+   "at": "httpie/core.py:175"
+  },
+  {
+   "tag": "TODO",
+   "text": "Instead of opt-in --chunked, consider making",
+   "at": "httpie/uploads.py:162"
+  },
+  {
+   "tag": "HACK",
+   "text": "/FIXME: <https://github.com/psf/requests/issues/5743>",
+   "at": "httpie/utils.py:192"
+  },
+  {
+   "tag": "FIXME",
+   "text": "the body also gets parsed in json.py",
+   "at": "httpie/output/formatters/colors.py:183"
+  },
+  {
+   "tag": "TODO",
+   "text": "Consider handling failures here (e.g if it fails,",
+   "at": "httpie/manager/tasks/plugins.py:167"
+  },
+  {
+   "tag": "TODO",
+   "text": "refactor and design type-annotated data structures",
+   "at": "httpie/cli/argparser.py:79"
+  },
+  {
+   "tag": "TODO",
+   "text": "allow --compress with --chunked / --multipart",
+   "at": "httpie/cli/argparser.py:188"
+  },
+  {
+   "tag": "FIXME",
+   "text": "Come up with a cleaner solution.",
+   "at": "httpie/cli/argparser.py:235"
+  },
+  {
+   "tag": "TODO",
+   "text": "refactor & simplify this method.",
+   "at": "httpie/cli/argparser.py:283"
+  },
+  {
+   "tag": "FIXME",
+   "text": "False positive, e.g., \"localhost\" matches but is a valid URL.",
+   "at": "httpie/cli/argparser.py:422"
+  }
+ ]
+}

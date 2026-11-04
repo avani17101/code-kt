@@ -1,0 +1,343 @@
+{
+ "modules": {
+  "click._compat": "src/click/_compat.py",
+  "click.decorators": "src/click/decorators.py",
+  "click": "src/click/__init__.py",
+  "click._termui_impl": "src/click/_termui_impl.py",
+  "click.shell_completion": "src/click/shell_completion.py",
+  "click.formatting": "src/click/formatting.py",
+  "click.termui": "src/click/termui.py",
+  "click.core": "src/click/core.py",
+  "click.parser": "src/click/parser.py",
+  "click.exceptions": "src/click/exceptions.py",
+  "click.testing": "src/click/testing.py",
+  "click._utils": "src/click/_utils.py",
+  "click.types": "src/click/types.py",
+  "click._winconsole": "src/click/_winconsole.py",
+  "click.globals": "src/click/globals.py",
+  "click._textwrap": "src/click/_textwrap.py",
+  "click.utils": "src/click/utils.py"
+ },
+ "edges": [
+  {
+   "src": "click._compat",
+   "dst": "click._winconsole",
+   "at": "src/click/_compat.py:518"
+  },
+  {
+   "src": "click.decorators",
+   "dst": "click.core",
+   "at": "src/click/decorators.py:13"
+  },
+  {
+   "src": "click.decorators",
+   "dst": "click.globals",
+   "at": "src/click/decorators.py:14"
+  },
+  {
+   "src": "click.decorators",
+   "dst": "click.utils",
+   "at": "src/click/decorators.py:15"
+  },
+  {
+   "src": "click",
+   "dst": "click.core",
+   "at": "src/click/__init__.py:91"
+  },
+  {
+   "src": "click",
+   "dst": "click.decorators",
+   "at": "src/click/__init__.py:29"
+  },
+  {
+   "src": "click",
+   "dst": "click.exceptions",
+   "at": "src/click/__init__.py:39"
+  },
+  {
+   "src": "click",
+   "dst": "click.formatting",
+   "at": "src/click/__init__.py:41"
+  },
+  {
+   "src": "click",
+   "dst": "click.globals",
+   "at": "src/click/__init__.py:42"
+  },
+  {
+   "src": "click",
+   "dst": "click.termui",
+   "at": "src/click/__init__.py:55"
+  },
+  {
+   "src": "click",
+   "dst": "click.types",
+   "at": "src/click/__init__.py:69"
+  },
+  {
+   "src": "click",
+   "dst": "click.utils",
+   "at": "src/click/__init__.py:135"
+  },
+  {
+   "src": "click",
+   "dst": "click.parser",
+   "at": "src/click/__init__.py:102"
+  },
+  {
+   "src": "click._termui_impl",
+   "dst": "click._compat",
+   "at": "src/click/_termui_impl.py:28"
+  },
+  {
+   "src": "click._termui_impl",
+   "dst": "click.exceptions",
+   "at": "src/click/_termui_impl.py:29"
+  },
+  {
+   "src": "click._termui_impl",
+   "dst": "click.utils",
+   "at": "src/click/_termui_impl.py:30"
+  },
+  {
+   "src": "click.shell_completion",
+   "dst": "click.core",
+   "at": "src/click/shell_completion.py:15"
+  },
+  {
+   "src": "click.shell_completion",
+   "dst": "click.utils",
+   "at": "src/click/shell_completion.py:16"
+  },
+  {
+   "src": "click.formatting",
+   "dst": "click._compat",
+   "at": "src/click/formatting.py:7"
+  },
+  {
+   "src": "click.formatting",
+   "dst": "click.parser",
+   "at": "src/click/formatting.py:8"
+  },
+  {
+   "src": "click.formatting",
+   "dst": "click._textwrap",
+   "at": "src/click/formatting.py:62"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click",
+   "at": "src/click/termui.py:15"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click._compat",
+   "at": "src/click/termui.py:17"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click.exceptions",
+   "at": "src/click/termui.py:19"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click.globals",
+   "at": "src/click/termui.py:20"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click.types",
+   "at": "src/click/termui.py:23"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click.utils",
+   "at": "src/click/termui.py:25"
+  },
+  {
+   "src": "click.termui",
+   "dst": "click._termui_impl",
+   "at": "src/click/termui.py:980"
+  },
+  {
+   "src": "click.core",
+   "dst": "click",
+   "at": "src/click/core.py:24"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.types",
+   "at": "src/click/core.py:24"
+  },
+  {
+   "src": "click.core",
+   "dst": "click._utils",
+   "at": "src/click/core.py:26"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.exceptions",
+   "at": "src/click/core.py:34"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.formatting",
+   "at": "src/click/core.py:36"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.globals",
+   "at": "src/click/core.py:38"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.parser",
+   "at": "src/click/core.py:40"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.termui",
+   "at": "src/click/core.py:43"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.utils",
+   "at": "src/click/core.py:49"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.shell_completion",
+   "at": "src/click/core.py:3048"
+  },
+  {
+   "src": "click.core",
+   "dst": "click.decorators",
+   "at": "src/click/core.py:1246"
+  },
+  {
+   "src": "click.parser",
+   "dst": "click._utils",
+   "at": "src/click/parser.py:42"
+  },
+  {
+   "src": "click.parser",
+   "dst": "click.exceptions",
+   "at": "src/click/parser.py:38"
+  },
+  {
+   "src": "click.parser",
+   "dst": "click.core",
+   "at": "src/click/parser.py:46"
+  },
+  {
+   "src": "click.parser",
+   "dst": "click.shell_completion",
+   "at": "src/click/parser.py:523"
+  },
+  {
+   "src": "click.exceptions",
+   "dst": "click._compat",
+   "at": "src/click/exceptions.py:8"
+  },
+  {
+   "src": "click.exceptions",
+   "dst": "click.globals",
+   "at": "src/click/exceptions.py:9"
+  },
+  {
+   "src": "click.exceptions",
+   "dst": "click.utils",
+   "at": "src/click/exceptions.py:11"
+  },
+  {
+   "src": "click.exceptions",
+   "dst": "click.core",
+   "at": "src/click/exceptions.py:16"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click",
+   "at": "src/click/testing.py:17"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click._compat",
+   "at": "src/click/testing.py:18"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click.formatting",
+   "at": "src/click/testing.py:15"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click.termui",
+   "at": "src/click/testing.py:16"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click.utils",
+   "at": "src/click/testing.py:17"
+  },
+  {
+   "src": "click.testing",
+   "dst": "click.core",
+   "at": "src/click/testing.py:23"
+  },
+  {
+   "src": "click.types",
+   "dst": "click._compat",
+   "at": "src/click/types.py:16"
+  },
+  {
+   "src": "click.types",
+   "dst": "click.exceptions",
+   "at": "src/click/types.py:17"
+  },
+  {
+   "src": "click.types",
+   "dst": "click.utils",
+   "at": "src/click/types.py:20"
+  },
+  {
+   "src": "click.types",
+   "dst": "click.core",
+   "at": "src/click/types.py:26"
+  },
+  {
+   "src": "click.types",
+   "dst": "click.shell_completion",
+   "at": "src/click/types.py:1248"
+  },
+  {
+   "src": "click._winconsole",
+   "dst": "click._compat",
+   "at": "src/click/_winconsole.py:33"
+  },
+  {
+   "src": "click.globals",
+   "dst": "click.core",
+   "at": "src/click/globals.py:7"
+  },
+  {
+   "src": "click._textwrap",
+   "dst": "click._compat",
+   "at": "src/click/_textwrap.py:8"
+  },
+  {
+   "src": "click.utils",
+   "dst": "click._compat",
+   "at": "src/click/utils.py:21"
+  },
+  {
+   "src": "click.utils",
+   "dst": "click.globals",
+   "at": "src/click/utils.py:22"
+  },
+  {
+   "src": "click.utils",
+   "dst": "click.exceptions",
+   "at": "src/click/utils.py:165"
+  }
+ ]
+}

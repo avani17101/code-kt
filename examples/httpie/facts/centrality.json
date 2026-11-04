@@ -1,0 +1,171 @@
+{
+ "functions": [
+  {
+   "id": "httpie/output/ui/rich_palette.py:41",
+   "name": "get",
+   "pagerank": 0.0447,
+   "fan_in": 38
+  },
+  {
+   "id": "httpie/output/ui/rich_palette.py:32",
+   "name": "_translate",
+   "pagerank": 0.0405,
+   "fan_in": 2
+  },
+  {
+   "id": "httpie/cli/nested_json/tokens.py:55",
+   "name": "Path",
+   "pagerank": 0.0139,
+   "fan_in": 11
+  },
+  {
+   "id": "httpie/cli/argparser.py:598",
+   "name": "error",
+   "pagerank": 0.0125,
+   "fan_in": 14
+  },
+  {
+   "id": "httpie/cli/argparser.py:575",
+   "name": "print_usage",
+   "pagerank": 0.012,
+   "fan_in": 1
+  },
+  {
+   "id": "httpie/cli/exceptions.py:1",
+   "name": "ParseError",
+   "pagerank": 0.0117,
+   "fan_in": 6
+  },
+  {
+   "id": "httpie/plugins/manager.py:56",
+   "name": "filter",
+   "pagerank": 0.0106,
+   "fan_in": 5
+  },
+  {
+   "id": "httpie/cli/dicts.py:18",
+   "name": "add",
+   "pagerank": 0.0104,
+   "fan_in": 6
+  },
+  {
+   "id": "httpie/output/ui/rich_palette.py:45",
+   "name": "_make_rich_color_theme",
+   "pagerank": 0.0104,
+   "fan_in": 2
+  },
+  {
+   "id": "httpie/manager/tasks/plugins.py:196",
+   "name": "list",
+   "pagerank": 0.0094,
+   "fan_in": 9
+  },
+  {
+   "id": "httpie/context.py:188",
+   "name": "_make_rich_console",
+   "pagerank": 0.0092,
+   "fan_in": 3
+  },
+  {
+   "id": "httpie/manager/tasks/plugins.py:217",
+   "name": "run",
+   "pagerank": 0.0072,
+   "fan_in": 4
+  },
+  {
+   "id": "httpie/cli/dicts.py:12",
+   "name": "HTTPHeadersDict",
+   "pagerank": 0.0071,
+   "fan_in": 8
+  },
+  {
+   "id": "httpie/output/ui/rich_help.py:72",
+   "name": "to_usage",
+   "pagerank": 0.0068,
+   "fan_in": 2
+  },
+  {
+   "id": "httpie/models.py:208",
+   "name": "any",
+   "pagerank": 0.0067,
+   "fan_in": 8
+  }
+ ],
+ "modules": [
+  {
+   "module": "httpie.compat",
+   "pagerank": 0.0658,
+   "imported_by": 10
+  },
+  {
+   "module": "httpie.cookies",
+   "pagerank": 0.0644,
+   "imported_by": 2
+  },
+  {
+   "module": "httpie.context",
+   "pagerank": 0.0455,
+   "imported_by": 21
+  },
+  {
+   "module": "httpie.plugins.base",
+   "pagerank": 0.0374,
+   "imported_by": 3
+  },
+  {
+   "module": "httpie.utils",
+   "pagerank": 0.034,
+   "imported_by": 14
+  },
+  {
+   "module": "httpie.output.ui.palette",
+   "pagerank": 0.031,
+   "imported_by": 4
+  },
+  {
+   "module": "httpie.sessions",
+   "pagerank": 0.0286,
+   "imported_by": 5
+  },
+  {
+   "module": "httpie.cli.nested_json.tokens",
+   "pagerank": 0.0264,
+   "imported_by": 4
+  },
+  {
+   "module": "httpie.plugins",
+   "pagerank": 0.0257,
+   "imported_by": 6
+  },
+  {
+   "module": "httpie.cli.constants",
+   "pagerank": 0.0235,
+   "imported_by": 9
+  },
+  {
+   "module": "httpie.encoding",
+   "pagerank": 0.022,
+   "imported_by": 5
+  },
+  {
+   "module": "httpie.cli.dicts",
+   "pagerank": 0.0213,
+   "imported_by": 6
+  },
+  {
+   "module": "httpie.status",
+   "pagerank": 0.0195,
+   "imported_by": 9
+  },
+  {
+   "module": "httpie.output.ui.rich_palette",
+   "pagerank": 0.0176,
+   "imported_by": 2
+  },
+  {
+   "module": "httpie",
+   "pagerank": 0.017,
+   "imported_by": 6
+  }
+ ]
+}

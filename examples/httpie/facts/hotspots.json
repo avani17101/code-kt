@@ -1,0 +1,154 @@
+{
+ "window_commits": 300,
+ "hotspots": [
+  {
+   "file": "httpie/core.py",
+   "commits": 14,
+   "max_ccn": 26,
+   "score": 364,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/client.py",
+   "commits": 17,
+   "max_ccn": 21,
+   "score": 357,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/cli/argparser.py",
+   "commits": 12,
+   "max_ccn": 24,
+   "score": 288,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/cli/definition.py",
+   "commits": 20,
+   "max_ccn": 7,
+   "score": 140,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/output/formatters/colors.py",
+   "commits": 8,
+   "max_ccn": 13,
+   "score": 104,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/sessions.py",
+   "commits": 7,
+   "max_ccn": 11,
+   "score": 77,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/models.py",
+   "commits": 9,
+   "max_ccn": 8,
+   "score": 72,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/output/writer.py",
+   "commits": 7,
+   "max_ccn": 10,
+   "score": 70,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Brian Egleston"
+   ]
+  },
+  {
+   "file": "httpie/context.py",
+   "commits": 7,
+   "max_ccn": 9,
+   "score": 63,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/cli/requestitems.py",
+   "commits": 9,
+   "max_ccn": 7,
+   "score": 63,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/output/streams.py",
+   "commits": 6,
+   "max_ccn": 9,
+   "score": 54,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/downloads.py",
+   "commits": 5,
+   "max_ccn": 10,
+   "score": 50,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/manager/cli.py",
+   "commits": 10,
+   "max_ccn": 5,
+   "score": 50,
+   "top_authors": [
+    "Batuhan Taskaya"
+   ]
+  },
+  {
+   "file": "httpie/uploads.py",
+   "commits": 7,
+   "max_ccn": 7,
+   "score": 49,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  },
+  {
+   "file": "httpie/utils.py",
+   "commits": 9,
+   "max_ccn": 5,
+   "score": 45,
+   "top_authors": [
+    "Batuhan Taskaya",
+    "Jakub Roztocil"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "backend": "ast-import-aware",
+ "approximate": true,
+ "start": {
+  "name": "main",
+  "def": "httpie/__main__.py:6",
+  "reach": 42
+ },
+ "outline": [
+  {
+   "call": "main",
+   "def": "httpie/core.py:146",
+   "called_at": "httpie/__main__.py:9",
+   "reach": 41,
+   "then": [
+    {
+     "call": "Environment",
+     "def": "httpie/context.py:46",
+     "called_at": "httpie/core.py:148",
+     "reach": 1,
+     "then": []
+    },
+    {
+     "call": "raw_main",
+     "def": "httpie/core.py:32",
+     "called_at": "httpie/core.py:162",
+     "reach": 40,
+     "then": [
+      {
+       "call": "run_daemon_task",
+       "def": "httpie/internal/daemon_runner.py:41",
+       "called_at": "httpie/core.py:44",
+       "reach": 18,
+       "then": [
+        {
+         "call": "_parse_options",
+         "def": "httpie/internal/daemon_runner.py:30",
+         "called_at": "httpie/internal/daemon_runner.py:42",
+         "reach": 16,
+         "then": []
+        },
+        {
+         "call": "_get_suppress_context",
+         "def": "httpie/internal/update_warnings.py:78",
+         "called_at": "httpie/internal/daemon_runner.py:47",
+         "reach": 1,
+         "then": []
+        }
+       ]
+      },
+      {
+       "call": "load_installed_plugins",
+       "def": "httpie/plugins/manager.py:66",
+       "called_at": "httpie/core.py:46",
+       "reach": 12,
+       "then": [
+        {
+         "call": "iter_entry_points",
+         "def": "httpie/plugins/manager.py:59",
+         "called_at": "httpie/plugins/manager.py:67",
+         "reach": 9,
+         "then": []
+        },
+        {
+         "call": "get_dist_name",
+         "def": "httpie/compat.py:86",
+         "called_at": "httpie/plugins/manager.py:68",
+         "reach": 3,
+         "then": []
+        },
+        {
+         "call": "register",
+         "def": "httpie/plugins/manager.py:49",
+         "called_at": "httpie/plugins/manager.py:80",
+         "reach": 1,
+         "then": []
+        }
+       ]
+      },
+      {
+       "call": "check_updates",
+       "def": "httpie/internal/update_warnings.py:141",
+       "called_at": "httpie/core.py:98",
+       "reach": 17,
+       "then": [
+        {
+         "call": "_get_update_status",
+         "def": "httpie/internal/update_warnings.py:107",
+         "called_at": "httpie/internal/update_warnings.py:146",
+         "reach": 7,
+         "then": []
+        },
+        {
+         "call": "open_with_lockfile",
+         "def": "httpie/utils.py:275",
+         "called_at": "httpie/internal/update_warnings.py:153",
+         "reach": 3,
+         "then": []
+        },
+        {
+         "call": "log_error",
+         "def": "httpie/context.py:170",
+         "called_at": "httpie/internal/update_warnings.py:167",
+         "reach": 7,
+         "then": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

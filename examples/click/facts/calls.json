@@ -1,0 +1,4562 @@
+{
+ "backend": "ast-import-aware",
+ "approximate": true,
+ "nodes": {
+  "src/click/_compat.py:22": {
+   "name": "_make_text_stream"
+  },
+  "src/click/_compat.py:43": {
+   "name": "is_ascii_encoding"
+  },
+  "src/click/_compat.py:51": {
+   "name": "get_best_encoding"
+  },
+  "src/click/_compat.py:154": {
+   "name": "_is_binary_reader"
+  },
+  "src/click/_compat.py:163": {
+   "name": "_is_binary_writer"
+  },
+  "src/click/_compat.py:176": {
+   "name": "_find_binary_reader"
+  },
+  "src/click/_compat.py:194": {
+   "name": "_find_binary_writer"
+  },
+  "src/click/_compat.py:212": {
+   "name": "_stream_is_misconfigured"
+  },
+  "src/click/_compat.py:221": {
+   "name": "_is_compat_stream_attr"
+  },
+  "src/click/_compat.py:230": {
+   "name": "_is_compatible_text_stream"
+  },
+  "src/click/_compat.py:241": {
+   "name": "_force_correct_text_stream"
+  },
+  "src/click/_compat.py:287": {
+   "name": "_force_correct_text_reader"
+  },
+  "src/click/_compat.py:303": {
+   "name": "_force_correct_text_writer"
+  },
+  "src/click/_compat.py:319": {
+   "name": "get_binary_stdin"
+  },
+  "src/click/_compat.py:326": {
+   "name": "get_binary_stdout"
+  },
+  "src/click/_compat.py:333": {
+   "name": "get_binary_stderr"
+  },
+  "src/click/_compat.py:340": {
+   "name": "get_text_stdin"
+  },
+  "src/click/_compat.py:347": {
+   "name": "get_text_stdout"
+  },
+  "src/click/_compat.py:354": {
+   "name": "get_text_stderr"
+  },
+  "src/click/_compat.py:361": {
+   "name": "_wrap_io_open"
+  },
+  "src/click/_compat.py:374": {
+   "name": "open_stream"
+  },
+  "src/click/_compat.py:491": {
+   "name": "strip_ansi"
+  },
+  "src/click/_compat.py:495": {
+   "name": "_is_jupyter_kernel_output"
+  },
+  "src/click/_compat.py:502": {
+   "name": "should_strip_ansi"
+  },
+  "src/click/_compat.py:536": {
+   "name": "term_len"
+  },
+  "src/click/_compat.py:540": {
+   "name": "isatty"
+  },
+  "src/click/_compat.py:547": {
+   "name": "_make_cached_stream_func"
+  },
+  "src/click/_compat.py:60": {
+   "name": "__init__"
+  },
+  "src/click/_compat.py:74": {
+   "name": "__del__"
+  },
+  "src/click/_compat.py:80": {
+   "name": "isatty"
+  },
+  "src/click/_compat.py:95": {
+   "name": "__init__"
+  },
+  "src/click/_compat.py:105": {
+   "name": "__getattr__"
+  },
+  "src/click/_compat.py:108": {
+   "name": "read1"
+  },
+  "src/click/_compat.py:116": {
+   "name": "readable"
+  },
+  "src/click/_compat.py:128": {
+   "name": "writable"
+  },
+  "src/click/_compat.py:143": {
+   "name": "seekable"
+  },
+  "src/click/_compat.py:456": {
+   "name": "__init__"
+  },
+  "src/click/_compat.py:463": {
+   "name": "name"
+  },
+  "src/click/_compat.py:466": {
+   "name": "close"
+  },
+  "src/click/_compat.py:473": {
+   "name": "__getattr__"
+  },
+  "src/click/_compat.py:476": {
+   "name": "__enter__"
+  },
+  "src/click/_compat.py:479": {
+   "name": "__exit__"
+  },
+  "src/click/_compat.py:487": {
+   "name": "__repr__"
+  },
+  "src/click/_compat.py:520": {
+   "name": "_get_argv_encoding"
+  },
+  "src/click/_compat.py:527": {
+   "name": "_get_argv_encoding"
+  },
+  "src/click/_compat.py:530": {
+   "name": "_get_windows_console_stream"
+  },
+  "src/click/_compat.py:553": {
+   "name": "func"
+  },
+  "src/click/decorators.py:28": {
+   "name": "pass_context"
+  },
+  "src/click/decorators.py:39": {
+   "name": "pass_obj"
+  },
+  "src/click/decorators.py:51": {
+   "name": "make_pass_decorator"
+  },
+  "src/click/decorators.py:100": {
+   "name": "pass_meta_key"
+  },
+  "src/click/decorators.py:138": {
+   "name": "command"
+  },
+  "src/click/decorators.py:144": {
+   "name": "command"
+  },
+  "src/click/decorators.py:153": {
+   "name": "command"
+  },
+  "src/click/decorators.py:163": {
+   "name": "command"
+  },
+  "src/click/decorators.py:168": {
+   "name": "command"
+  },
+  "src/click/decorators.py:263": {
+   "name": "group"
+  },
+  "src/click/decorators.py:269": {
+   "name": "group"
+  },
+  "src/click/decorators.py:278": {
+   "name": "group"
+  },
+  "src/click/decorators.py:288": {
+   "name": "group"
+  },
+  "src/click/decorators.py:293": {
+   "name": "group"
+  },
+  "src/click/decorators.py:314": {
+   "name": "_param_memo"
+  },
+  "src/click/decorators.py:324": {
+   "name": "argument"
+  },
+  "src/click/decorators.py:352": {
+   "name": "option"
+  },
+  "src/click/decorators.py:380": {
+   "name": "confirmation_option"
+  },
+  "src/click/decorators.py:404": {
+   "name": "password_option"
+  },
+  "src/click/decorators.py:421": {
+   "name": "version_option"
+  },
+  "src/click/decorators.py:561": {
+   "name": "custom_version_option"
+  },
+  "src/click/decorators.py:603": {
+   "name": "help_option"
+  },
+  "src/click/decorators.py:33": {
+   "name": "new_func"
+  },
+  "src/click/decorators.py:45": {
+   "name": "new_func"
+  },
+  "src/click/decorators.py:76": {
+   "name": "decorator"
+  },
+  "src/click/decorators.py:115": {
+   "name": "decorator"
+  },
+  "src/click/decorators.py:217": {
+   "name": "decorator"
+  },
+  "src/click/decorators.py:345": {
+   "name": "decorator"
+  },
+  "src/click/decorators.py:373": {
+   "name": "decorator"
+  },
+  "src/click/decorators.py:389": {
+   "name": "callback"
+  },
+  "src/click/decorators.py:501": {
+   "name": "callback"
+  },
+  "src/click/decorators.py:585": {
+   "name": "show_version"
+  },
+  "src/click/decorators.py:612": {
+   "name": "show_help"
+  },
+  "src/click/decorators.py:77": {
+   "name": "new_func"
+  },
+  "src/click/decorators.py:116": {
+   "name": "new_func"
+  },
+  "src/click/__init__.py:76": {
+   "name": "__getattr__"
+  },
+  "src/click/_termui_impl.py:423": {
+   "name": "_resolve_pager_command"
+  },
+  "src/click/_termui_impl.py:451": {
+   "name": "_pager_contextmanager"
+  },
+  "src/click/_termui_impl.py:497": {
+   "name": "get_pager_file"
+  },
+  "src/click/_termui_impl.py:520": {
+   "name": "_less_uses_raw_mode"
+  },
+  "src/click/_termui_impl.py:549": {
+   "name": "_pipepager"
+  },
+  "src/click/_termui_impl.py:636": {
+   "name": "_tempfilepager"
+  },
+  "src/click/_termui_impl.py:671": {
+   "name": "_nullpager"
+  },
+  "src/click/_termui_impl.py:799": {
+   "name": "open_url"
+  },
+  "src/click/_termui_impl.py:869": {
+   "name": "_translate_ch_to_exc"
+  },
+  "src/click/_termui_impl.py:44": {
+   "name": "__init__"
+  },
+  "src/click/_termui_impl.py:115": {
+   "name": "__enter__"
+  },
+  "src/click/_termui_impl.py:120": {
+   "name": "__exit__"
+  },
+  "src/click/_termui_impl.py:128": {
+   "name": "__iter__"
+  },
+  "src/click/_termui_impl.py:134": {
+   "name": "__next__"
+  },
+  "src/click/_termui_impl.py:142": {
+   "name": "render_finish"
+  },
+  "src/click/_termui_impl.py:157": {
+   "name": "pct"
+  },
+  "src/click/_termui_impl.py:163": {
+   "name": "time_per_iteration"
+  },
+  "src/click/_termui_impl.py:169": {
+   "name": "eta"
+  },
+  "src/click/_termui_impl.py:174": {
+   "name": "format_eta"
+  },
+  "src/click/_termui_impl.py:195": {
+   "name": "format_pos"
+  },
+  "src/click/_termui_impl.py:201": {
+   "name": "format_pct"
+  },
+  "src/click/_termui_impl.py:204": {
+   "name": "format_bar"
+  },
+  "src/click/_termui_impl.py:223": {
+   "name": "format_progress_line"
+  },
+  "src/click/_termui_impl.py:250": {
+   "name": "render_progress"
+  },
+  "src/click/_termui_impl.py:296": {
+   "name": "make_step"
+  },
+  "src/click/_termui_impl.py:318": {
+   "name": "update"
+  },
+  "src/click/_termui_impl.py:344": {
+   "name": "finish"
+  },
+  "src/click/_termui_impl.py:349": {
+   "name": "generator"
+  },
+  "src/click/_termui_impl.py:397": {
+   "name": "__init__"
+  },
+  "src/click/_termui_impl.py:401": {
+   "name": "write"
+  },
+  "src/click/_termui_impl.py:407": {
+   "name": "writelines"
+  },
+  "src/click/_termui_impl.py:411": {
+   "name": "flush"
+  },
+  "src/click/_termui_impl.py:414": {
+   "name": "close"
+  },
+  "src/click/_termui_impl.py:419": {
+   "name": "__getattr__"
+  },
+  "src/click/_termui_impl.py:684": {
+   "name": "__init__"
+  },
+  "src/click/_termui_impl.py:696": {
+   "name": "get_editor"
+  },
+  "src/click/_termui_impl.py:713": {
+   "name": "edit_files"
+  },
+  "src/click/_termui_impl.py:744": {
+   "name": "edit"
+  },
+  "src/click/_termui_impl.py:749": {
+   "name": "edit"
+  },
+  "src/click/_termui_impl.py:751": {
+   "name": "edit"
+  },
+  "src/click/_termui_impl.py:802": {
+   "name": "_unquote_file"
+  },
+  "src/click/_termui_impl.py:884": {
+   "name": "raw_terminal"
+  },
+  "src/click/_termui_impl.py:887": {
+   "name": "getchar"
+  },
+  "src/click/_termui_impl.py:938": {
+   "name": "raw_terminal"
+  },
+  "src/click/_termui_impl.py:964": {
+   "name": "getchar"
+  },
+  "src/click/shell_completion.py:19": {
+   "name": "shell_complete"
+  },
+  "src/click/shell_completion.py:565": {
+   "name": "add_completion_class"
+  },
+  "src/click/shell_completion.py:586": {
+   "name": "get_completion_class"
+  },
+  "src/click/shell_completion.py:588": {
+   "name": "get_completion_class"
+  },
+  "src/click/shell_completion.py:590": {
+   "name": "get_completion_class"
+  },
+  "src/click/shell_completion.py:592": {
+   "name": "get_completion_class"
+  },
+  "src/click/shell_completion.py:593": {
+   "name": "get_completion_class"
+  },
+  "src/click/shell_completion.py:603": {
+   "name": "split_arg_string"
+  },
+  "src/click/shell_completion.py:639": {
+   "name": "_is_incomplete_argument"
+  },
+  "src/click/shell_completion.py:662": {
+   "name": "_start_of_option"
+  },
+  "src/click/shell_completion.py:671": {
+   "name": "_is_incomplete_option"
+  },
+  "src/click/shell_completion.py:696": {
+   "name": "_resolve_context"
+  },
+  "src/click/shell_completion.py:757": {
+   "name": "_resolve_incomplete"
+  },
+  "src/click/shell_completion.py:88": {
+   "name": "__init__"
+  },
+  "src/click/shell_completion.py:100": {
+   "name": "__getattr__"
+  },
+  "src/click/shell_completion.py:307": {
+   "name": "__init__"
+  },
+  "src/click/shell_completion.py:320": {
+   "name": "func_name"
+  },
+  "src/click/shell_completion.py:327": {
+   "name": "source_vars"
+  },
+  "src/click/shell_completion.py:339": {
+   "name": "source"
+  },
+  "src/click/shell_completion.py:347": {
+   "name": "get_completion_args"
+  },
+  "src/click/shell_completion.py:354": {
+   "name": "get_completions"
+  },
+  "src/click/shell_completion.py:368": {
+   "name": "format_completion"
+  },
+  "src/click/shell_completion.py:376": {
+   "name": "complete"
+  },
+  "src/click/shell_completion.py:396": {
+   "name": "_check_version"
+  },
+  "src/click/shell_completion.py:428": {
+   "name": "source"
+  },
+  "src/click/shell_completion.py:432": {
+   "name": "get_completion_args"
+  },
+  "src/click/shell_completion.py:444": {
+   "name": "format_completion"
+  },
+  "src/click/shell_completion.py:454": {
+   "name": "get_completion_args"
+  },
+  "src/click/shell_completion.py:466": {
+   "name": "format_completion"
+  },
+  "src/click/shell_completion.py:490": {
+   "name": "get_completion_args"
+  },
+  "src/click/shell_completion.py:504": {
+   "name": "format_completion"
+  },
+  "src/click/shell_completion.py:530": {
+   "name": "get_completion_args"
+  },
+  "src/click/shell_completion.py:542": {
+   "name": "format_completion"
+  },
+  "src/click/formatting.py:14": {
+   "name": "measure_table"
+  },
+  "src/click/formatting.py:24": {
+   "name": "iter_rows"
+  },
+  "src/click/formatting.py:31": {
+   "name": "wrap_text"
+  },
+  "src/click/formatting.py:302": {
+   "name": "join_options"
+  },
+  "src/click/formatting.py:78": {
+   "name": "_flush_par"
+  },
+  "src/click/formatting.py:127": {
+   "name": "__init__"
+  },
+  "src/click/formatting.py:146": {
+   "name": "write"
+  },
+  "src/click/formatting.py:150": {
+   "name": "indent"
+  },
+  "src/click/formatting.py:154": {
+   "name": "dedent"
+  },
+  "src/click/formatting.py:158": {
+   "name": "write_usage"
+  },
+  "src/click/formatting.py:204": {
+   "name": "write_heading"
+  },
+  "src/click/formatting.py:208": {
+   "name": "write_paragraph"
+  },
+  "src/click/formatting.py:213": {
+   "name": "write_text"
+  },
+  "src/click/formatting.py:229": {
+   "name": "write_dl"
+  },
+  "src/click/formatting.py:274": {
+   "name": "section"
+  },
+  "src/click/formatting.py:289": {
+   "name": "indentation"
+  },
+  "src/click/formatting.py:297": {
+   "name": "getvalue"
+  },
+  "src/click/termui.py:61": {
+   "name": "_mask_hidden_input"
+  },
+  "src/click/termui.py:79": {
+   "name": "hidden_prompt_func"
+  },
+  "src/click/termui.py:85": {
+   "name": "_readline_prompt"
+  },
+  "src/click/termui.py:108": {
+   "name": "_build_prompt"
+  },
+  "src/click/termui.py:128": {
+   "name": "_format_default"
+  },
+  "src/click/termui.py:139": {
+   "name": "prompt"
+  },
+  "src/click/termui.py:154": {
+   "name": "prompt"
+  },
+  "src/click/termui.py:168": {
+   "name": "prompt"
+  },
+  "src/click/termui.py:289": {
+   "name": "confirm"
+  },
+  "src/click/termui.py:348": {
+   "name": "get_pager_file"
+  },
+  "src/click/termui.py:367": {
+   "name": "echo_via_pager"
+  },
+  "src/click/termui.py:403": {
+   "name": "progressbar"
+  },
+  "src/click/termui.py:423": {
+   "name": "progressbar"
+  },
+  "src/click/termui.py:443": {
+   "name": "progressbar"
+  },
+  "src/click/termui.py:602": {
+   "name": "clear"
+  },
+  "src/click/termui.py:616": {
+   "name": "_interpret_color"
+  },
+  "src/click/termui.py:641": {
+   "name": "style"
+  },
+  "src/click/termui.py:768": {
+   "name": "unstyle"
+  },
+  "src/click/termui.py:780": {
+   "name": "secho"
+  },
+  "src/click/termui.py:815": {
+   "name": "edit"
+  },
+  "src/click/termui.py:825": {
+   "name": "edit"
+  },
+  "src/click/termui.py:835": {
+   "name": "edit"
+  },
+  "src/click/termui.py:848": {
+   "name": "edit"
+  },
+  "src/click/termui.py:923": {
+   "name": "launch"
+  },
+  "src/click/termui.py:957": {
+   "name": "getchar"
+  },
+  "src/click/termui.py:987": {
+   "name": "raw_terminal"
+  },
+  "src/click/termui.py:993": {
+   "name": "pause"
+  },
+  "src/click/termui.py:235": {
+   "name": "prompt_func"
+  },
+  "src/click/core.py:64": {
+   "name": "_complete_visible_commands"
+  },
+  "src/click/core.py:83": {
+   "name": "_check_nested_chain"
+  },
+  "src/click/core.py:103": {
+   "name": "_echo_aborted"
+  },
+  "src/click/core.py:108": {
+   "name": "_outside_click_stacklevel"
+  },
+  "src/click/core.py:132": {
+   "name": "_format_deprecated_label"
+  },
+  "src/click/core.py:140": {
+   "name": "_format_deprecated_suffix"
+  },
+  "src/click/core.py:149": {
+   "name": "batch"
+  },
+  "src/click/core.py:154": {
+   "name": "augment_usage_errors"
+  },
+  "src/click/core.py:172": {
+   "name": "iter_params_for_processing"
+  },
+  "src/click/core.py:2231": {
+   "name": "_check_iter"
+  },
+  "src/click/core.py:4017": {
+   "name": "__getattr__"
+  },
+  "src/click/core.py:188": {
+   "name": "sort_key"
+  },
+  "src/click/core.py:370": {
+   "name": "__init__"
+  },
+  "src/click/core.py:547": {
+   "name": "protected_args"
+  },
+  "src/click/core.py:558": {
+   "name": "to_info_dict"
+  },
+  "src/click/core.py:579": {
+   "name": "__enter__"
+  },
+  "src/click/core.py:584": {
+   "name": "__exit__"
+  },
+  "src/click/core.py:599": {
+   "name": "scope"
+  },
+  "src/click/core.py:637": {
+   "name": "meta"
+  },
+  "src/click/core.py:664": {
+   "name": "make_formatter"
+  },
+  "src/click/core.py:678": {
+   "name": "with_resource"
+  },
+  "src/click/core.py:707": {
+   "name": "call_on_close"
+  },
+  "src/click/core.py:719": {
+   "name": "close"
+  },
+  "src/click/core.py:726": {
+   "name": "_close_with_exception_info"
+  },
+  "src/click/core.py:745": {
+   "name": "command_path"
+  },
+  "src/click/core.py:763": {
+   "name": "find_root"
+  },
+  "src/click/core.py:770": {
+   "name": "find_object"
+  },
+  "src/click/core.py:782": {
+   "name": "ensure_object"
+  },
+  "src/click/core.py:791": {
+   "name": "_default_map_has"
+  },
+  "src/click/core.py:806": {
+   "name": "lookup_default"
+  },
+  "src/click/core.py:811": {
+   "name": "lookup_default"
+  },
+  "src/click/core.py:815": {
+   "name": "lookup_default"
+  },
+  "src/click/core.py:837": {
+   "name": "fail"
+  },
+  "src/click/core.py:845": {
+   "name": "abort"
+  },
+  "src/click/core.py:849": {
+   "name": "exit"
+  },
+  "src/click/core.py:859": {
+   "name": "get_usage"
+  },
+  "src/click/core.py:865": {
+   "name": "get_help"
+  },
+  "src/click/core.py:871": {
+   "name": "_make_sub_context"
+  },
+  "src/click/core.py:880": {
+   "name": "invoke"
+  },
+  "src/click/core.py:885": {
+   "name": "invoke"
+  },
+  "src/click/core.py:887": {
+   "name": "invoke"
+  },
+  "src/click/core.py:942": {
+   "name": "forward"
+  },
+  "src/click/core.py:961": {
+   "name": "set_parameter_source"
+  },
+  "src/click/core.py:970": {
+   "name": "get_parameter_source"
+  },
+  "src/click/core.py:1065": {
+   "name": "__init__"
+  },
+  "src/click/core.py:1109": {
+   "name": "to_info_dict"
+  },
+  "src/click/core.py:1120": {
+   "name": "__repr__"
+  },
+  "src/click/core.py:1123": {
+   "name": "get_usage"
+  },
+  "src/click/core.py:1132": {
+   "name": "get_params"
+  },
+  "src/click/core.py:1188": {
+   "name": "format_usage"
+  },
+  "src/click/core.py:1196": {
+   "name": "collect_usage_pieces"
+  },
+  "src/click/core.py:1207": {
+   "name": "get_help_option_names"
+  },
+  "src/click/core.py:1222": {
+   "name": "get_help_option"
+  },
+  "src/click/core.py:1256": {
+   "name": "make_parser"
+  },
+  "src/click/core.py:1263": {
+   "name": "get_help"
+  },
+  "src/click/core.py:1272": {
+   "name": "get_short_help_str"
+  },
+  "src/click/core.py:1288": {
+   "name": "format_help"
+  },
+  "src/click/core.py:1307": {
+   "name": "format_help_text"
+  },
+  "src/click/core.py:1325": {
+   "name": "format_options"
+  },
+  "src/click/core.py:1337": {
+   "name": "format_arguments"
+  },
+  "src/click/core.py:1350": {
+   "name": "format_epilog"
+  },
+  "src/click/core.py:1359": {
+   "name": "make_context"
+  },
+  "src/click/core.py:1396": {
+   "name": "parse_args"
+  },
+  "src/click/core.py:1432": {
+   "name": "invoke"
+  },
+  "src/click/core.py:1448": {
+   "name": "shell_complete"
+  },
+  "src/click/core.py:1496": {
+   "name": "main"
+  },
+  "src/click/core.py:1506": {
+   "name": "main"
+  },
+  "src/click/core.py:1515": {
+   "name": "main"
+  },
+  "src/click/core.py:1651": {
+   "name": "_main_shell_completion"
+  },
+  "src/click/core.py:1683": {
+   "name": "__call__"
+  },
+  "src/click/core.py:1689": {
+   "name": "__subclasscheck__"
+  },
+  "src/click/core.py:1692": {
+   "name": "__instancecheck__"
+  },
+  "src/click/core.py:1762": {
+   "name": "__init__"
+  },
+  "src/click/core.py:1817": {
+   "name": "to_info_dict"
+  },
+  "src/click/core.py:1835": {
+   "name": "add_command"
+  },
+  "src/click/core.py:1846": {
+   "name": "command"
+  },
+  "src/click/core.py:1849": {
+   "name": "command"
+  },
+  "src/click/core.py:1853": {
+   "name": "command"
+  },
+  "src/click/core.py:1895": {
+   "name": "group"
+  },
+  "src/click/core.py:1898": {
+   "name": "group"
+  },
+  "src/click/core.py:1902": {
+   "name": "group"
+  },
+  "src/click/core.py:1946": {
+   "name": "result_callback"
+  },
+  "src/click/core.py:1991": {
+   "name": "get_command"
+  },
+  "src/click/core.py:1997": {
+   "name": "list_commands"
+  },
+  "src/click/core.py:2001": {
+   "name": "collect_usage_pieces"
+  },
+  "src/click/core.py:2006": {
+   "name": "format_options"
+  },
+  "src/click/core.py:2010": {
+   "name": "format_commands"
+  },
+  "src/click/core.py:2038": {
+   "name": "parse_args"
+  },
+  "src/click/core.py:2052": {
+   "name": "invoke"
+  },
+  "src/click/core.py:2120": {
+   "name": "resolve_command"
+  },
+  "src/click/core.py:2146": {
+   "name": "shell_complete"
+  },
+  "src/click/core.py:2191": {
+   "name": "__init__"
+  },
+  "src/click/core.py:2201": {
+   "name": "add_source"
+  },
+  "src/click/core.py:2205": {
+   "name": "get_command"
+  },
+  "src/click/core.py:2222": {
+   "name": "list_commands"
+  },
+  "src/click/core.py:2392": {
+   "name": "__init_subclass__"
+  },
+  "src/click/core.py:2406": {
+   "name": "__init__"
+  },
+  "src/click/core.py:2491": {
+   "name": "_hide_unset"
+  },
+  "src/click/core.py:2498": {
+   "name": "to_info_dict"
+  },
+  "src/click/core.py:2524": {
+   "name": "__repr__"
+  },
+  "src/click/core.py:2528": {
+   "name": "_parse_decls"
+  },
+  "src/click/core.py:2532": {
+   "name": "_check_name_is_usable"
+  },
+  "src/click/core.py:2570": {
+   "name": "spec"
+  },
+  "src/click/core.py:2586": {
+   "name": "human_readable_name"
+  },
+  "src/click/core.py:2605": {
+   "name": "get_help_spec"
+  },
+  "src/click/core.py:2620": {
+   "name": "make_metavar"
+  },
+  "src/click/core.py:2635": {
+   "name": "get_default"
+  },
+  "src/click/core.py:2640": {
+   "name": "get_default"
+  },
+  "src/click/core.py:2644": {
+   "name": "get_default"
+  },
+  "src/click/core.py:2678": {
+   "name": "add_to_parser"
+  },
+  "src/click/core.py:2680": {
+   "name": "consume_value"
+  },
+  "src/click/core.py:2728": {
+   "name": "type_cast_value"
+  },
+  "src/click/core.py:2784": {
+   "name": "value_is_missing"
+  },
+  "src/click/core.py:2802": {
+   "name": "process_value"
+  },
+  "src/click/core.py:2868": {
+   "name": "resolve_envvar_value"
+  },
+  "src/click/core.py:2913": {
+   "name": "value_from_envvar"
+  },
+  "src/click/core.py:2929": {
+   "name": "handle_parse_result"
+  },
+  "src/click/core.py:3017": {
+   "name": "get_help_record"
+  },
+  "src/click/core.py:3020": {
+   "name": "get_usage_pieces"
+  },
+  "src/click/core.py:3023": {
+   "name": "get_error_hint"
+  },
+  "src/click/core.py:3033": {
+   "name": "shell_complete"
+  },
+  "src/click/core.py:3149": {
+   "name": "__init__"
+  },
+  "src/click/core.py:3228": {
+   "name": "is_bool_flag"
+  },
+  "src/click/core.py:3237": {
+   "name": "flag_activation_value"
+  },
+  "src/click/core.py:3249": {
+   "name": "_infer_flag_kind"
+  },
+  "src/click/core.py:3282": {
+   "name": "_pick_type"
+  },
+  "src/click/core.py:3321": {
+   "name": "_resolve_lazy_default"
+  },
+  "src/click/core.py:3345": {
+   "name": "_validate"
+  },
+  "src/click/core.py:3367": {
+   "name": "to_info_dict"
+  },
+  "src/click/core.py:3389": {
+   "name": "get_default"
+  },
+  "src/click/core.py:3423": {
+   "name": "get_error_hint"
+  },
+  "src/click/core.py:3429": {
+   "name": "_check_name_is_normalized"
+  },
+  "src/click/core.py:3449": {
+   "name": "_parse_decls"
+  },
+  "src/click/core.py:3516": {
+   "name": "add_to_parser"
+  },
+  "src/click/core.py:3558": {
+   "name": "get_help_spec"
+  },
+  "src/click/core.py:3589": {
+   "name": "get_help_record"
+  },
+  "src/click/core.py:3614": {
+   "name": "get_help_extra"
+  },
+  "src/click/core.py:3698": {
+   "name": "prompt_for_value"
+  },
+  "src/click/core.py:3748": {
+   "name": "resolve_envvar_value"
+  },
+  "src/click/core.py:3772": {
+   "name": "value_from_envvar"
+  },
+  "src/click/core.py:3820": {
+   "name": "consume_value"
+  },
+  "src/click/core.py:3876": {
+   "name": "process_value"
+  },
+  "src/click/core.py:3909": {
+   "name": "__init__"
+  },
+  "src/click/core.py:3932": {
+   "name": "spec"
+  },
+  "src/click/core.py:3944": {
+   "name": "make_metavar"
+  },
+  "src/click/core.py:3963": {
+   "name": "_parse_decls"
+  },
+  "src/click/core.py:3984": {
+   "name": "get_usage_pieces"
+  },
+  "src/click/core.py:3987": {
+   "name": "get_help_spec"
+  },
+  "src/click/core.py:3995": {
+   "name": "get_help_record"
+  },
+  "src/click/core.py:4008": {
+   "name": "get_error_hint"
+  },
+  "src/click/core.py:4013": {
+   "name": "add_to_parser"
+  },
+  "src/click/core.py:1884": {
+   "name": "decorator"
+  },
+  "src/click/core.py:1936": {
+   "name": "decorator"
+  },
+  "src/click/core.py:1975": {
+   "name": "decorator"
+  },
+  "src/click/core.py:2053": {
+   "name": "_process_result"
+  },
+  "src/click/core.py:2738": {
+   "name": "check_iter"
+  },
+  "src/click/core.py:3569": {
+   "name": "_write_opts"
+  },
+  "src/click/core.py:1982": {
+   "name": "function"
+  },
+  "src/click/core.py:2753": {
+   "name": "convert"
+  },
+  "src/click/core.py:2758": {
+   "name": "convert"
+  },
+  "src/click/core.py:2763": {
+   "name": "convert"
+  },
+  "src/click/parser.py:51": {
+   "name": "_unpack_args"
+  },
+  "src/click/parser.py:111": {
+   "name": "_split_opt"
+  },
+  "src/click/parser.py:120": {
+   "name": "_normalize_opt"
+  },
+  "src/click/parser.py:503": {
+   "name": "__getattr__"
+  },
+  "src/click/parser.py:68": {
+   "name": "_fetch"
+  },
+  "src/click/parser.py:128": {
+   "name": "__init__"
+  },
+  "src/click/parser.py:166": {
+   "name": "takes_value"
+  },
+  "src/click/parser.py:169": {
+   "name": "process"
+  },
+  "src/click/parser.py:186": {
+   "name": "__init__"
+  },
+  "src/click/parser.py:191": {
+   "name": "process"
+  },
+  "src/click/parser.py:217": {
+   "name": "__init__"
+  },
+  "src/click/parser.py:241": {
+   "name": "__init__"
+  },
+  "src/click/parser.py:265": {
+   "name": "add_option"
+  },
+  "src/click/parser.py:290": {
+   "name": "add_argument"
+  },
+  "src/click/parser.py:298": {
+   "name": "parse_args"
+  },
+  "src/click/parser.py:316": {
+   "name": "_process_args_for_args"
+  },
+  "src/click/parser.py:327": {
+   "name": "_process_args_for_options"
+  },
+  "src/click/parser.py:363": {
+   "name": "_match_long_opt"
+  },
+  "src/click/parser.py:390": {
+   "name": "_match_short_opt"
+  },
+  "src/click/parser.py:430": {
+   "name": "_get_value_from_state"
+  },
+  "src/click/parser.py:470": {
+   "name": "_process_opts"
+  },
+  "src/click/exceptions.py:19": {
+   "name": "_join_param_hints"
+  },
+  "src/click/exceptions.py:26": {
+   "name": "_format_possibilities"
+  },
+  "src/click/exceptions.py:44": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:51": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:54": {
+   "name": "__str__"
+  },
+  "src/click/exceptions.py:57": {
+   "name": "show"
+  },
+  "src/click/exceptions.py:82": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:87": {
+   "name": "show"
+  },
+  "src/click/exceptions.py:135": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:146": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:173": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:184": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:224": {
+   "name": "__str__"
+  },
+  "src/click/exceptions.py:241": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:262": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:277": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:298": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:316": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:335": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:338": {
+   "name": "show"
+  },
+  "src/click/exceptions.py:348": {
+   "name": "__init__"
+  },
+  "src/click/exceptions.py:356": {
+   "name": "format_message"
+  },
+  "src/click/exceptions.py:377": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:71": {
+   "name": "_pause_echo"
+  },
+  "src/click/testing.py:211": {
+   "name": "make_input_stream"
+  },
+  "src/click/testing.py:37": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:42": {
+   "name": "__getattr__"
+  },
+  "src/click/testing.py:45": {
+   "name": "_echo"
+  },
+  "src/click/testing.py:51": {
+   "name": "read"
+  },
+  "src/click/testing.py:54": {
+   "name": "read1"
+  },
+  "src/click/testing.py:57": {
+   "name": "readline"
+  },
+  "src/click/testing.py:60": {
+   "name": "readlines"
+  },
+  "src/click/testing.py:63": {
+   "name": "__iter__"
+  },
+  "src/click/testing.py:66": {
+   "name": "__repr__"
+  },
+  "src/click/testing.py:95": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:100": {
+   "name": "start"
+  },
+  "src/click/testing.py:105": {
+   "name": "stop"
+  },
+  "src/click/testing.py:125": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:129": {
+   "name": "flush"
+  },
+  "src/click/testing.py:133": {
+   "name": "write"
+  },
+  "src/click/testing.py:150": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:172": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:184": {
+   "name": "close"
+  },
+  "src/click/testing.py:192": {
+   "name": "fileno"
+  },
+  "src/click/testing.py:203": {
+   "name": "name"
+  },
+  "src/click/testing.py:207": {
+   "name": "mode"
+  },
+  "src/click/testing.py:262": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:283": {
+   "name": "output"
+  },
+  "src/click/testing.py:295": {
+   "name": "stdout"
+  },
+  "src/click/testing.py:302": {
+   "name": "stderr"
+  },
+  "src/click/testing.py:312": {
+   "name": "__repr__"
+  },
+  "src/click/testing.py:360": {
+   "name": "__init__"
+  },
+  "src/click/testing.py:382": {
+   "name": "get_default_prog_name"
+  },
+  "src/click/testing.py:389": {
+   "name": "make_env"
+  },
+  "src/click/testing.py:399": {
+   "name": "isolation"
+  },
+  "src/click/testing.py:596": {
+   "name": "invoke"
+  },
+  "src/click/testing.py:742": {
+   "name": "isolated_filesystem"
+  },
+  "src/click/testing.py:475": {
+   "name": "visible_input"
+  },
+  "src/click/testing.py:486": {
+   "name": "hidden_input"
+  },
+  "src/click/testing.py:495": {
+   "name": "_getchar"
+  },
+  "src/click/testing.py:506": {
+   "name": "should_strip_ansi"
+  },
+  "src/click/testing.py:525": {
+   "name": "_patched_pdb_init"
+  },
+  "src/click/_utils.py:18": {
+   "name": "__repr__"
+  },
+  "src/click/_utils.py:21": {
+   "name": "__copy__"
+  },
+  "src/click/_utils.py:24": {
+   "name": "__deepcopy__"
+  },
+  "src/click/_utils.py:27": {
+   "name": "__reduce_ex__"
+  },
+  "src/click/types.py:1046": {
+   "name": "_is_file_like"
+  },
+  "src/click/types.py:1311": {
+   "name": "_guess_type"
+  },
+  "src/click/types.py:1347": {
+   "name": "convert_type"
+  },
+  "src/click/types.py:1349": {
+   "name": "convert_type"
+  },
+  "src/click/types.py:1353": {
+   "name": "convert_type"
+  },
+  "src/click/types.py:1356": {
+   "name": "convert_type"
+  },
+  "src/click/types.py:122": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:144": {
+   "name": "__call__"
+  },
+  "src/click/types.py:152": {
+   "name": "__call__"
+  },
+  "src/click/types.py:159": {
+   "name": "__call__"
+  },
+  "src/click/types.py:169": {
+   "name": "get_metavar"
+  },
+  "src/click/types.py:172": {
+   "name": "get_missing_message"
+  },
+  "src/click/types.py:179": {
+   "name": "convert"
+  },
+  "src/click/types.py:205": {
+   "name": "split_envvar_value"
+  },
+  "src/click/types.py:215": {
+   "name": "fail"
+  },
+  "src/click/types.py:224": {
+   "name": "shell_complete"
+  },
+  "src/click/types.py:247": {
+   "name": "arity"
+  },
+  "src/click/types.py:268": {
+   "name": "__init__"
+  },
+  "src/click/types.py:272": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:275": {
+   "name": "convert"
+  },
+  "src/click/types.py:295": {
+   "name": "convert"
+  },
+  "src/click/types.py:300": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:307": {
+   "name": "convert"
+  },
+  "src/click/types.py:325": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:375": {
+   "name": "__init__"
+  },
+  "src/click/types.py:381": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:388": {
+   "name": "_normalized_mapping"
+  },
+  "src/click/types.py:406": {
+   "name": "normalize_choice"
+  },
+  "src/click/types.py:426": {
+   "name": "get_metavar"
+  },
+  "src/click/types.py:444": {
+   "name": "get_missing_message"
+  },
+  "src/click/types.py:454": {
+   "name": "convert"
+  },
+  "src/click/types.py:478": {
+   "name": "get_invalid_choice_message"
+  },
+  "src/click/types.py:492": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:495": {
+   "name": "shell_complete"
+  },
+  "src/click/types.py:547": {
+   "name": "__init__"
+  },
+  "src/click/types.py:554": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:557": {
+   "name": "get_metavar"
+  },
+  "src/click/types.py:560": {
+   "name": "_try_to_convert_date"
+  },
+  "src/click/types.py:566": {
+   "name": "convert"
+  },
+  "src/click/types.py:589": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:598": {
+   "name": "convert"
+  },
+  "src/click/types.py:642": {
+   "name": "__init__"
+  },
+  "src/click/types.py:656": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:666": {
+   "name": "convert"
+  },
+  "src/click/types.py:700": {
+   "name": "_clamp"
+  },
+  "src/click/types.py:717": {
+   "name": "_describe_range"
+  },
+  "src/click/types.py:731": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:740": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:761": {
+   "name": "_clamp"
+  },
+  "src/click/types.py:772": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:794": {
+   "name": "__init__"
+  },
+  "src/click/types.py:809": {
+   "name": "_clamp"
+  },
+  "src/click/types.py:856": {
+   "name": "str_to_bool"
+  },
+  "src/click/types.py:870": {
+   "name": "convert"
+  },
+  "src/click/types.py:884": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:891": {
+   "name": "convert"
+  },
+  "src/click/types.py:906": {
+   "name": "__repr__"
+  },
+  "src/click/types.py:954": {
+   "name": "__init__"
+  },
+  "src/click/types.py:968": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:975": {
+   "name": "resolve_lazy_flag"
+  },
+  "src/click/types.py:984": {
+   "name": "convert"
+  },
+  "src/click/types.py:1029": {
+   "name": "shell_complete"
+  },
+  "src/click/types.py:1107": {
+   "name": "__init__"
+  },
+  "src/click/types.py:1136": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:1147": {
+   "name": "coerce_path_result"
+  },
+  "src/click/types.py:1161": {
+   "name": "convert"
+  },
+  "src/click/types.py:1235": {
+   "name": "shell_complete"
+  },
+  "src/click/types.py:1272": {
+   "name": "__init__"
+  },
+  "src/click/types.py:1275": {
+   "name": "to_info_dict"
+  },
+  "src/click/types.py:1282": {
+   "name": "name"
+  },
+  "src/click/types.py:1286": {
+   "name": "arity"
+  },
+  "src/click/types.py:1289": {
+   "name": "convert"
+  },
+  "src/click/types.py:113": {
+   "name": "__class_getitem__"
+  },
+  "src/click/_winconsole.py:222": {
+   "name": "_get_text_stdin"
+  },
+  "src/click/_winconsole.py:232": {
+   "name": "_get_text_stdout"
+  },
+  "src/click/_winconsole.py:242": {
+   "name": "_get_text_stderr"
+  },
+  "src/click/_winconsole.py:259": {
+   "name": "_is_console"
+  },
+  "src/click/_winconsole.py:272": {
+   "name": "_get_windows_console_stream"
+  },
+  "src/click/_winconsole.py:101": {
+   "name": "get_buffer"
+  },
+  "src/click/_winconsole.py:115": {
+   "name": "__init__"
+  },
+  "src/click/_winconsole.py:118": {
+   "name": "isatty"
+  },
+  "src/click/_winconsole.py:124": {
+   "name": "readable"
+  },
+  "src/click/_winconsole.py:127": {
+   "name": "readinto"
+  },
+  "src/click/_winconsole.py:159": {
+   "name": "writable"
+  },
+  "src/click/_winconsole.py:163": {
+   "name": "_get_error_message"
+  },
+  "src/click/_winconsole.py:170": {
+   "name": "write"
+  },
+  "src/click/_winconsole.py:191": {
+   "name": "__init__"
+  },
+  "src/click/_winconsole.py:196": {
+   "name": "name"
+  },
+  "src/click/_winconsole.py:199": {
+   "name": "write"
+  },
+  "src/click/_winconsole.py:208": {
+   "name": "writelines"
+  },
+  "src/click/_winconsole.py:212": {
+   "name": "__getattr__"
+  },
+  "src/click/_winconsole.py:215": {
+   "name": "isatty"
+  },
+  "src/click/_winconsole.py:218": {
+   "name": "__repr__"
+  },
+  "src/click/globals.py:13": {
+   "name": "get_current_context"
+  },
+  "src/click/globals.py:17": {
+   "name": "get_current_context"
+  },
+  "src/click/globals.py:20": {
+   "name": "get_current_context"
+  },
+  "src/click/globals.py:44": {
+   "name": "push_context"
+  },
+  "src/click/globals.py:49": {
+   "name": "pop_context"
+  },
+  "src/click/globals.py:54": {
+   "name": "resolve_color_default"
+  },
+  "src/click/_textwrap.py:11": {
+   "name": "_truncate_visible"
+  },
+  "src/click/_textwrap.py:48": {
+   "name": "_handle_long_word"
+  },
+  "src/click/_textwrap.py:66": {
+   "name": "_wrap_chunks"
+  },
+  "src/click/_textwrap.py:165": {
+   "name": "extra_indent"
+  },
+  "src/click/_textwrap.py:177": {
+   "name": "indent_only"
+  },
+  "src/click/utils.py:32": {
+   "name": "_posixify"
+  },
+  "src/click/utils.py:36": {
+   "name": "_safecall"
+  },
+  "src/click/utils.py:52": {
+   "name": "make_str"
+  },
+  "src/click/utils.py:62": {
+   "name": "_make_default_short_help"
+  },
+  "src/click/utils.py:240": {
+   "name": "echo"
+  },
+  "src/click/utils.py:337": {
+   "name": "_get_binary_stream"
+  },
+  "src/click/utils.py:354": {
+   "name": "_get_text_stream"
+  },
+  "src/click/utils.py:381": {
+   "name": "open_file"
+  },
+  "src/click/utils.py:430": {
+   "name": "format_filename"
+  },
+  "src/click/utils.py:472": {
+   "name": "get_app_dir"
+  },
+  "src/click/utils.py:550": {
+   "name": "_detect_program_name"
+  },
+  "src/click/utils.py:605": {
+   "name": "_expand_args"
+  },
+  "src/click/utils.py:657": {
+   "name": "__getattr__"
+  },
+  "src/click/utils.py:42": {
+   "name": "wrapper"
+  },
+  "src/click/utils.py:120": {
+   "name": "__init__"
+  },
+  "src/click/utils.py:145": {
+   "name": "__getattr__"
+  },
+  "src/click/utils.py:148": {
+   "name": "__repr__"
+  },
+  "src/click/utils.py:153": {
+   "name": "open"
+  },
+  "src/click/utils.py:171": {
+   "name": "close"
+  },
+  "src/click/utils.py:176": {
+   "name": "close_intelligently"
+  },
+  "src/click/utils.py:183": {
+   "name": "__enter__"
+  },
+  "src/click/utils.py:186": {
+   "name": "__exit__"
+  },
+  "src/click/utils.py:194": {
+   "name": "__iter__"
+  },
+  "src/click/utils.py:216": {
+   "name": "__init__"
+  },
+  "src/click/utils.py:219": {
+   "name": "__getattr__"
+  },
+  "src/click/utils.py:222": {
+   "name": "__enter__"
+  },
+  "src/click/utils.py:225": {
+   "name": "__exit__"
+  },
+  "src/click/utils.py:233": {
+   "name": "__repr__"
+  },
+  "src/click/utils.py:236": {
+   "name": "__iter__"
+  },
+  "src/click/utils.py:534": {
+   "name": "__init__"
+  },
+  "src/click/utils.py:537": {
+   "name": "flush"
+  },
+  "src/click/utils.py:546": {
+   "name": "__getattr__"
+  },
+  "src/click/_compat.py:59": {
+   "name": "_NonClosingTextIOWrapper"
+  },
+  "src/click/_compat.py:85": {
+   "name": "_FixupStream"
+  },
+  "src/click/_compat.py:455": {
+   "name": "_AtomicFile"
+  },
+  "src/click/_termui_impl.py:43": {
+   "name": "ProgressBar"
+  },
+  "src/click/_termui_impl.py:383": {
+   "name": "_PagerWriter"
+  },
+  "src/click/_termui_impl.py:683": {
+   "name": "Editor"
+  },
+  "src/click/shell_completion.py:67": {
+   "name": "CompletionItem"
+  },
+  "src/click/shell_completion.py:272": {
+   "name": "_SourceVarsDict"
+  },
+  "src/click/shell_completion.py:278": {
+   "name": "ShellComplete"
+  },
+  "src/click/shell_completion.py:389": {
+   "name": "BashComplete"
+  },
+  "src/click/shell_completion.py:448": {
+   "name": "ZshComplete"
+  },
+  "src/click/shell_completion.py:484": {
+   "name": "FishComplete"
+  },
+  "src/click/shell_completion.py:521": {
+   "name": "PowerShellComplete"
+  },
+  "src/click/formatting.py:110": {
+   "name": "HelpFormatter"
+  },
+  "src/click/core.py:199": {
+   "name": "ParameterSource"
+  },
+  "src/click/core.py:238": {
+   "name": "Context"
+  },
+  "src/click/core.py:989": {
+   "name": "Command"
+  },
+  "src/click/core.py:1688": {
+   "name": "_FakeSubclassCheck"
+  },
+  "src/click/core.py:1696": {
+   "name": "_BaseCommand"
+  },
+  "src/click/core.py:1703": {
+   "name": "Group"
+  },
+  "src/click/core.py:2166": {
+   "name": "_MultiCommand"
+  },
+  "src/click/core.py:2173": {
+   "name": "CommandCollection"
+  },
+  "src/click/core.py:2241": {
+   "name": "Parameter"
+  },
+  "src/click/core.py:3057": {
+   "name": "Option"
+  },
+  "src/click/core.py:3894": {
+   "name": "Argument"
+  },
+  "src/click/parser.py:127": {
+   "name": "_Option"
+  },
+  "src/click/parser.py:185": {
+   "name": "_Argument"
+  },
+  "src/click/parser.py:216": {
+   "name": "_ParsingState"
+  },
+  "src/click/parser.py:224": {
+   "name": "_OptionParser"
+  },
+  "src/click/exceptions.py:35": {
+   "name": "ClickException"
+  },
+  "src/click/exceptions.py:68": {
+   "name": "UsageError"
+  },
+  "src/click/exceptions.py:114": {
+   "name": "BadParameter"
+  },
+  "src/click/exceptions.py:159": {
+   "name": "MissingParameter"
+  },
+  "src/click/exceptions.py:232": {
+   "name": "NoSuchOption"
+  },
+  "src/click/exceptions.py:268": {
+   "name": "NoSuchCommand"
+  },
+  "src/click/exceptions.py:304": {
+   "name": "BadOptionUsage"
+  },
+  "src/click/exceptions.py:323": {
+   "name": "BadArgumentUsage"
+  },
+  "src/click/exceptions.py:332": {
+   "name": "NoArgsIsHelpError"
+  },
+  "src/click/exceptions.py:342": {
+   "name": "FileError"
+  },
+  "src/click/exceptions.py:362": {
+   "name": "Abort"
+  },
+  "src/click/exceptions.py:366": {
+   "name": "Exit"
+  },
+  "src/click/testing.py:32": {
+   "name": "EchoingStdin"
+  },
+  "src/click/testing.py:80": {
+   "name": "_FDCapture"
+  },
+  "src/click/testing.py:117": {
+   "name": "BytesIOCopy"
+  },
+  "src/click/testing.py:138": {
+   "name": "StreamMixer"
+  },
+  "src/click/testing.py:156": {
+   "name": "_NamedTextIOWrapper"
+  },
+  "src/click/testing.py:231": {
+   "name": "Result"
+  },
+  "src/click/testing.py:317": {
+   "name": "CliRunner"
+  },
+  "src/click/_utils.py:7": {
+   "name": "Sentinel"
+  },
+  "src/click/types.py:60": {
+   "name": "ParamTypeInfoDict"
+  },
+  "src/click/types.py:65": {
+   "name": "ParamType"
+  },
+  "src/click/types.py:242": {
+   "name": "CompositeParamType"
+  },
+  "src/click/types.py:264": {
+   "name": "FuncParamType"
+  },
+  "src/click/types.py:292": {
+   "name": "UnprocessedParamType"
+  },
+  "src/click/types.py:304": {
+   "name": "StringParamType"
+  },
+  "src/click/types.py:342": {
+   "name": "Choice"
+  },
+  "src/click/types.py:518": {
+   "name": "DateTimeInfoDict"
+  },
+  "src/click/types.py:522": {
+   "name": "DateTime"
+  },
+  "src/click/types.py:593": {
+   "name": "_NumberParamTypeBase"
+  },
+  "src/click/types.py:632": {
+   "name": "_NumberRangeBase"
+  },
+  "src/click/types.py:736": {
+   "name": "IntParamType"
+  },
+  "src/click/types.py:744": {
+   "name": "IntRange"
+  },
+  "src/click/types.py:768": {
+   "name": "FloatParamType"
+  },
+  "src/click/types.py:776": {
+   "name": "FloatRange"
+  },
+  "src/click/types.py:819": {
+   "name": "BoolParamType"
+  },
+  "src/click/types.py:888": {
+   "name": "UUIDParameterType"
+  },
+  "src/click/types.py:910": {
+   "name": "FileInfoDict"
+  },
+  "src/click/types.py:915": {
+   "name": "File"
+  },
+  "src/click/types.py:1050": {
+   "name": "PathInfoDict"
+  },
+  "src/click/types.py:1059": {
+   "name": "Path"
+  },
+  "src/click/types.py:1254": {
+   "name": "TupleInfoDict"
+  },
+  "src/click/types.py:1258": {
+   "name": "Tuple"
+  },
+  "src/click/types.py:1433": {
+   "name": "OptionHelpExtra"
+  },
+  "src/click/types.py:253": {
+   "name": "FuncParamTypeInfoDict"
+  },
+  "src/click/types.py:260": {
+   "name": "FuncParamTypeInfoDict"
+  },
+  "src/click/types.py:332": {
+   "name": "ChoiceInfoDict"
+  },
+  "src/click/types.py:337": {
+   "name": "ChoiceInfoDict"
+  },
+  "src/click/types.py:616": {
+   "name": "NumberRangeInfoDict"
+  },
+  "src/click/types.py:624": {
+   "name": "NumberRangeInfoDict"
+  },
+  "src/click/_winconsole.py:114": {
+   "name": "_WindowsConsoleRawIOBase"
+  },
+  "src/click/_winconsole.py:123": {
+   "name": "_WindowsConsoleReader"
+  },
+  "src/click/_winconsole.py:158": {
+   "name": "_WindowsConsoleWriter"
+  },
+  "src/click/_winconsole.py:190": {
+   "name": "ConsoleStream"
+  },
+  "src/click/_winconsole.py:83": {
+   "name": "Py_buffer"
+  },
+  "src/click/_textwrap.py:38": {
+   "name": "TextWrapper"
+  },
+  "src/click/utils.py:103": {
+   "name": "_LazyFile"
+  },
+  "src/click/utils.py:199": {
+   "name": "_KeepOpenFile"
+  },
+  "src/click/utils.py:521": {
+   "name": "_PacifyFlushWrapper"
+  }
+ },
+ "edges": [
+  {
+   "src": "src/click/_compat.py:108",
+   "dst": "src/click/testing.py:51",
+   "line": 114
+  },
+  {
+   "src": "src/click/_compat.py:116",
+   "dst": "src/click/testing.py:51",
+   "line": 123
+  },
+  {
+   "src": "src/click/_compat.py:154",
+   "dst": "src/click/testing.py:51",
+   "line": 156
+  },
+  {
+   "src": "src/click/_compat.py:176",
+   "dst": "src/click/_compat.py:154",
+   "line": 181
+  },
+  {
+   "src": "src/click/_compat.py:194",
+   "dst": "src/click/_compat.py:163",
+   "line": 199
+  },
+  {
+   "src": "src/click/_compat.py:212",
+   "dst": "src/click/_compat.py:43",
+   "line": 218
+  },
+  {
+   "src": "src/click/_compat.py:22",
+   "dst": "src/click/_compat.py:51",
+   "line": 30
+  },
+  {
+   "src": "src/click/_compat.py:22",
+   "dst": "src/click/_compat.py:59",
+   "line": 33
+  },
+  {
+   "src": "src/click/_compat.py:230",
+   "dst": "src/click/_compat.py:221",
+   "line": 236
+  },
+  {
+   "src": "src/click/_compat.py:241",
+   "dst": "src/click/_compat.py:212",
+   "line": 257
+  },
+  {
+   "src": "src/click/_compat.py:241",
+   "dst": "src/click/_compat.py:22",
+   "line": 278
+  },
+  {
+   "src": "src/click/_compat.py:241",
+   "dst": "src/click/_compat.py:230",
+   "line": 256
+  },
+  {
+   "src": "src/click/_compat.py:287",
+   "dst": "src/click/_compat.py:241",
+   "line": 293
+  },
+  {
+   "src": "src/click/_compat.py:303",
+   "dst": "src/click/_compat.py:241",
+   "line": 309
+  },
+  {
+   "src": "src/click/_compat.py:319",
+   "dst": "src/click/_compat.py:176",
+   "line": 320
+  },
+  {
+   "src": "src/click/_compat.py:326",
+   "dst": "src/click/_compat.py:194",
+   "line": 327
+  },
+  {
+   "src": "src/click/_compat.py:333",
+   "dst": "src/click/_compat.py:194",
+   "line": 334
+  },
+  {
+   "src": "src/click/_compat.py:340",
+   "dst": "src/click/_compat.py:287",
+   "line": 344
+  },
+  {
+   "src": "src/click/_compat.py:340",
+   "dst": "src/click/_winconsole.py:272",
+   "line": 341
+  },
+  {
+   "src": "src/click/_compat.py:347",
+   "dst": "src/click/_compat.py:303",
+   "line": 351
+  },
+  {
+   "src": "src/click/_compat.py:347",
+   "dst": "src/click/_winconsole.py:272",
+   "line": 348
+  },
+  {
+   "src": "src/click/_compat.py:354",
+   "dst": "src/click/_compat.py:303",
+   "line": 358
+  },
+  {
+   "src": "src/click/_compat.py:354",
+   "dst": "src/click/_winconsole.py:272",
+   "line": 355
+  },
+  {
+   "src": "src/click/_compat.py:361",
+   "dst": "src/click/utils.py:153",
+   "line": 371
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:319",
+   "line": 392
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:326",
+   "line": 389
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:340",
+   "line": 393
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:347",
+   "line": 390
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:361",
+   "line": 450
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/_compat.py:455",
+   "line": 451
+  },
+  {
+   "src": "src/click/_compat.py:374",
+   "dst": "src/click/utils.py:153",
+   "line": 435
+  },
+  {
+   "src": "src/click/_compat.py:502",
+   "dst": "src/click/_compat.py:495",
+   "line": 512
+  },
+  {
+   "src": "src/click/_compat.py:502",
+   "dst": "src/click/_compat.py:540",
+   "line": 512
+  },
+  {
+   "src": "src/click/_compat.py:51",
+   "dst": "src/click/_compat.py:43",
+   "line": 54
+  },
+  {
+   "src": "src/click/_compat.py:536",
+   "dst": "src/click/_compat.py:491",
+   "line": 537
+  },
+  {
+   "src": "src/click/_compat.py:60",
+   "dst": "src/click/_compat.py:85",
+   "line": 70
+  },
+  {
+   "src": "src/click/_termui_impl.py:115",
+   "dst": "src/click/_termui_impl.py:250",
+   "line": 117
+  },
+  {
+   "src": "src/click/_termui_impl.py:120",
+   "dst": "src/click/_termui_impl.py:142",
+   "line": 126
+  },
+  {
+   "src": "src/click/_termui_impl.py:128",
+   "dst": "src/click/_termui_impl.py:250",
+   "line": 131
+  },
+  {
+   "src": "src/click/_termui_impl.py:128",
+   "dst": "src/click/_termui_impl.py:349",
+   "line": 132
+  },
+  {
+   "src": "src/click/_termui_impl.py:142",
+   "dst": "src/click/_termui_impl.py:250",
+   "line": 149
+  },
+  {
+   "src": "src/click/_termui_impl.py:142",
+   "dst": "src/click/_termui_impl.py:296",
+   "line": 147
+  },
+  {
+   "src": "src/click/_termui_impl.py:223",
+   "dst": "src/click/_termui_impl.py:174",
+   "line": 235
+  },
+  {
+   "src": "src/click/_termui_impl.py:223",
+   "dst": "src/click/_termui_impl.py:195",
+   "line": 231
+  },
+  {
+   "src": "src/click/_termui_impl.py:223",
+   "dst": "src/click/_termui_impl.py:201",
+   "line": 233
+  },
+  {
+   "src": "src/click/_termui_impl.py:223",
+   "dst": "src/click/_termui_impl.py:204",
+   "line": 245
+  },
+  {
+   "src": "src/click/_termui_impl.py:250",
+   "dst": "src/click/_compat.py:536",
+   "line": 282
+  },
+  {
+   "src": "src/click/_termui_impl.py:250",
+   "dst": "src/click/_termui_impl.py:223",
+   "line": 281
+  },
+  {
+   "src": "src/click/_termui_impl.py:250",
+   "dst": "src/click/utils.py:240",
+   "line": 293
+  },
+  {
+   "src": "src/click/_termui_impl.py:318",
+   "dst": "src/click/_termui_impl.py:250",
+   "line": 341
+  },
+  {
+   "src": "src/click/_termui_impl.py:318",
+   "dst": "src/click/_termui_impl.py:296",
+   "line": 340
+  },
+  {
+   "src": "src/click/_termui_impl.py:349",
+   "dst": "src/click/_termui_impl.py:250",
+   "line": 380
+  },
+  {
+   "src": "src/click/_termui_impl.py:349",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 377
+  },
+  {
+   "src": "src/click/_termui_impl.py:349",
+   "dst": "src/click/_termui_impl.py:344",
+   "line": 379
+  },
+  {
+   "src": "src/click/_termui_impl.py:401",
+   "dst": "src/click/_compat.py:491",
+   "line": 403
+  },
+  {
+   "src": "src/click/_termui_impl.py:423",
+   "dst": "src/click/types.py:1059",
+   "line": 448
+  },
+  {
+   "src": "src/click/_termui_impl.py:44",
+   "dst": "src/click/_compat.py:540",
+   "line": 112
+  },
+  {
+   "src": "src/click/_termui_impl.py:451",
+   "dst": "src/click/_compat.py:540",
+   "line": 462
+  },
+  {
+   "src": "src/click/_termui_impl.py:451",
+   "dst": "src/click/_termui_impl.py:423",
+   "line": 482
+  },
+  {
+   "src": "src/click/_termui_impl.py:451",
+   "dst": "src/click/_termui_impl.py:549",
+   "line": 493
+  },
+  {
+   "src": "src/click/_termui_impl.py:451",
+   "dst": "src/click/_termui_impl.py:636",
+   "line": 491
+  },
+  {
+   "src": "src/click/_termui_impl.py:451",
+   "dst": "src/click/_termui_impl.py:671",
+   "line": 463
+  },
+  {
+   "src": "src/click/_termui_impl.py:497",
+   "dst": "src/click/_termui_impl.py:383",
+   "line": 513
+  },
+  {
+   "src": "src/click/_termui_impl.py:497",
+   "dst": "src/click/_termui_impl.py:451",
+   "line": 507
+  },
+  {
+   "src": "src/click/_termui_impl.py:549",
+   "dst": "src/click/_termui_impl.py:520",
+   "line": 580
+  },
+  {
+   "src": "src/click/_termui_impl.py:636",
+   "dst": "src/click/_compat.py:51",
+   "line": 649
+  },
+  {
+   "src": "src/click/_termui_impl.py:713",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 723
+  },
+  {
+   "src": "src/click/_termui_impl.py:713",
+   "dst": "src/click/_termui_impl.py:696",
+   "line": 718
+  },
+  {
+   "src": "src/click/_termui_impl.py:713",
+   "dst": "src/click/exceptions.py:35",
+   "line": 735
+  },
+  {
+   "src": "src/click/_termui_impl.py:751",
+   "dst": "src/click/_termui_impl.py:713",
+   "line": 783
+  },
+  {
+   "src": "src/click/_termui_impl.py:751",
+   "dst": "src/click/testing.py:51",
+   "line": 789
+  },
+  {
+   "src": "src/click/_termui_impl.py:751",
+   "dst": "src/click/utils.py:153",
+   "line": 788
+  },
+  {
+   "src": "src/click/_termui_impl.py:799",
+   "dst": "src/click/_termui_impl.py:802",
+   "line": 816
+  },
+  {
+   "src": "src/click/_termui_impl.py:799",
+   "dst": "src/click/utils.py:153",
+   "line": 817
+  },
+  {
+   "src": "src/click/_termui_impl.py:887",
+   "dst": "src/click/_compat.py:553",
+   "line": 923
+  },
+  {
+   "src": "src/click/_termui_impl.py:887",
+   "dst": "src/click/_termui_impl.py:869",
+   "line": 930
+  },
+  {
+   "src": "src/click/_termui_impl.py:938",
+   "dst": "src/click/_compat.py:540",
+   "line": 942
+  },
+  {
+   "src": "src/click/_termui_impl.py:938",
+   "dst": "src/click/testing.py:192",
+   "line": 944
+  },
+  {
+   "src": "src/click/_termui_impl.py:938",
+   "dst": "src/click/utils.py:153",
+   "line": 943
+  },
+  {
+   "src": "src/click/_termui_impl.py:964",
+   "dst": "src/click/_compat.py:51",
+   "line": 966
+  },
+  {
+   "src": "src/click/_termui_impl.py:964",
+   "dst": "src/click/_compat.py:540",
+   "line": 968
+  },
+  {
+   "src": "src/click/_termui_impl.py:964",
+   "dst": "src/click/_termui_impl.py:869",
+   "line": 971
+  },
+  {
+   "src": "src/click/_termui_impl.py:964",
+   "dst": "src/click/_termui_impl.py:884",
+   "line": 965
+  },
+  {
+   "src": "src/click/_termui_impl.py:964",
+   "dst": "src/click/testing.py:51",
+   "line": 966
+  },
+  {
+   "src": "src/click/_textwrap.py:48",
+   "dst": "src/click/_textwrap.py:11",
+   "line": 59
+  },
+  {
+   "src": "src/click/_textwrap.py:66",
+   "dst": "src/click/_compat.py:536",
+   "line": 103
+  },
+  {
+   "src": "src/click/_textwrap.py:66",
+   "dst": "src/click/_textwrap.py:48",
+   "line": 119
+  },
+  {
+   "src": "src/click/_winconsole.py:101",
+   "dst": "src/click/_winconsole.py:83",
+   "line": 102
+  },
+  {
+   "src": "src/click/_winconsole.py:127",
+   "dst": "src/click/_winconsole.py:101",
+   "line": 136
+  },
+  {
+   "src": "src/click/_winconsole.py:170",
+   "dst": "src/click/_winconsole.py:101",
+   "line": 172
+  },
+  {
+   "src": "src/click/_winconsole.py:170",
+   "dst": "src/click/_winconsole.py:163",
+   "line": 186
+  },
+  {
+   "src": "src/click/_winconsole.py:222",
+   "dst": "src/click/_compat.py:59",
+   "line": 223
+  },
+  {
+   "src": "src/click/_winconsole.py:222",
+   "dst": "src/click/_winconsole.py:123",
+   "line": 224
+  },
+  {
+   "src": "src/click/_winconsole.py:222",
+   "dst": "src/click/_winconsole.py:190",
+   "line": 229
+  },
+  {
+   "src": "src/click/_winconsole.py:232",
+   "dst": "src/click/_compat.py:59",
+   "line": 233
+  },
+  {
+   "src": "src/click/_winconsole.py:232",
+   "dst": "src/click/_winconsole.py:158",
+   "line": 234
+  },
+  {
+   "src": "src/click/_winconsole.py:232",
+   "dst": "src/click/_winconsole.py:190",
+   "line": 239
+  },
+  {
+   "src": "src/click/_winconsole.py:242",
+   "dst": "src/click/_compat.py:59",
+   "line": 243
+  },
+  {
+   "src": "src/click/_winconsole.py:242",
+   "dst": "src/click/_winconsole.py:158",
+   "line": 244
+  },
+  {
+   "src": "src/click/_winconsole.py:242",
+   "dst": "src/click/_winconsole.py:190",
+   "line": 249
+  },
+  {
+   "src": "src/click/_winconsole.py:259",
+   "dst": "src/click/testing.py:192",
+   "line": 264
+  },
+  {
+   "src": "src/click/_winconsole.py:272",
+   "dst": "src/click/_compat.py:553",
+   "line": 292
+  },
+  {
+   "src": "src/click/_winconsole.py:272",
+   "dst": "src/click/_winconsole.py:259",
+   "line": 279
+  },
+  {
+   "src": "src/click/_winconsole.py:272",
+   "dst": "src/click/testing.py:192",
+   "line": 283
+  },
+  {
+   "src": "src/click/core.py:103",
+   "dst": "src/click/utils.py:240",
+   "line": 105
+  },
+  {
+   "src": "src/click/core.py:1109",
+   "dst": "src/click/core.py:1132",
+   "line": 1112
+  },
+  {
+   "src": "src/click/core.py:1123",
+   "dst": "src/click/core.py:1188",
+   "line": 1129
+  },
+  {
+   "src": "src/click/core.py:1123",
+   "dst": "src/click/core.py:664",
+   "line": 1128
+  },
+  {
+   "src": "src/click/core.py:1123",
+   "dst": "src/click/formatting.py:297",
+   "line": 1130
+  },
+  {
+   "src": "src/click/core.py:1132",
+   "dst": "src/click/core.py:1222",
+   "line": 1134
+  },
+  {
+   "src": "src/click/core.py:1188",
+   "dst": "src/click/formatting.py:158",
+   "line": 1194
+  },
+  {
+   "src": "src/click/core.py:1196",
+   "dst": "src/click/core.py:1132",
+   "line": 1202
+  },
+  {
+   "src": "src/click/core.py:1222",
+   "dst": "src/click/core.py:1207",
+   "line": 1235
+  },
+  {
+   "src": "src/click/core.py:1222",
+   "dst": "src/click/decorators.py:603",
+   "line": 1251
+  },
+  {
+   "src": "src/click/core.py:1256",
+   "dst": "src/click/core.py:1132",
+   "line": 1259
+  },
+  {
+   "src": "src/click/core.py:1256",
+   "dst": "src/click/parser.py:224",
+   "line": 1258
+  },
+  {
+   "src": "src/click/core.py:1263",
+   "dst": "src/click/core.py:1288",
+   "line": 1269
+  },
+  {
+   "src": "src/click/core.py:1263",
+   "dst": "src/click/core.py:664",
+   "line": 1268
+  },
+  {
+   "src": "src/click/core.py:1263",
+   "dst": "src/click/formatting.py:297",
+   "line": 1270
+  },
+  {
+   "src": "src/click/core.py:1272",
+   "dst": "src/click/core.py:132",
+   "line": 1284
+  },
+  {
+   "src": "src/click/core.py:1272",
+   "dst": "src/click/utils.py:62",
+   "line": 1279
+  },
+  {
+   "src": "src/click/core.py:1288",
+   "dst": "src/click/core.py:1188",
+   "line": 1301
+  },
+  {
+   "src": "src/click/core.py:1288",
+   "dst": "src/click/core.py:1307",
+   "line": 1302
+  },
+  {
+   "src": "src/click/core.py:1288",
+   "dst": "src/click/core.py:1337",
+   "line": 1303
+  },
+  {
+   "src": "src/click/core.py:1288",
+   "dst": "src/click/core.py:1350",
+   "line": 1305
+  },
+  {
+   "src": "src/click/core.py:1307",
+   "dst": "src/click/core.py:132",
+   "line": 1316
+  },
+  {
+   "src": "src/click/core.py:1307",
+   "dst": "src/click/formatting.py:208",
+   "line": 1320
+  },
+  {
+   "src": "src/click/core.py:1307",
+   "dst": "src/click/formatting.py:213",
+   "line": 1323
+  },
+  {
+   "src": "src/click/core.py:1307",
+   "dst": "src/click/formatting.py:289",
+   "line": 1322
+  },
+  {
+   "src": "src/click/core.py:1325",
+   "dst": "src/click/core.py:1132",
+   "line": 1328
+  },
+  {
+   "src": "src/click/core.py:1325",
+   "dst": "src/click/formatting.py:229",
+   "line": 1335
+  },
+  {
+   "src": "src/click/core.py:1325",
+   "dst": "src/click/formatting.py:274",
+   "line": 1334
+  },
+  {
+   "src": "src/click/core.py:1337",
+   "dst": "src/click/core.py:1132",
+   "line": 1344
+  },
+  {
+   "src": "src/click/core.py:1337",
+   "dst": "src/click/formatting.py:229",
+   "line": 1348
+  },
+  {
+   "src": "src/click/core.py:1337",
+   "dst": "src/click/formatting.py:274",
+   "line": 1347
+  },
+  {
+   "src": "src/click/core.py:1350",
+   "dst": "src/click/formatting.py:208",
+   "line": 1354
+  },
+  {
+   "src": "src/click/core.py:1350",
+   "dst": "src/click/formatting.py:213",
+   "line": 1357
+  },
+  {
+   "src": "src/click/core.py:1350",
+   "dst": "src/click/formatting.py:289",
+   "line": 1356
+  },
+  {
+   "src": "src/click/core.py:1359",
+   "dst": "src/click/core.py:599",
+   "line": 1392
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 1429
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/core.py:1132",
+   "line": 1403
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/core.py:1256",
+   "line": 1400
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/core.py:172",
+   "line": 1403
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/core.py:2929",
+   "line": 1404
+  },
+  {
+   "src": "src/click/core.py:1396",
+   "dst": "src/click/exceptions.py:332",
+   "line": 1398
+  },
+  {
+   "src": "src/click/core.py:1432",
+   "dst": "src/click/core.py:140",
+   "line": 1441
+  },
+  {
+   "src": "src/click/core.py:1432",
+   "dst": "src/click/termui.py:641",
+   "line": 1443
+  },
+  {
+   "src": "src/click/core.py:1432",
+   "dst": "src/click/utils.py:240",
+   "line": 1443
+  },
+  {
+   "src": "src/click/core.py:1448",
+   "dst": "src/click/core.py:1132",
+   "line": 1465
+  },
+  {
+   "src": "src/click/core.py:1448",
+   "dst": "src/click/core.py:1272",
+   "line": 1488
+  },
+  {
+   "src": "src/click/core.py:1448",
+   "dst": "src/click/core.py:64",
+   "line": 1489
+  },
+  {
+   "src": "src/click/core.py:1448",
+   "dst": "src/click/core.py:970",
+   "line": 1471
+  },
+  {
+   "src": "src/click/core.py:1448",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 1478
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/core.py:1359",
+   "line": 1591
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/core.py:1651",
+   "line": 1578
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/core.py:849",
+   "line": 1644
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/exceptions.py:362",
+   "line": 1626
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/utils.py:240",
+   "line": 1623
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/utils.py:521",
+   "line": 1638
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/utils.py:550",
+   "line": 1575
+  },
+  {
+   "src": "src/click/core.py:1515",
+   "dst": "src/click/utils.py:605",
+   "line": 1570
+  },
+  {
+   "src": "src/click/core.py:1651",
+   "dst": "src/click/core.py:849",
+   "line": 1681
+  },
+  {
+   "src": "src/click/core.py:1651",
+   "dst": "src/click/shell_completion.py:19",
+   "line": 1680
+  },
+  {
+   "src": "src/click/core.py:1817",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 1832
+  },
+  {
+   "src": "src/click/core.py:1817",
+   "dst": "src/click/core.py:599",
+   "line": 1829
+  },
+  {
+   "src": "src/click/core.py:1817",
+   "dst": "src/click/core.py:871",
+   "line": 1827
+  },
+  {
+   "src": "src/click/core.py:1835",
+   "dst": "src/click/core.py:83",
+   "line": 1842
+  },
+  {
+   "src": "src/click/core.py:1853",
+   "dst": "src/click/core.py:1835",
+   "line": 1886
+  },
+  {
+   "src": "src/click/core.py:1853",
+   "dst": "src/click/core.py:1884",
+   "line": 1890
+  },
+  {
+   "src": "src/click/core.py:1853",
+   "dst": "src/click/decorators.py:138",
+   "line": 1885
+  },
+  {
+   "src": "src/click/core.py:1884",
+   "dst": "src/click/core.py:1835",
+   "line": 1886
+  },
+  {
+   "src": "src/click/core.py:1884",
+   "dst": "src/click/decorators.py:138",
+   "line": 1885
+  },
+  {
+   "src": "src/click/core.py:1902",
+   "dst": "src/click/core.py:1835",
+   "line": 1938
+  },
+  {
+   "src": "src/click/core.py:1902",
+   "dst": "src/click/core.py:1884",
+   "line": 1942
+  },
+  {
+   "src": "src/click/core.py:1902",
+   "dst": "src/click/decorators.py:263",
+   "line": 1937
+  },
+  {
+   "src": "src/click/core.py:1936",
+   "dst": "src/click/core.py:1835",
+   "line": 1938
+  },
+  {
+   "src": "src/click/core.py:1936",
+   "dst": "src/click/decorators.py:263",
+   "line": 1937
+  },
+  {
+   "src": "src/click/core.py:2006",
+   "dst": "src/click/core.py:2010",
+   "line": 2008
+  },
+  {
+   "src": "src/click/core.py:2010",
+   "dst": "src/click/core.py:1272",
+   "line": 2031
+  },
+  {
+   "src": "src/click/core.py:2010",
+   "dst": "src/click/formatting.py:229",
+   "line": 2036
+  },
+  {
+   "src": "src/click/core.py:2010",
+   "dst": "src/click/formatting.py:274",
+   "line": 2035
+  },
+  {
+   "src": "src/click/core.py:2038",
+   "dst": "src/click/exceptions.py:332",
+   "line": 2040
+  },
+  {
+   "src": "src/click/core.py:2052",
+   "dst": "src/click/core.py:1359",
+   "line": 2084
+  },
+  {
+   "src": "src/click/core.py:2052",
+   "dst": "src/click/core.py:2053",
+   "line": 2118
+  },
+  {
+   "src": "src/click/core.py:2052",
+   "dst": "src/click/core.py:2120",
+   "line": 2080
+  },
+  {
+   "src": "src/click/core.py:2120",
+   "dst": "src/click/exceptions.py:268",
+   "line": 2143
+  },
+  {
+   "src": "src/click/core.py:2120",
+   "dst": "src/click/parser.py:111",
+   "line": 2141
+  },
+  {
+   "src": "src/click/core.py:2120",
+   "dst": "src/click/utils.py:52",
+   "line": 2123
+  },
+  {
+   "src": "src/click/core.py:2146",
+   "dst": "src/click/core.py:1272",
+   "line": 2159
+  },
+  {
+   "src": "src/click/core.py:2146",
+   "dst": "src/click/core.py:64",
+   "line": 2160
+  },
+  {
+   "src": "src/click/core.py:2146",
+   "dst": "src/click/shell_completion.py:19",
+   "line": 2162
+  },
+  {
+   "src": "src/click/core.py:2146",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 2159
+  },
+  {
+   "src": "src/click/core.py:2205",
+   "dst": "src/click/core.py:83",
+   "line": 2216
+  },
+  {
+   "src": "src/click/core.py:2222",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 2226
+  },
+  {
+   "src": "src/click/core.py:2392",
+   "dst": "src/click/core.py:108",
+   "line": 2403
+  },
+  {
+   "src": "src/click/core.py:2406",
+   "dst": "src/click/core.py:132",
+   "line": 2471
+  },
+  {
+   "src": "src/click/core.py:2498",
+   "dst": "src/click/core.py:2491",
+   "line": 2519
+  },
+  {
+   "src": "src/click/core.py:2532",
+   "dst": "src/click/core.py:108",
+   "line": 2566
+  },
+  {
+   "src": "src/click/core.py:2570",
+   "dst": "src/click/parser.py:111",
+   "line": 2583
+  },
+  {
+   "src": "src/click/core.py:2644",
+   "dst": "src/click/core.py:791",
+   "line": 2669
+  },
+  {
+   "src": "src/click/core.py:2680",
+   "dst": "src/click/core.py:791",
+   "line": 2711
+  },
+  {
+   "src": "src/click/core.py:2680",
+   "dst": "src/click/types.py:205",
+   "line": 2718
+  },
+  {
+   "src": "src/click/core.py:2728",
+   "dst": "src/click/core.py:2231",
+   "line": 2740
+  },
+  {
+   "src": "src/click/core.py:2728",
+   "dst": "src/click/core.py:2738",
+   "line": 2764
+  },
+  {
+   "src": "src/click/core.py:2728",
+   "dst": "src/click/core.py:2753",
+   "line": 2782
+  },
+  {
+   "src": "src/click/core.py:2728",
+   "dst": "src/click/exceptions.py:114",
+   "line": 2745
+  },
+  {
+   "src": "src/click/core.py:2738",
+   "dst": "src/click/core.py:2231",
+   "line": 2740
+  },
+  {
+   "src": "src/click/core.py:2738",
+   "dst": "src/click/exceptions.py:114",
+   "line": 2745
+  },
+  {
+   "src": "src/click/core.py:2758",
+   "dst": "src/click/core.py:2738",
+   "line": 2759
+  },
+  {
+   "src": "src/click/core.py:2763",
+   "dst": "src/click/core.py:2738",
+   "line": 2764
+  },
+  {
+   "src": "src/click/core.py:2763",
+   "dst": "src/click/exceptions.py:114",
+   "line": 2767
+  },
+  {
+   "src": "src/click/core.py:2802",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 2852
+  },
+  {
+   "src": "src/click/core.py:2802",
+   "dst": "src/click/core.py:2728",
+   "line": 2824
+  },
+  {
+   "src": "src/click/core.py:2802",
+   "dst": "src/click/core.py:2784",
+   "line": 2826
+  },
+  {
+   "src": "src/click/core.py:2802",
+   "dst": "src/click/exceptions.py:159",
+   "line": 2827
+  },
+  {
+   "src": "src/click/core.py:2913",
+   "dst": "src/click/types.py:205",
+   "line": 2925
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/core.py:140",
+   "line": 2971
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/core.py:154",
+   "line": 2951
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/core.py:961",
+   "line": 2957
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/core.py:970",
+   "line": 2948
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/termui.py:641",
+   "line": 2973
+  },
+  {
+   "src": "src/click/core.py:2929",
+   "dst": "src/click/utils.py:240",
+   "line": 2973
+  },
+  {
+   "src": "src/click/core.py:3033",
+   "dst": "src/click/shell_completion.py:19",
+   "line": 3054
+  },
+  {
+   "src": "src/click/core.py:3033",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 3050
+  },
+  {
+   "src": "src/click/core.py:3149",
+   "dst": "src/click/core.py:3249",
+   "line": 3198
+  },
+  {
+   "src": "src/click/core.py:3149",
+   "dst": "src/click/core.py:3282",
+   "line": 3204
+  },
+  {
+   "src": "src/click/core.py:3149",
+   "dst": "src/click/core.py:3345",
+   "line": 3225
+  },
+  {
+   "src": "src/click/core.py:3282",
+   "dst": "src/click/types.py:744",
+   "line": 3300
+  },
+  {
+   "src": "src/click/core.py:3282",
+   "dst": "src/click/types.py:819",
+   "line": 3307
+  },
+  {
+   "src": "src/click/core.py:3367",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 3379
+  },
+  {
+   "src": "src/click/core.py:3367",
+   "dst": "src/click/core.py:2491",
+   "line": 3380
+  },
+  {
+   "src": "src/click/core.py:3367",
+   "dst": "src/click/core.py:3321",
+   "line": 3380
+  },
+  {
+   "src": "src/click/core.py:3389",
+   "dst": "src/click/core.py:3321",
+   "line": 3413
+  },
+  {
+   "src": "src/click/core.py:3429",
+   "dst": "src/click/core.py:108",
+   "line": 3446
+  },
+  {
+   "src": "src/click/core.py:3449",
+   "dst": "src/click/core.py:2532",
+   "line": 3512
+  },
+  {
+   "src": "src/click/core.py:3449",
+   "dst": "src/click/core.py:3429",
+   "line": 3510
+  },
+  {
+   "src": "src/click/core.py:3449",
+   "dst": "src/click/parser.py:111",
+   "line": 3482
+  },
+  {
+   "src": "src/click/core.py:3516",
+   "dst": "src/click/parser.py:265",
+   "line": 3550
+  },
+  {
+   "src": "src/click/core.py:3558",
+   "dst": "src/click/core.py:3569",
+   "line": 3582
+  },
+  {
+   "src": "src/click/core.py:3558",
+   "dst": "src/click/formatting.py:302",
+   "line": 3572
+  },
+  {
+   "src": "src/click/core.py:3569",
+   "dst": "src/click/formatting.py:302",
+   "line": 3572
+  },
+  {
+   "src": "src/click/core.py:3589",
+   "dst": "src/click/core.py:3614",
+   "line": 3595
+  },
+  {
+   "src": "src/click/core.py:3614",
+   "dst": "src/click/parser.py:111",
+   "line": 3670
+  },
+  {
+   "src": "src/click/core.py:3614",
+   "dst": "src/click/types.py:717",
+   "line": 3688
+  },
+  {
+   "src": "src/click/core.py:3698",
+   "dst": "src/click/core.py:2491",
+   "line": 3739
+  },
+  {
+   "src": "src/click/core.py:3698",
+   "dst": "src/click/termui.py:139",
+   "line": 3735
+  },
+  {
+   "src": "src/click/core.py:3698",
+   "dst": "src/click/termui.py:289",
+   "line": 3727
+  },
+  {
+   "src": "src/click/core.py:3772",
+   "dst": "src/click/core.py:149",
+   "line": 3814
+  },
+  {
+   "src": "src/click/core.py:3772",
+   "dst": "src/click/types.py:205",
+   "line": 3812
+  },
+  {
+   "src": "src/click/core.py:3772",
+   "dst": "src/click/types.py:856",
+   "line": 3804
+  },
+  {
+   "src": "src/click/core.py:3820",
+   "dst": "src/click/core.py:3698",
+   "line": 3840
+  },
+  {
+   "src": "src/click/core.py:3963",
+   "dst": "src/click/core.py:2532",
+   "line": 3981
+  },
+  {
+   "src": "src/click/core.py:4013",
+   "dst": "src/click/parser.py:290",
+   "line": 4014
+  },
+  {
+   "src": "src/click/core.py:579",
+   "dst": "src/click/globals.py:44",
+   "line": 581
+  },
+  {
+   "src": "src/click/core.py:584",
+   "dst": "src/click/core.py:726",
+   "line": 593
+  },
+  {
+   "src": "src/click/core.py:584",
+   "dst": "src/click/globals.py:49",
+   "line": 594
+  },
+  {
+   "src": "src/click/core.py:719",
+   "dst": "src/click/core.py:726",
+   "line": 724
+  },
+  {
+   "src": "src/click/core.py:745",
+   "dst": "src/click/core.py:1132",
+   "line": 757
+  },
+  {
+   "src": "src/click/core.py:782",
+   "dst": "src/click/core.py:770",
+   "line": 786
+  },
+  {
+   "src": "src/click/core.py:815",
+   "dst": "src/click/core.py:791",
+   "line": 825
+  },
+  {
+   "src": "src/click/core.py:837",
+   "dst": "src/click/exceptions.py:68",
+   "line": 843
+  },
+  {
+   "src": "src/click/core.py:845",
+   "dst": "src/click/exceptions.py:362",
+   "line": 847
+  },
+  {
+   "src": "src/click/core.py:849",
+   "dst": "src/click/exceptions.py:366",
+   "line": 857
+  },
+  {
+   "src": "src/click/core.py:887",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 935
+  },
+  {
+   "src": "src/click/core.py:887",
+   "dst": "src/click/core.py:154",
+   "line": 939
+  },
+  {
+   "src": "src/click/core.py:887",
+   "dst": "src/click/core.py:2728",
+   "line": 931
+  },
+  {
+   "src": "src/click/core.py:887",
+   "dst": "src/click/core.py:871",
+   "line": 917
+  },
+  {
+   "src": "src/click/decorators.py:100",
+   "dst": "src/click/globals.py:13",
+   "line": 117
+  },
+  {
+   "src": "src/click/decorators.py:115",
+   "dst": "src/click/globals.py:13",
+   "line": 117
+  },
+  {
+   "src": "src/click/decorators.py:116",
+   "dst": "src/click/globals.py:13",
+   "line": 117
+  },
+  {
+   "src": "src/click/decorators.py:168",
+   "dst": "src/click/decorators.py:76",
+   "line": 253
+  },
+  {
+   "src": "src/click/decorators.py:28",
+   "dst": "src/click/globals.py:13",
+   "line": 34
+  },
+  {
+   "src": "src/click/decorators.py:293",
+   "dst": "src/click/decorators.py:138",
+   "line": 311
+  },
+  {
+   "src": "src/click/decorators.py:324",
+   "dst": "src/click/decorators.py:314",
+   "line": 346
+  },
+  {
+   "src": "src/click/decorators.py:33",
+   "dst": "src/click/globals.py:13",
+   "line": 34
+  },
+  {
+   "src": "src/click/decorators.py:345",
+   "dst": "src/click/decorators.py:314",
+   "line": 346
+  },
+  {
+   "src": "src/click/decorators.py:352",
+   "dst": "src/click/decorators.py:314",
+   "line": 374
+  },
+  {
+   "src": "src/click/decorators.py:373",
+   "dst": "src/click/decorators.py:314",
+   "line": 374
+  },
+  {
+   "src": "src/click/decorators.py:380",
+   "dst": "src/click/core.py:845",
+   "line": 391
+  },
+  {
+   "src": "src/click/decorators.py:380",
+   "dst": "src/click/decorators.py:352",
+   "line": 401
+  },
+  {
+   "src": "src/click/decorators.py:389",
+   "dst": "src/click/core.py:845",
+   "line": 391
+  },
+  {
+   "src": "src/click/decorators.py:39",
+   "dst": "src/click/globals.py:13",
+   "line": 46
+  },
+  {
+   "src": "src/click/decorators.py:404",
+   "dst": "src/click/decorators.py:352",
+   "line": 418
+  },
+  {
+   "src": "src/click/decorators.py:421",
+   "dst": "src/click/core.py:763",
+   "line": 510
+  },
+  {
+   "src": "src/click/decorators.py:421",
+   "dst": "src/click/core.py:849",
+   "line": 548
+  },
+  {
+   "src": "src/click/decorators.py:421",
+   "dst": "src/click/decorators.py:352",
+   "line": 558
+  },
+  {
+   "src": "src/click/decorators.py:421",
+   "dst": "src/click/utils.py:240",
+   "line": 544
+  },
+  {
+   "src": "src/click/decorators.py:45",
+   "dst": "src/click/globals.py:13",
+   "line": 46
+  },
+  {
+   "src": "src/click/decorators.py:501",
+   "dst": "src/click/core.py:763",
+   "line": 510
+  },
+  {
+   "src": "src/click/decorators.py:501",
+   "dst": "src/click/core.py:849",
+   "line": 548
+  },
+  {
+   "src": "src/click/decorators.py:501",
+   "dst": "src/click/utils.py:240",
+   "line": 544
+  },
+  {
+   "src": "src/click/decorators.py:51",
+   "dst": "src/click/core.py:770",
+   "line": 84
+  },
+  {
+   "src": "src/click/decorators.py:51",
+   "dst": "src/click/core.py:782",
+   "line": 82
+  },
+  {
+   "src": "src/click/decorators.py:51",
+   "dst": "src/click/globals.py:13",
+   "line": 78
+  },
+  {
+   "src": "src/click/decorators.py:561",
+   "dst": "src/click/core.py:849",
+   "line": 590
+  },
+  {
+   "src": "src/click/decorators.py:561",
+   "dst": "src/click/decorators.py:352",
+   "line": 600
+  },
+  {
+   "src": "src/click/decorators.py:561",
+   "dst": "src/click/decorators.py:389",
+   "line": 589
+  },
+  {
+   "src": "src/click/decorators.py:561",
+   "dst": "src/click/utils.py:240",
+   "line": 589
+  },
+  {
+   "src": "src/click/decorators.py:585",
+   "dst": "src/click/core.py:849",
+   "line": 590
+  },
+  {
+   "src": "src/click/decorators.py:585",
+   "dst": "src/click/decorators.py:389",
+   "line": 589
+  },
+  {
+   "src": "src/click/decorators.py:585",
+   "dst": "src/click/utils.py:240",
+   "line": 589
+  },
+  {
+   "src": "src/click/decorators.py:603",
+   "dst": "src/click/core.py:849",
+   "line": 616
+  },
+  {
+   "src": "src/click/decorators.py:603",
+   "dst": "src/click/decorators.py:352",
+   "line": 627
+  },
+  {
+   "src": "src/click/decorators.py:603",
+   "dst": "src/click/utils.py:240",
+   "line": 615
+  },
+  {
+   "src": "src/click/decorators.py:612",
+   "dst": "src/click/core.py:849",
+   "line": 616
+  },
+  {
+   "src": "src/click/decorators.py:612",
+   "dst": "src/click/utils.py:240",
+   "line": 615
+  },
+  {
+   "src": "src/click/decorators.py:76",
+   "dst": "src/click/core.py:770",
+   "line": 84
+  },
+  {
+   "src": "src/click/decorators.py:76",
+   "dst": "src/click/core.py:782",
+   "line": 82
+  },
+  {
+   "src": "src/click/decorators.py:76",
+   "dst": "src/click/globals.py:13",
+   "line": 78
+  },
+  {
+   "src": "src/click/decorators.py:77",
+   "dst": "src/click/core.py:770",
+   "line": 84
+  },
+  {
+   "src": "src/click/decorators.py:77",
+   "dst": "src/click/core.py:782",
+   "line": 82
+  },
+  {
+   "src": "src/click/decorators.py:77",
+   "dst": "src/click/globals.py:13",
+   "line": 78
+  },
+  {
+   "src": "src/click/exceptions.py:146",
+   "dst": "src/click/exceptions.py:19",
+   "line": 155
+  },
+  {
+   "src": "src/click/exceptions.py:184",
+   "dst": "src/click/exceptions.py:19",
+   "line": 192
+  },
+  {
+   "src": "src/click/exceptions.py:262",
+   "dst": "src/click/exceptions.py:26",
+   "line": 265
+  },
+  {
+   "src": "src/click/exceptions.py:298",
+   "dst": "src/click/exceptions.py:26",
+   "line": 301
+  },
+  {
+   "src": "src/click/exceptions.py:338",
+   "dst": "src/click/utils.py:240",
+   "line": 339
+  },
+  {
+   "src": "src/click/exceptions.py:348",
+   "dst": "src/click/utils.py:430",
+   "line": 353
+  },
+  {
+   "src": "src/click/exceptions.py:44",
+   "dst": "src/click/globals.py:54",
+   "line": 48
+  },
+  {
+   "src": "src/click/exceptions.py:57",
+   "dst": "src/click/_compat.py:354",
+   "line": 59
+  },
+  {
+   "src": "src/click/exceptions.py:57",
+   "dst": "src/click/utils.py:240",
+   "line": 61
+  },
+  {
+   "src": "src/click/exceptions.py:87",
+   "dst": "src/click/_compat.py:354",
+   "line": 89
+  },
+  {
+   "src": "src/click/exceptions.py:87",
+   "dst": "src/click/core.py:1207",
+   "line": 96
+  },
+  {
+   "src": "src/click/exceptions.py:87",
+   "dst": "src/click/core.py:1222",
+   "line": 94
+  },
+  {
+   "src": "src/click/exceptions.py:87",
+   "dst": "src/click/utils.py:240",
+   "line": 107
+  },
+  {
+   "src": "src/click/formatting.py:14",
+   "dst": "src/click/_compat.py:536",
+   "line": 19
+  },
+  {
+   "src": "src/click/formatting.py:158",
+   "dst": "src/click/_compat.py:536",
+   "line": 180
+  },
+  {
+   "src": "src/click/formatting.py:158",
+   "dst": "src/click/formatting.py:31",
+   "line": 184
+  },
+  {
+   "src": "src/click/formatting.py:213",
+   "dst": "src/click/formatting.py:31",
+   "line": 219
+  },
+  {
+   "src": "src/click/formatting.py:229",
+   "dst": "src/click/_compat.py:536",
+   "line": 255
+  },
+  {
+   "src": "src/click/formatting.py:229",
+   "dst": "src/click/formatting.py:14",
+   "line": 244
+  },
+  {
+   "src": "src/click/formatting.py:229",
+   "dst": "src/click/formatting.py:24",
+   "line": 250
+  },
+  {
+   "src": "src/click/formatting.py:229",
+   "dst": "src/click/formatting.py:31",
+   "line": 262
+  },
+  {
+   "src": "src/click/formatting.py:274",
+   "dst": "src/click/formatting.py:150",
+   "line": 282
+  },
+  {
+   "src": "src/click/formatting.py:274",
+   "dst": "src/click/formatting.py:154",
+   "line": 286
+  },
+  {
+   "src": "src/click/formatting.py:274",
+   "dst": "src/click/formatting.py:204",
+   "line": 281
+  },
+  {
+   "src": "src/click/formatting.py:274",
+   "dst": "src/click/formatting.py:208",
+   "line": 280
+  },
+  {
+   "src": "src/click/formatting.py:289",
+   "dst": "src/click/formatting.py:150",
+   "line": 291
+  },
+  {
+   "src": "src/click/formatting.py:289",
+   "dst": "src/click/formatting.py:154",
+   "line": 295
+  },
+  {
+   "src": "src/click/formatting.py:302",
+   "dst": "src/click/parser.py:111",
+   "line": 312
+  },
+  {
+   "src": "src/click/formatting.py:31",
+   "dst": "src/click/_compat.py:536",
+   "line": 93
+  },
+  {
+   "src": "src/click/formatting.py:31",
+   "dst": "src/click/_textwrap.py:165",
+   "line": 101
+  },
+  {
+   "src": "src/click/formatting.py:31",
+   "dst": "src/click/_textwrap.py:177",
+   "line": 103
+  },
+  {
+   "src": "src/click/formatting.py:31",
+   "dst": "src/click/_textwrap.py:38",
+   "line": 65
+  },
+  {
+   "src": "src/click/formatting.py:31",
+   "dst": "src/click/formatting.py:78",
+   "line": 97
+  },
+  {
+   "src": "src/click/globals.py:54",
+   "dst": "src/click/globals.py:13",
+   "line": 62
+  },
+  {
+   "src": "src/click/parser.py:120",
+   "dst": "src/click/parser.py:111",
+   "line": 123
+  },
+  {
+   "src": "src/click/parser.py:128",
+   "dst": "src/click/parser.py:111",
+   "line": 142
+  },
+  {
+   "src": "src/click/parser.py:191",
+   "dst": "src/click/exceptions.py:323",
+   "line": 202
+  },
+  {
+   "src": "src/click/parser.py:265",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 284
+  },
+  {
+   "src": "src/click/parser.py:265",
+   "dst": "src/click/parser.py:120",
+   "line": 282
+  },
+  {
+   "src": "src/click/parser.py:265",
+   "dst": "src/click/parser.py:127",
+   "line": 283
+  },
+  {
+   "src": "src/click/parser.py:290",
+   "dst": "src/click/parser.py:185",
+   "line": 296
+  },
+  {
+   "src": "src/click/parser.py:298",
+   "dst": "src/click/parser.py:216",
+   "line": 307
+  },
+  {
+   "src": "src/click/parser.py:298",
+   "dst": "src/click/parser.py:316",
+   "line": 310
+  },
+  {
+   "src": "src/click/parser.py:298",
+   "dst": "src/click/parser.py:327",
+   "line": 309
+  },
+  {
+   "src": "src/click/parser.py:316",
+   "dst": "src/click/parser.py:51",
+   "line": 317
+  },
+  {
+   "src": "src/click/parser.py:327",
+   "dst": "src/click/parser.py:470",
+   "line": 336
+  },
+  {
+   "src": "src/click/parser.py:363",
+   "dst": "src/click/exceptions.py:232",
+   "line": 367
+  },
+  {
+   "src": "src/click/parser.py:363",
+   "dst": "src/click/exceptions.py:304",
+   "line": 381
+  },
+  {
+   "src": "src/click/parser.py:363",
+   "dst": "src/click/parser.py:430",
+   "line": 378
+  },
+  {
+   "src": "src/click/parser.py:390",
+   "dst": "src/click/exceptions.py:232",
+   "line": 405
+  },
+  {
+   "src": "src/click/parser.py:390",
+   "dst": "src/click/parser.py:120",
+   "line": 397
+  },
+  {
+   "src": "src/click/parser.py:390",
+   "dst": "src/click/parser.py:430",
+   "line": 413
+  },
+  {
+   "src": "src/click/parser.py:430",
+   "dst": "src/click/exceptions.py:304",
+   "line": 442
+  },
+  {
+   "src": "src/click/parser.py:470",
+   "dst": "src/click/parser.py:120",
+   "line": 479
+  },
+  {
+   "src": "src/click/parser.py:470",
+   "dst": "src/click/parser.py:363",
+   "line": 485
+  },
+  {
+   "src": "src/click/parser.py:470",
+   "dst": "src/click/parser.py:390",
+   "line": 494
+  },
+  {
+   "src": "src/click/parser.py:51",
+   "dst": "src/click/parser.py:68",
+   "line": 84
+  },
+  {
+   "src": "src/click/shell_completion.py:19",
+   "dst": "src/click/shell_completion.py:376",
+   "line": 52
+  },
+  {
+   "src": "src/click/shell_completion.py:19",
+   "dst": "src/click/shell_completion.py:586",
+   "line": 39
+  },
+  {
+   "src": "src/click/shell_completion.py:19",
+   "dst": "src/click/utils.py:240",
+   "line": 48
+  },
+  {
+   "src": "src/click/shell_completion.py:339",
+   "dst": "src/click/shell_completion.py:327",
+   "line": 345
+  },
+  {
+   "src": "src/click/shell_completion.py:354",
+   "dst": "src/click/shell_completion.py:696",
+   "line": 364
+  },
+  {
+   "src": "src/click/shell_completion.py:354",
+   "dst": "src/click/shell_completion.py:757",
+   "line": 365
+  },
+  {
+   "src": "src/click/shell_completion.py:376",
+   "dst": "src/click/shell_completion.py:354",
+   "line": 384
+  },
+  {
+   "src": "src/click/shell_completion.py:396",
+   "dst": "src/click/utils.py:240",
+   "line": 423
+  },
+  {
+   "src": "src/click/shell_completion.py:428",
+   "dst": "src/click/shell_completion.py:396",
+   "line": 429
+  },
+  {
+   "src": "src/click/shell_completion.py:432",
+   "dst": "src/click/shell_completion.py:603",
+   "line": 433
+  },
+  {
+   "src": "src/click/shell_completion.py:454",
+   "dst": "src/click/shell_completion.py:603",
+   "line": 455
+  },
+  {
+   "src": "src/click/shell_completion.py:490",
+   "dst": "src/click/shell_completion.py:603",
+   "line": 491
+  },
+  {
+   "src": "src/click/shell_completion.py:530",
+   "dst": "src/click/shell_completion.py:603",
+   "line": 531
+  },
+  {
+   "src": "src/click/shell_completion.py:639",
+   "dst": "src/click/core.py:970",
+   "line": 653
+  },
+  {
+   "src": "src/click/shell_completion.py:671",
+   "dst": "src/click/shell_completion.py:662",
+   "line": 689
+  },
+  {
+   "src": "src/click/shell_completion.py:696",
+   "dst": "src/click/core.py:1359",
+   "line": 711
+  },
+  {
+   "src": "src/click/shell_completion.py:696",
+   "dst": "src/click/core.py:2120",
+   "line": 719
+  },
+  {
+   "src": "src/click/shell_completion.py:757",
+   "dst": "src/click/core.py:1132",
+   "line": 785
+  },
+  {
+   "src": "src/click/shell_completion.py:757",
+   "dst": "src/click/shell_completion.py:639",
+   "line": 796
+  },
+  {
+   "src": "src/click/shell_completion.py:757",
+   "dst": "src/click/shell_completion.py:662",
+   "line": 782
+  },
+  {
+   "src": "src/click/shell_completion.py:757",
+   "dst": "src/click/shell_completion.py:671",
+   "line": 790
+  },
+  {
+   "src": "src/click/termui.py:108",
+   "dst": "src/click/termui.py:128",
+   "line": 124
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/exceptions.py:362",
+   "line": 245
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/termui.py:108",
+   "line": 250
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/termui.py:235",
+   "line": 262
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/termui.py:61",
+   "line": 274
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/termui.py:85",
+   "line": 238
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/types.py:1347",
+   "line": 248
+  },
+  {
+   "src": "src/click/termui.py:168",
+   "dst": "src/click/utils.py:240",
+   "line": 286
+  },
+  {
+   "src": "src/click/termui.py:235",
+   "dst": "src/click/exceptions.py:362",
+   "line": 245
+  },
+  {
+   "src": "src/click/termui.py:235",
+   "dst": "src/click/termui.py:85",
+   "line": 238
+  },
+  {
+   "src": "src/click/termui.py:235",
+   "dst": "src/click/utils.py:240",
+   "line": 244
+  },
+  {
+   "src": "src/click/termui.py:289",
+   "dst": "src/click/exceptions.py:362",
+   "line": 344
+  },
+  {
+   "src": "src/click/termui.py:289",
+   "dst": "src/click/termui.py:108",
+   "line": 321
+  },
+  {
+   "src": "src/click/termui.py:289",
+   "dst": "src/click/termui.py:85",
+   "line": 330
+  },
+  {
+   "src": "src/click/termui.py:289",
+   "dst": "src/click/utils.py:240",
+   "line": 340
+  },
+  {
+   "src": "src/click/termui.py:348",
+   "dst": "src/click/_termui_impl.py:497",
+   "line": 364
+  },
+  {
+   "src": "src/click/termui.py:348",
+   "dst": "src/click/globals.py:54",
+   "line": 362
+  },
+  {
+   "src": "src/click/termui.py:367",
+   "dst": "src/click/_termui_impl.py:497",
+   "line": 393
+  },
+  {
+   "src": "src/click/termui.py:443",
+   "dst": "src/click/_termui_impl.py:43",
+   "line": 582
+  },
+  {
+   "src": "src/click/termui.py:443",
+   "dst": "src/click/globals.py:54",
+   "line": 581
+  },
+  {
+   "src": "src/click/termui.py:602",
+   "dst": "src/click/_compat.py:540",
+   "line": 609
+  },
+  {
+   "src": "src/click/termui.py:602",
+   "dst": "src/click/utils.py:240",
+   "line": 613
+  },
+  {
+   "src": "src/click/termui.py:641",
+   "dst": "src/click/termui.py:616",
+   "line": 741
+  },
+  {
+   "src": "src/click/termui.py:768",
+   "dst": "src/click/_compat.py:491",
+   "line": 777
+  },
+  {
+   "src": "src/click/termui.py:780",
+   "dst": "src/click/termui.py:641",
+   "line": 809
+  },
+  {
+   "src": "src/click/termui.py:780",
+   "dst": "src/click/utils.py:240",
+   "line": 811
+  },
+  {
+   "src": "src/click/termui.py:848",
+   "dst": "src/click/_termui_impl.py:683",
+   "line": 911
+  },
+  {
+   "src": "src/click/termui.py:848",
+   "dst": "src/click/_termui_impl.py:713",
+   "line": 919
+  },
+  {
+   "src": "src/click/termui.py:85",
+   "dst": "src/click/_compat.py:491",
+   "line": 100
+  },
+  {
+   "src": "src/click/termui.py:85",
+   "dst": "src/click/_compat.py:553",
+   "line": 105
+  },
+  {
+   "src": "src/click/termui.py:85",
+   "dst": "src/click/globals.py:54",
+   "line": 99
+  },
+  {
+   "src": "src/click/termui.py:923",
+   "dst": "src/click/_termui_impl.py:799",
+   "line": 949
+  },
+  {
+   "src": "src/click/termui.py:957",
+   "dst": "src/click/testing.py:495",
+   "line": 984
+  },
+  {
+   "src": "src/click/termui.py:993",
+   "dst": "src/click/_compat.py:540",
+   "line": 1009
+  },
+  {
+   "src": "src/click/termui.py:993",
+   "dst": "src/click/termui.py:957",
+   "line": 1019
+  },
+  {
+   "src": "src/click/termui.py:993",
+   "dst": "src/click/utils.py:240",
+   "line": 1017
+  },
+  {
+   "src": "src/click/testing.py:100",
+   "dst": "src/click/testing.py:192",
+   "line": 103
+  },
+  {
+   "src": "src/click/testing.py:105",
+   "dst": "src/click/testing.py:51",
+   "line": 111
+  },
+  {
+   "src": "src/click/testing.py:150",
+   "dst": "src/click/testing.py:117",
+   "line": 152
+  },
+  {
+   "src": "src/click/testing.py:211",
+   "dst": "src/click/_compat.py:176",
+   "line": 216
+  },
+  {
+   "src": "src/click/testing.py:389",
+   "dst": "src/click/_termui_impl.py:318",
+   "line": 395
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:138",
+   "line": 443
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:156",
+   "line": 450
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:211",
+   "line": 432
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:32",
+   "line": 447
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:389",
+   "line": 441
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:51",
+   "line": 496
+  },
+  {
+   "src": "src/click/testing.py:399",
+   "dst": "src/click/testing.py:71",
+   "line": 474
+  },
+  {
+   "src": "src/click/testing.py:475",
+   "dst": "src/click/testing.py:71",
+   "line": 474
+  },
+  {
+   "src": "src/click/testing.py:486",
+   "dst": "src/click/testing.py:71",
+   "line": 485
+  },
+  {
+   "src": "src/click/testing.py:495",
+   "dst": "src/click/testing.py:51",
+   "line": 496
+  },
+  {
+   "src": "src/click/testing.py:495",
+   "dst": "src/click/testing.py:71",
+   "line": 494
+  },
+  {
+   "src": "src/click/testing.py:51",
+   "dst": "src/click/testing.py:45",
+   "line": 52
+  },
+  {
+   "src": "src/click/testing.py:54",
+   "dst": "src/click/testing.py:45",
+   "line": 55
+  },
+  {
+   "src": "src/click/testing.py:57",
+   "dst": "src/click/testing.py:45",
+   "line": 58
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/formatting.py:297",
+   "line": 726
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:100",
+   "line": 661
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:105",
+   "line": 719
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:231",
+   "line": 730
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:382",
+   "line": 684
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:399",
+   "line": 666
+  },
+  {
+   "src": "src/click/testing.py:596",
+   "dst": "src/click/testing.py:80",
+   "line": 658
+  },
+  {
+   "src": "src/click/testing.py:60",
+   "dst": "src/click/testing.py:45",
+   "line": 61
+  },
+  {
+   "src": "src/click/testing.py:63",
+   "dst": "src/click/testing.py:45",
+   "line": 64
+  },
+  {
+   "src": "src/click/types.py:1029",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 1043
+  },
+  {
+   "src": "src/click/types.py:1161",
+   "dst": "src/click/types.py:1147",
+   "line": 1233
+  },
+  {
+   "src": "src/click/types.py:1161",
+   "dst": "src/click/utils.py:430",
+   "line": 1192
+  },
+  {
+   "src": "src/click/types.py:1235",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 1251
+  },
+  {
+   "src": "src/click/types.py:1272",
+   "dst": "src/click/types.py:1347",
+   "line": 1273
+  },
+  {
+   "src": "src/click/types.py:1356",
+   "dst": "src/click/types.py:1258",
+   "line": 1367
+  },
+  {
+   "src": "src/click/types.py:1356",
+   "dst": "src/click/types.py:1311",
+   "line": 1363
+  },
+  {
+   "src": "src/click/types.py:1356",
+   "dst": "src/click/types.py:264",
+   "line": 1397
+  },
+  {
+   "src": "src/click/types.py:215",
+   "dst": "src/click/exceptions.py:114",
+   "line": 222
+  },
+  {
+   "src": "src/click/types.py:275",
+   "dst": "src/click/_compat.py:553",
+   "line": 279
+  },
+  {
+   "src": "src/click/types.py:307",
+   "dst": "src/click/_compat.py:520",
+   "line": 311
+  },
+  {
+   "src": "src/click/types.py:388",
+   "dst": "src/click/types.py:406",
+   "line": 399
+  },
+  {
+   "src": "src/click/types.py:426",
+   "dst": "src/click/types.py:1347",
+   "line": 429
+  },
+  {
+   "src": "src/click/types.py:426",
+   "dst": "src/click/types.py:388",
+   "line": 434
+  },
+  {
+   "src": "src/click/types.py:444",
+   "dst": "src/click/types.py:388",
+   "line": 451
+  },
+  {
+   "src": "src/click/types.py:454",
+   "dst": "src/click/types.py:388",
+   "line": 463
+  },
+  {
+   "src": "src/click/types.py:454",
+   "dst": "src/click/types.py:406",
+   "line": 462
+  },
+  {
+   "src": "src/click/types.py:454",
+   "dst": "src/click/types.py:478",
+   "line": 473
+  },
+  {
+   "src": "src/click/types.py:478",
+   "dst": "src/click/types.py:388",
+   "line": 485
+  },
+  {
+   "src": "src/click/types.py:495",
+   "dst": "src/click/shell_completion.py:67",
+   "line": 515
+  },
+  {
+   "src": "src/click/types.py:495",
+   "dst": "src/click/types.py:406",
+   "line": 508
+  },
+  {
+   "src": "src/click/types.py:566",
+   "dst": "src/click/types.py:560",
+   "line": 573
+  },
+  {
+   "src": "src/click/types.py:666",
+   "dst": "src/click/types.py:717",
+   "line": 691
+  },
+  {
+   "src": "src/click/types.py:731",
+   "dst": "src/click/types.py:717",
+   "line": 733
+  },
+  {
+   "src": "src/click/types.py:870",
+   "dst": "src/click/types.py:856",
+   "line": 873
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/_compat.py:374",
+   "line": 1006
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/core.py:707",
+   "line": 1002
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/types.py:1046",
+   "line": 990
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/types.py:975",
+   "line": 994
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/utils.py:103",
+   "line": 997
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/utils.py:36",
+   "line": 1017
+  },
+  {
+   "src": "src/click/types.py:984",
+   "dst": "src/click/utils.py:430",
+   "line": 1024
+  },
+  {
+   "src": "src/click/utils.py:120",
+   "dst": "src/click/_compat.py:374",
+   "line": 135
+  },
+  {
+   "src": "src/click/utils.py:120",
+   "dst": "src/click/utils.py:153",
+   "line": 141
+  },
+  {
+   "src": "src/click/utils.py:145",
+   "dst": "src/click/utils.py:153",
+   "line": 146
+  },
+  {
+   "src": "src/click/utils.py:148",
+   "dst": "src/click/utils.py:430",
+   "line": 151
+  },
+  {
+   "src": "src/click/utils.py:153",
+   "dst": "src/click/_compat.py:374",
+   "line": 161
+  },
+  {
+   "src": "src/click/utils.py:153",
+   "dst": "src/click/exceptions.py:342",
+   "line": 167
+  },
+  {
+   "src": "src/click/utils.py:186",
+   "dst": "src/click/utils.py:176",
+   "line": 192
+  },
+  {
+   "src": "src/click/utils.py:194",
+   "dst": "src/click/utils.py:153",
+   "line": 195
+  },
+  {
+   "src": "src/click/utils.py:240",
+   "dst": "src/click/_compat.py:194",
+   "line": 321
+  },
+  {
+   "src": "src/click/utils.py:240",
+   "dst": "src/click/_compat.py:491",
+   "line": 331
+  },
+  {
+   "src": "src/click/utils.py:240",
+   "dst": "src/click/_compat.py:502",
+   "line": 330
+  },
+  {
+   "src": "src/click/utils.py:240",
+   "dst": "src/click/globals.py:54",
+   "line": 330
+  },
+  {
+   "src": "src/click/utils.py:36",
+   "dst": "src/click/_compat.py:553",
+   "line": 44
+  },
+  {
+   "src": "src/click/utils.py:381",
+   "dst": "src/click/_compat.py:374",
+   "line": 422
+  },
+  {
+   "src": "src/click/utils.py:381",
+   "dst": "src/click/utils.py:103",
+   "line": 419
+  },
+  {
+   "src": "src/click/utils.py:381",
+   "dst": "src/click/utils.py:199",
+   "line": 425
+  },
+  {
+   "src": "src/click/utils.py:42",
+   "dst": "src/click/_compat.py:553",
+   "line": 44
+  },
+  {
+   "src": "src/click/utils.py:472",
+   "dst": "src/click/utils.py:32",
+   "line": 517
+  }
+ ]
+}

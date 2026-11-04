@@ -1,0 +1,146 @@
+{
+ "rule": "distinct referencing files x log2(nloc)",
+ "classes": [
+  {
+   "class": "Environment",
+   "at": "httpie/context.py:46",
+   "bases": [],
+   "nloc": 172,
+   "referenced_by_files": 27,
+   "score": 200.7
+  },
+  {
+   "class": "Path",
+   "at": "httpie/cli/nested_json/tokens.py:55",
+   "bases": [],
+   "nloc": 22,
+   "referenced_by_files": 22,
+   "score": 99.5
+  },
+  {
+   "class": "ExitStatus",
+   "at": "httpie/status.py:5",
+   "bases": [
+    "IntEnum"
+   ],
+   "nloc": 16,
+   "referenced_by_files": 24,
+   "score": 98.1
+  },
+  {
+   "class": "FormatterPlugin",
+   "at": "httpie/plugins/base.py:124",
+   "bases": [
+    "BasePlugin"
+   ],
+   "nloc": 42,
+   "referenced_by_files": 5,
+   "score": 27.1
+  },
+  {
+   "class": "HTTPHeadersDict",
+   "at": "httpie/cli/dicts.py:12",
+   "bases": [
+    "CIMultiDict",
+    "BaseMultiDict"
+   ],
+   "nloc": 35,
+   "referenced_by_files": 5,
+   "score": 25.8
+  },
+  {
+   "class": "AuthPlugin",
+   "at": "httpie/plugins/base.py:16",
+   "bases": [
+    "BasePlugin"
+   ],
+   "nloc": 54,
+   "referenced_by_files": 4,
+   "score": 23.1
+  },
+  {
+   "class": "OutputOptions",
+   "at": "httpie/models.py:202",
+   "bases": [
+    "NamedTuple"
+   ],
+   "nloc": 32,
+   "referenced_by_files": 4,
+   "score": 20.2
+  },
+  {
+   "class": "ParserSpec",
+   "at": "httpie/cli/options.py:42",
+   "bases": [],
+   "nloc": 28,
+   "referenced_by_files": 4,
+   "score": 19.4
+  },
+  {
+   "class": "KeyValueArgType",
+   "at": "httpie/cli/argtypes.py:48",
+   "bases": [],
+   "nloc": 83,
+   "referenced_by_files": 3,
+   "score": 19.2
+  },
+  {
+   "class": "NestedJSONSyntaxError",
+   "at": "httpie/cli/nested_json/errors.py:6",
+   "bases": [
+    "ValueError"
+   ],
+   "nloc": 22,
+   "referenced_by_files": 4,
+   "score": 18.1
+  },
+  {
+   "class": "HTTPieArgumentParser",
+   "at": "httpie/cli/argparser.py:138",
+   "bases": [
+    "BaseHTTPieArgumentParser"
+   ],
+   "nloc": 476,
+   "referenced_by_files": 2,
+   "score": 17.8
+  },
+  {
+   "class": "cached_property",
+   "at": "httpie/compat.py:25",
+   "bases": [],
+   "nloc": 43,
+   "referenced_by_files": 3,
+   "score": 16.4
+  },
+  {
+   "class": "Config",
+   "at": "httpie/config.py:137",
+   "bases": [
+    "BaseConfigDict"
+   ],
+   "nloc": 36,
+   "referenced_by_files": 3,
+   "score": 15.6
+  },
+  {
+   "class": "Session",
+   "at": "httpie/sessions.py:124",
+   "bases": [
+    "BaseConfigDict"
+   ],
+   "nloc": 199,
+   "referenced_by_files": 2,
+   "score": 15.3
+  },
+  {
+   "class": "GenericColor",
+   "at": "httpie/output/ui/palette.py:74",
+   "bases": [
+    "Enum"
+   ],
+   "nloc": 28,
+   "referenced_by_files": 3,
+   "score": 14.6
+  }
+ ]
+}

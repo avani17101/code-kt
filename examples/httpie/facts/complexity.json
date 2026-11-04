@@ -1,0 +1,175 @@
+{
+ "top_functions": [
+  {
+   "name": "raw_main",
+   "ccn": 26,
+   "nloc": 88,
+   "at": "httpie/core.py:32"
+  },
+  {
+   "name": "program",
+   "ccn": 25,
+   "nloc": 66,
+   "at": "httpie/core.py:170"
+  },
+  {
+   "name": "_process_auth",
+   "ccn": 24,
+   "nloc": 58,
+   "at": "httpie/cli/argparser.py:282"
+  },
+  {
+   "name": "collect_messages",
+   "ccn": 21,
+   "nloc": 89,
+   "at": "httpie/client.py:43"
+  },
+  {
+   "name": "get_lexer",
+   "ccn": 13,
+   "nloc": 41,
+   "at": "httpie/output/formatters/colors.py:142"
+  },
+  {
+   "name": "make_request_kwargs",
+   "ccn": 12,
+   "nloc": 39,
+   "at": "httpie/client.py:325"
+  },
+  {
+   "name": "to_usage",
+   "ccn": 12,
+   "nloc": 44,
+   "at": "httpie/output/ui/rich_help.py:72"
+  },
+  {
+   "name": "_compute_new_headers",
+   "ccn": 11,
+   "nloc": 23,
+   "at": "httpie/sessions.py:200"
+  },
+  {
+   "name": "to_help_message",
+   "ccn": 11,
+   "nloc": 90,
+   "at": "httpie/output/ui/rich_help.py:128"
+  },
+  {
+   "name": "parse_args",
+   "ccn": 11,
+   "nloc": 39,
+   "at": "httpie/cli/argparser.py:151"
+  },
+  {
+   "name": "serialize",
+   "ccn": 11,
+   "nloc": 41,
+   "at": "httpie/cli/options.py:113"
+  },
+  {
+   "name": "interpret",
+   "ccn": 11,
+   "nloc": 41,
+   "at": "httpie/cli/nested_json/interpret.py:30"
+  },
+  {
+   "name": "parse_content_range",
+   "ccn": 10,
+   "nloc": 32,
+   "at": "httpie/downloads.py:27"
+  },
+  {
+   "name": "get_stream_type_and_kwargs",
+   "ccn": 10,
+   "nloc": 45,
+   "at": "httpie/output/writer.py:153"
+  },
+  {
+   "name": "_setup_standard_streams",
+   "ccn": 10,
+   "nloc": 24,
+   "at": "httpie/cli/argparser.py:227"
+  }
+ ],
+ "max_ccn_per_file": {
+  "setup.py": 0,
+  "httpie/sessions.py": 11,
+  "httpie/client.py": 21,
+  "httpie/config.py": 5,
+  "httpie/downloads.py": 10,
+  "httpie/__init__.py": 0,
+  "httpie/core.py": 26,
+  "httpie/adapters.py": 1,
+  "httpie/uploads.py": 7,
+  "httpie/ssl_.py": 3,
+  "httpie/cookies.py": 2,
+  "httpie/compat.py": 5,
+  "httpie/__main__.py": 2,
+  "httpie/models.py": 8,
+  "httpie/status.py": 5,
+  "httpie/context.py": 9,
+  "httpie/encoding.py": 3,
+  "httpie/utils.py": 5,
+  "httpie/output/streams.py": 9,
+  "httpie/output/__init__.py": 0,
+  "httpie/output/writer.py": 10,
+  "httpie/output/models.py": 3,
+  "httpie/output/processing.py": 4,
+  "httpie/output/utils.py": 3,
+  "httpie/output/ui/rich_progress.py": 3,
+  "httpie/output/ui/__init__.py": 0,
+  "httpie/output/ui/rich_utils.py": 2,
+  "httpie/output/ui/rich_help.py": 12,
+  "httpie/output/ui/man_pages.py": 4,
+  "httpie/output/ui/rich_palette.py": 4,
+  "httpie/output/ui/palette.py": 4,
+  "httpie/output/lexers/common.py": 3,
+  "httpie/output/lexers/http.py": 2,
+  "httpie/output/lexers/__init__.py": 0,
+  "httpie/output/lexers/metadata.py": 4,
+  "httpie/output/lexers/json.py": 0,
+  "httpie/output/formatters/__init__.py": 0,
+  "httpie/output/formatters/headers.py": 1,
+  "httpie/output/formatters/colors.py": 13,
+  "httpie/output/formatters/json.py": 5,
+  "httpie/output/formatters/xml.py": 7,
+  "httpie/manager/cli.py": 5,
+  "httpie/manager/__init__.py": 0,
+  "httpie/manager/core.py": 4,
+  "httpie/manager/compat.py": 3,
+  "httpie/manager/__main__.py": 4,
+  "httpie/manager/tasks/check_updates.py": 1,
+  "httpie/manager/tasks/sessions.py": 6,
+  "httpie/manager/tasks/plugins.py": 8,
+  "httpie/manager/tasks/__init__.py": 0,
+  "httpie/manager/tasks/export_args.py": 2,
+  "httpie/cli/definition.py": 7,
+  "httpie/cli/requestitems.py": 7,
+  "httpie/cli/__init__.py": 0,
+  "httpie/cli/argtypes.py": 9,
+  "httpie/cli/constants.py": 0,
+  "httpie/cli/dicts.py": 4,
+  "httpie/cli/exceptions.py": 0,
+  "httpie/cli/argparser.py": 24,
+  "httpie/cli/options.py": 11,
+  "httpie/cli/utils.py": 3,
+  "httpie/cli/nested_json/interpret.py": 11,
+  "httpie/cli/nested_json/tokens.py": 5,
+  "httpie/cli/nested_json/parse.py": 6,
+  "httpie/cli/nested_json/errors.py": 2,
+  "httpie/cli/nested_json/__init__.py": 0,
+  "httpie/legacy/v3_1_0_session_cookie_format.py": 7,
+  "httpie/legacy/__init__.py": 0,
+  "httpie/legacy/v3_2_0_session_header_format.py": 5,
+  "httpie/plugins/manager.py": 4,
+  "httpie/plugins/base.py": 1,
+  "httpie/plugins/__init__.py": 0,
+  "httpie/plugins/builtin.py": 1,
+  "httpie/plugins/registry.py": 0,
+  "httpie/internal/__init__.py": 0,
+  "httpie/internal/update_warnings.py": 5,
+  "httpie/internal/daemon_runner.py": 1,
+  "httpie/internal/__build_channel__.py": 0,
+  "httpie/internal/daemons.py": 6
+ }
+}

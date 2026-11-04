@@ -1,0 +1,171 @@
+{
+ "tests": {
+  "tests/test_cli.py": [
+   "httpie.cli",
+   "httpie.cli.argparser",
+   "httpie.cli.argtypes",
+   "httpie.cli.definition",
+   "httpie.cli.requestitems",
+   "httpie.status",
+   "httpie.utils"
+  ],
+  "tests/test_auth.py": [
+   "httpie.cli.constants",
+   "httpie.cli.definition",
+   "httpie.plugins.builtin",
+   "httpie.status",
+   "httpie.utils"
+  ],
+  "tests/test_redirects.py": [
+   "httpie.compat",
+   "httpie.status"
+  ],
+  "tests/test_json.py": [
+   "httpie.cli.constants",
+   "httpie.cli.exceptions",
+   "httpie.cli.nested_json",
+   "httpie.output.formatters.colors",
+   "httpie.utils"
+  ],
+  "tests/test_cli_utils.py": [
+   "httpie.cli.utils"
+  ],
+  "tests/test_windows.py": [
+   "httpie.compat",
+   "httpie.context"
+  ],
+  "tests/test_encoding.py": [
+   "httpie.cli.constants",
+   "httpie.encoding"
+  ],
+  "tests/test_auth_plugins.py": [
+   "httpie.cli.constants",
+   "httpie.plugins",
+   "httpie.plugins.registry"
+  ],
+  "tests/test_plugins_cli.py": [
+   "httpie.status"
+  ],
+  "tests/test_compress.py": [
+   "httpie.status"
+  ],
+  "tests/test_output.py": [
+   "httpie.cli.argtypes",
+   "httpie.cli.definition",
+   "httpie.encoding",
+   "httpie.output.formatters.colors",
+   "httpie.status"
+  ],
+  "tests/test_binary.py": [
+   "httpie.output.streams"
+  ],
+  "tests/test_parser_schema.py": [
+   "httpie.cli.options"
+  ],
+  "tests/test_update_warnings.py": [
+   "httpie.internal.daemon_runner",
+   "httpie.internal.daemons",
+   "httpie.status"
+  ],
+  "tests/test_uploads.py": [
+   "httpie.__main__",
+   "httpie.cli.exceptions",
+   "httpie.client",
+   "httpie.compat",
+   "httpie.status"
+  ],
+  "tests/test_regressions.py": [
+   "httpie.compat"
+  ],
+  "tests/test_transport_plugin.py": [
+   "httpie.plugins",
+   "httpie.plugins.registry"
+  ],
+  "tests/test_downloads.py": [
+   "httpie.downloads"
+  ],
+  "tests/test_ssl.py": [
+   "httpie.ssl_",
+   "httpie.status"
+  ],
+  "tests/test_config.py": [
+   "httpie.compat",
+   "httpie.config",
+   "httpie.encoding"
+  ],
+  "tests/test_meta.py": [
+   "httpie.models",
+   "httpie.output.formatters.colors"
+  ],
+  "tests/test_httpie_cli.py": [
+   "httpie.cli.options",
+   "httpie.sessions",
+   "httpie.status"
+  ],
+  "tests/test_sessions.py": [
+   "httpie.context",
+   "httpie.encoding",
+   "httpie.plugins",
+   "httpie.plugins.builtin",
+   "httpie.plugins.registry",
+   "httpie.sessions",
+   "httpie.utils"
+  ],
+  "tests/test_stream.py": [
+   "httpie.cli.constants",
+   "httpie.compat",
+   "httpie.output.streams",
+   "httpie.plugins",
+   "httpie.plugins.registry"
+  ],
+  "tests/test_exit_status.py": [
+   "httpie.status"
+  ],
+  "tests/test_errors.py": [
+   "httpie.status"
+  ],
+  "tests/test_defaults.py": [
+   "httpie.client"
+  ],
+  "tests/test_httpie.py": [
+   "httpie",
+   "httpie.__main__",
+   "httpie.cli.exceptions",
+   "httpie.context",
+   "httpie.encoding",
+   "httpie.status"
+  ],
+  "tests/test_xml.py": [
+   "httpie.encoding",
+   "httpie.output.formatters.xml"
+  ],
+  "tests/fixtures/__init__.py": [
+   "httpie",
+   "httpie.encoding",
+   "httpie.output.formatters.xml"
+  ],
+  "tests/utils/__init__.py": [
+   "httpie.config",
+   "httpie.context",
+   "httpie.core",
+   "httpie.encoding",
+   "httpie.manager.__main__",
+   "httpie.status",
+   "httpie.utils"
+  ],
+  "tests/utils/plugins_cli.py": [
+   "httpie.compat",
+   "httpie.context",
+   "httpie.plugins.manager",
+   "httpie.plugins.registry",
+   "httpie.status"
+  ],
+  "tests/utils/matching/test_matching.py": [
+   "httpie.models",
+   "httpie.output.writer"
+  ],
+  "tests/utils/matching/parsing.py": [
+   "httpie.output.writer"
+  ]
+ }
+}

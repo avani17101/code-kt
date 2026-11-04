@@ -1,0 +1,207 @@
+{
+ "tests": {
+  "tests/test_termui.py": [
+   "click",
+   "click._compat",
+   "click._termui_impl",
+   "click._utils",
+   "click.exceptions"
+  ],
+  "tests/test_imports.py": [
+   "click._compat"
+  ],
+  "tests/test_abort_interrupt.py": [
+   "click"
+  ],
+  "tests/test_command_decorators.py": [
+   "click"
+  ],
+  "tests/test_custom_classes.py": [
+   "click"
+  ],
+  "tests/test_deprecations.py": [
+   "click",
+   "click.core",
+   "click.parser",
+   "click.shell_completion",
+   "click.utils"
+  ],
+  "tests/test_arguments.py": [
+   "click",
+   "click._utils"
+  ],
+  "tests/test_basic.py": [
+   "click",
+   "click._utils"
+  ],
+  "tests/test_context.py": [
+   "click",
+   "click.core",
+   "click.decorators"
+  ],
+  "tests/test_parser.py": [
+   "click",
+   "click.parser",
+   "click.shell_completion"
+  ],
+  "tests/test_testing.py": [
+   "click",
+   "click.exceptions",
+   "click.testing",
+   "click.utils"
+  ],
+  "tests/test_normalization.py": [
+   "click"
+  ],
+  "tests/test_chain.py": [
+   "click"
+  ],
+  "tests/test_compat.py": [
+   "click",
+   "click._compat",
+   "click._textwrap"
+  ],
+  "tests/test_commands.py": [
+   "click"
+  ],
+  "tests/test_stream_lifecycle.py": [
+   "click",
+   "click.testing"
+  ],
+  "tests/test_options.py": [
+   "click",
+   "click._utils",
+   "click.parser",
+   "click.testing"
+  ],
+  "tests/test_shell_completion.py": [
+   "click.core",
+   "click.shell_completion",
+   "click.types"
+  ],
+  "tests/test_formatting.py": [
+   "click",
+   "click._compat"
+  ],
+  "tests/test_defaults.py": [
+   "click",
+   "click._utils",
+   "click.core"
+  ],
+  "tests/test_info_dict.py": [
+   "click.types"
+  ],
+  "tests/conftest.py": [
+   "click.testing"
+  ],
+  "tests/test_exceptions/test_FileError.py": [
+   "click"
+  ],
+  "tests/typing/typing_group_kw_options.py": [
+   "click"
+  ],
+  "tests/typing/typing_aliased_group.py": [
+   "click"
+  ],
+  "tests/typing/typing_password_option.py": [
+   "click"
+  ],
+  "tests/typing/typing_edit.py": [
+   "click"
+  ],
+  "tests/typing/typing_progressbar.py": [
+   "click",
+   "click._termui_impl"
+  ],
+  "tests/typing/typing_options.py": [
+   "click"
+  ],
+  "tests/typing/typing_prompt.py": [
+   "click"
+  ],
+  "tests/typing/typing_help_option.py": [
+   "click"
+  ],
+  "tests/typing/typing_simple_example.py": [
+   "click"
+  ],
+  "tests/typing/typing_version_option.py": [
+   "click"
+  ],
+  "tests/typing/typing_confirmation_option.py": [
+   "click"
+  ],
+  "tests/typing/typing_path.py": [
+   "click"
+  ],
+  "tests/test_types/test_convert_type.py": [
+   "click"
+  ],
+  "tests/test_types/test_Path.py": [
+   "click"
+  ],
+  "tests/test_types/test_IntRange.py": [
+   "click"
+  ],
+  "tests/test_types/test_File.py": [
+   "click"
+  ],
+  "tests/test_types/test_FloatRange.py": [
+   "click"
+  ],
+  "tests/test_types/test_ParamType.py": [
+   "click"
+  ],
+  "tests/test_types/test_FuncParamType.py": [
+   "click"
+  ],
+  "tests/test_types/test_Choice.py": [
+   "click"
+  ],
+  "tests/test_utils/test_LazyFile.py": [
+   "click"
+  ],
+  "tests/test_utils/test_KeepOpenFile.py": [
+   "click"
+  ],
+  "tests/test_utils/test_make_default_short_help.py": [
+   "click"
+  ],
+  "tests/test_utils/test__expand_args.py": [
+   "click"
+  ],
+  "tests/test_utils/test_format_filename.py": [
+   "click"
+  ],
+  "tests/test_utils/test_open_file.py": [
+   "click",
+   "click._compat"
+  ],
+  "tests/test_utils/test_confirm.py": [
+   "click"
+  ],
+  "tests/test_utils/test__detect_program_name.py": [
+   "click"
+  ],
+  "tests/test_utils/test_prompt.py": [
+   "click",
+   "click._compat"
+  ],
+  "tests/test_utils/test_sentinel.py": [
+   "click",
+   "click._utils"
+  ],
+  "tests/test_utils/test_style.py": [
+   "click"
+  ],
+  "tests/test_utils/test_echo_via_pager.py": [
+   "click",
+   "click._compat"
+  ],
+  "tests/test_utils/test_echo.py": [
+   "click._compat",
+   "click._termui_impl",
+   "click.utils"
+  ]
+ }
+}

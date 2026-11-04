@@ -1,0 +1,20 @@
+{
+ "files_by_language": {
+  "python": 133,
+  "ruby": 2
+ },
+ "loc_by_language": {
+  "python": 19002,
+  "ruby": 134
+ },
+ "primary_language": "python",
+ "readme": [
+  "README.md"
+ ],
+ "build_files": [
+  "setup.py",
+  "setup.cfg",
+  "Makefile",
+  ".github/workflows"
+ ]
+}

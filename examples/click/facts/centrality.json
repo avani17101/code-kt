@@ -1,0 +1,171 @@
+{
+ "functions": [
+  {
+   "id": "src/click/globals.py:13",
+   "name": "get_current_context",
+   "pagerank": 0.0172,
+   "fan_in": 11
+  },
+  {
+   "id": "src/click/utils.py:240",
+   "name": "echo",
+   "pagerank": 0.0159,
+   "fan_in": 22
+  },
+  {
+   "id": "src/click/testing.py:45",
+   "name": "_echo",
+   "pagerank": 0.0153,
+   "fan_in": 5
+  },
+  {
+   "id": "src/click/_compat.py:491",
+   "name": "strip_ansi",
+   "pagerank": 0.0149,
+   "fan_in": 5
+  },
+  {
+   "id": "src/click/parser.py:111",
+   "name": "_split_opt",
+   "pagerank": 0.0117,
+   "fan_in": 7
+  },
+  {
+   "id": "src/click/testing.py:51",
+   "name": "read",
+   "pagerank": 0.0111,
+   "fan_in": 8
+  },
+  {
+   "id": "src/click/decorators.py:314",
+   "name": "_param_memo",
+   "pagerank": 0.0089,
+   "fan_in": 4
+  },
+  {
+   "id": "src/click/_compat.py:536",
+   "name": "term_len",
+   "pagerank": 0.0085,
+   "fan_in": 6
+  },
+  {
+   "id": "src/click/utils.py:153",
+   "name": "open",
+   "pagerank": 0.0084,
+   "fan_in": 8
+  },
+  {
+   "id": "src/click/_compat.py:163",
+   "name": "_is_binary_writer",
+   "pagerank": 0.0078,
+   "fan_in": 1
+  },
+  {
+   "id": "src/click/core.py:1222",
+   "name": "get_help_option",
+   "pagerank": 0.0077,
+   "fan_in": 2
+  },
+  {
+   "id": "src/click/globals.py:54",
+   "name": "resolve_color_default",
+   "pagerank": 0.0076,
+   "fan_in": 5
+  },
+  {
+   "id": "src/click/_termui_impl.py:250",
+   "name": "render_progress",
+   "pagerank": 0.0076,
+   "fan_in": 5
+  },
+  {
+   "id": "src/click/_compat.py:194",
+   "name": "_find_binary_writer",
+   "pagerank": 0.0076,
+   "fan_in": 3
+  },
+  {
+   "id": "src/click/_compat.py:43",
+   "name": "is_ascii_encoding",
+   "pagerank": 0.0075,
+   "fan_in": 2
+  }
+ ],
+ "modules": [
+  {
+   "module": "click._compat",
+   "pagerank": 0.2759,
+   "imported_by": 9
+  },
+  {
+   "module": "click._winconsole",
+   "pagerank": 0.2445,
+   "imported_by": 1
+  },
+  {
+   "module": "click.core",
+   "pagerank": 0.097,
+   "imported_by": 8
+  },
+  {
+   "module": "click.utils",
+   "pagerank": 0.0584,
+   "imported_by": 9
+  },
+  {
+   "module": "click.globals",
+   "pagerank": 0.055,
+   "imported_by": 6
+  },
+  {
+   "module": "click.exceptions",
+   "pagerank": 0.0513,
+   "imported_by": 7
+  },
+  {
+   "module": "click.shell_completion",
+   "pagerank": 0.0266,
+   "imported_by": 3
+  },
+  {
+   "module": "click.parser",
+   "pagerank": 0.0254,
+   "imported_by": 3
+  },
+  {
+   "module": "click._utils",
+   "pagerank": 0.0229,
+   "imported_by": 2
+  },
+  {
+   "module": "click.types",
+   "pagerank": 0.022,
+   "imported_by": 3
+  },
+  {
+   "module": "click",
+   "pagerank": 0.0214,
+   "imported_by": 3
+  },
+  {
+   "module": "click.formatting",
+   "pagerank": 0.0209,
+   "imported_by": 3
+  },
+  {
+   "module": "click.termui",
+   "pagerank": 0.0209,
+   "imported_by": 3
+  },
+  {
+   "module": "click.decorators",
+   "pagerank": 0.0195,
+   "imported_by": 2
+  },
+  {
+   "module": "click._textwrap",
+   "pagerank": 0.0159,
+   "imported_by": 1
+  }
+ ]
+}

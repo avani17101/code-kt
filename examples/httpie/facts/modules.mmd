@@ -1,0 +1,12 @@
+graph LR
+  httpie_sessions["httpie.sessions"] --> httpie_context["httpie.context"]
+  httpie_sessions["httpie.sessions"] --> httpie_cookies["httpie.cookies"]
+  httpie_sessions["httpie.sessions"] --> httpie_cli_dicts["httpie.cli.dicts"]
+  httpie_sessions["httpie.sessions"] --> httpie_utils["httpie.utils"]
+  httpie_compat["httpie.compat"] --> httpie_cookies["httpie.cookies"]
+  httpie_context["httpie.context"] --> httpie_compat["httpie.compat"]
+  httpie_context["httpie.context"] --> httpie_encoding["httpie.encoding"]
+  httpie_context["httpie.context"] --> httpie_utils["httpie.utils"]
+  httpie_context["httpie.context"] --> httpie_output_ui_palette["httpie.output.ui.palette"]
+  httpie_utils["httpie.utils"] --> httpie_compat["httpie.compat"]
+  httpie_plugins["httpie.plugins"] --> httpie_plugins_base["httpie.plugins.base"]

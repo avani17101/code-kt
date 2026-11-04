@@ -1,0 +1,9 @@
+{
+  "name": "code-kt",
+  "version": "0.1.0",
+  "description": "Dev-to-dev knowledge transfer for unfamiliar codebases: read-only static analysis plus a paced, evidence-tagged tour.",
+  "author": { "name": "Avani Gupta" },
+  "license": "MIT",
+  "keywords": ["onboarding", "knowledge-transfer", "codebase", "static-analysis", "ast", "call-graph"],
+  "skills": "./skills"
+}

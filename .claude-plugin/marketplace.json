@@ -1,0 +1,11 @@
+{
+  "name": "code-kt",
+  "owner": { "name": "Avani Gupta" },
+  "plugins": [
+    {
+      "name": "code-kt",
+      "source": "./",
+      "description": "Dev-to-dev knowledge transfer for unfamiliar codebases."
+    }
+  ]
+}

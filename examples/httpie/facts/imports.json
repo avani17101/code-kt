@@ -1,0 +1,1140 @@
+{
+ "modules": {
+  "setup": "setup.py",
+  "httpie.sessions": "httpie/sessions.py",
+  "httpie.client": "httpie/client.py",
+  "httpie.config": "httpie/config.py",
+  "httpie.downloads": "httpie/downloads.py",
+  "httpie": "httpie/__init__.py",
+  "httpie.core": "httpie/core.py",
+  "httpie.adapters": "httpie/adapters.py",
+  "httpie.uploads": "httpie/uploads.py",
+  "httpie.ssl_": "httpie/ssl_.py",
+  "httpie.cookies": "httpie/cookies.py",
+  "httpie.compat": "httpie/compat.py",
+  "httpie.__main__": "httpie/__main__.py",
+  "httpie.models": "httpie/models.py",
+  "httpie.status": "httpie/status.py",
+  "httpie.context": "httpie/context.py",
+  "httpie.encoding": "httpie/encoding.py",
+  "httpie.utils": "httpie/utils.py",
+  "httpie.output.streams": "httpie/output/streams.py",
+  "httpie.output": "httpie/output/__init__.py",
+  "httpie.output.writer": "httpie/output/writer.py",
+  "httpie.output.models": "httpie/output/models.py",
+  "httpie.output.processing": "httpie/output/processing.py",
+  "httpie.output.utils": "httpie/output/utils.py",
+  "httpie.output.ui.rich_progress": "httpie/output/ui/rich_progress.py",
+  "httpie.output.ui": "httpie/output/ui/__init__.py",
+  "httpie.output.ui.rich_utils": "httpie/output/ui/rich_utils.py",
+  "httpie.output.ui.rich_help": "httpie/output/ui/rich_help.py",
+  "httpie.output.ui.man_pages": "httpie/output/ui/man_pages.py",
+  "httpie.output.ui.rich_palette": "httpie/output/ui/rich_palette.py",
+  "httpie.output.ui.palette": "httpie/output/ui/palette.py",
+  "httpie.output.lexers.common": "httpie/output/lexers/common.py",
+  "httpie.output.lexers.http": "httpie/output/lexers/http.py",
+  "httpie.output.lexers": "httpie/output/lexers/__init__.py",
+  "httpie.output.lexers.metadata": "httpie/output/lexers/metadata.py",
+  "httpie.output.lexers.json": "httpie/output/lexers/json.py",
+  "httpie.output.formatters": "httpie/output/formatters/__init__.py",
+  "httpie.output.formatters.headers": "httpie/output/formatters/headers.py",
+  "httpie.output.formatters.colors": "httpie/output/formatters/colors.py",
+  "httpie.output.formatters.json": "httpie/output/formatters/json.py",
+  "httpie.output.formatters.xml": "httpie/output/formatters/xml.py",
+  "httpie.manager.cli": "httpie/manager/cli.py",
+  "httpie.manager": "httpie/manager/__init__.py",
+  "httpie.manager.core": "httpie/manager/core.py",
+  "httpie.manager.compat": "httpie/manager/compat.py",
+  "httpie.manager.__main__": "httpie/manager/__main__.py",
+  "httpie.manager.tasks.check_updates": "httpie/manager/tasks/check_updates.py",
+  "httpie.manager.tasks.sessions": "httpie/manager/tasks/sessions.py",
+  "httpie.manager.tasks.plugins": "httpie/manager/tasks/plugins.py",
+  "httpie.manager.tasks": "httpie/manager/tasks/__init__.py",
+  "httpie.manager.tasks.export_args": "httpie/manager/tasks/export_args.py",
+  "httpie.cli.definition": "httpie/cli/definition.py",
+  "httpie.cli.requestitems": "httpie/cli/requestitems.py",
+  "httpie.cli": "httpie/cli/__init__.py",
+  "httpie.cli.argtypes": "httpie/cli/argtypes.py",
+  "httpie.cli.constants": "httpie/cli/constants.py",
+  "httpie.cli.dicts": "httpie/cli/dicts.py",
+  "httpie.cli.exceptions": "httpie/cli/exceptions.py",
+  "httpie.cli.argparser": "httpie/cli/argparser.py",
+  "httpie.cli.options": "httpie/cli/options.py",
+  "httpie.cli.utils": "httpie/cli/utils.py",
+  "httpie.cli.nested_json.interpret": "httpie/cli/nested_json/interpret.py",
+  "httpie.cli.nested_json.tokens": "httpie/cli/nested_json/tokens.py",
+  "httpie.cli.nested_json.parse": "httpie/cli/nested_json/parse.py",
+  "httpie.cli.nested_json.errors": "httpie/cli/nested_json/errors.py",
+  "httpie.cli.nested_json": "httpie/cli/nested_json/__init__.py",
+  "httpie.legacy.v3_1_0_session_cookie_format": "httpie/legacy/v3_1_0_session_cookie_format.py",
+  "httpie.legacy": "httpie/legacy/__init__.py",
+  "httpie.legacy.v3_2_0_session_header_format": "httpie/legacy/v3_2_0_session_header_format.py",
+  "httpie.plugins.manager": "httpie/plugins/manager.py",
+  "httpie.plugins.base": "httpie/plugins/base.py",
+  "httpie.plugins": "httpie/plugins/__init__.py",
+  "httpie.plugins.builtin": "httpie/plugins/builtin.py",
+  "httpie.plugins.registry": "httpie/plugins/registry.py",
+  "httpie.internal": "httpie/internal/__init__.py",
+  "httpie.internal.update_warnings": "httpie/internal/update_warnings.py",
+  "httpie.internal.daemon_runner": "httpie/internal/daemon_runner.py",
+  "httpie.internal.__build_channel__": "httpie/internal/__build_channel__.py",
+  "httpie.internal.daemons": "httpie/internal/daemons.py"
+ },
+ "edges": [
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.context",
+   "at": "httpie/sessions.py:16"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.cookies",
+   "at": "httpie/sessions.py:17"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/sessions.py:18"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.config",
+   "at": "httpie/sessions.py:19"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.utils",
+   "at": "httpie/sessions.py:20"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/sessions.py:21"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.legacy",
+   "at": "httpie/sessions.py:23"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.legacy.v3_1_0_session_cookie_format",
+   "at": "httpie/sessions.py:23"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.legacy.v3_2_0_session_header_format",
+   "at": "httpie/sessions.py:23"
+  },
+  {
+   "src": "httpie.sessions",
+   "dst": "httpie.cli.argtypes",
+   "at": "httpie/sessions.py:292"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie",
+   "at": "httpie/client.py:15"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.adapters",
+   "at": "httpie/client.py:16"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/client.py:17"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/client.py:18"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.cli.nested_json",
+   "at": "httpie/client.py:19"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.context",
+   "at": "httpie/client.py:20"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.encoding",
+   "at": "httpie/client.py:21"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.models",
+   "at": "httpie/client.py:22"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/client.py:23"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.sessions",
+   "at": "httpie/client.py:24"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.ssl_",
+   "at": "httpie/client.py:25"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.uploads",
+   "at": "httpie/client.py:26"
+  },
+  {
+   "src": "httpie.client",
+   "dst": "httpie.utils",
+   "at": "httpie/client.py:30"
+  },
+  {
+   "src": "httpie.config",
+   "dst": "httpie",
+   "at": "httpie/config.py:6"
+  },
+  {
+   "src": "httpie.config",
+   "dst": "httpie.compat",
+   "at": "httpie/config.py:7"
+  },
+  {
+   "src": "httpie.config",
+   "dst": "httpie.encoding",
+   "at": "httpie/config.py:8"
+  },
+  {
+   "src": "httpie.downloads",
+   "dst": "httpie.models",
+   "at": "httpie/downloads.py:15"
+  },
+  {
+   "src": "httpie.downloads",
+   "dst": "httpie.output.streams",
+   "at": "httpie/downloads.py:16"
+  },
+  {
+   "src": "httpie.downloads",
+   "dst": "httpie.context",
+   "at": "httpie/downloads.py:17"
+  },
+  {
+   "src": "httpie.downloads",
+   "dst": "httpie.output.ui.rich_progress",
+   "at": "httpie/downloads.py:326"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie",
+   "at": "httpie/core.py:12"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/core.py:13"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.cli.nested_json",
+   "at": "httpie/core.py:14"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.client",
+   "at": "httpie/core.py:15"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.context",
+   "at": "httpie/core.py:16"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.downloads",
+   "at": "httpie/core.py:17"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.models",
+   "at": "httpie/core.py:18"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.output.models",
+   "at": "httpie/core.py:22"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.output.writer",
+   "at": "httpie/core.py:23"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/core.py:24"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.status",
+   "at": "httpie/core.py:25"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.utils",
+   "at": "httpie/core.py:26"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.internal.update_warnings",
+   "at": "httpie/core.py:27"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.internal.daemon_runner",
+   "at": "httpie/core.py:28"
+  },
+  {
+   "src": "httpie.core",
+   "dst": "httpie.cli.definition",
+   "at": "httpie/core.py:160"
+  },
+  {
+   "src": "httpie.adapters",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/adapters.py:1"
+  },
+  {
+   "src": "httpie.uploads",
+   "dst": "httpie.context",
+   "at": "httpie/uploads.py:15"
+  },
+  {
+   "src": "httpie.uploads",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/uploads.py:16"
+  },
+  {
+   "src": "httpie.uploads",
+   "dst": "httpie.compat",
+   "at": "httpie/uploads.py:17"
+  },
+  {
+   "src": "httpie.ssl_",
+   "dst": "httpie.adapters",
+   "at": "httpie/ssl_.py:10"
+  },
+  {
+   "src": "httpie.ssl_",
+   "dst": "httpie.compat",
+   "at": "httpie/ssl_.py:11"
+  },
+  {
+   "src": "httpie.compat",
+   "dst": "httpie.cookies",
+   "at": "httpie/compat.py:5"
+  },
+  {
+   "src": "httpie.__main__",
+   "dst": "httpie.core",
+   "at": "httpie/__main__.py:8"
+  },
+  {
+   "src": "httpie.__main__",
+   "dst": "httpie.status",
+   "at": "httpie/__main__.py:11"
+  },
+  {
+   "src": "httpie.models",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/models.py:10"
+  },
+  {
+   "src": "httpie.models",
+   "dst": "httpie.compat",
+   "at": "httpie/models.py:17"
+  },
+  {
+   "src": "httpie.models",
+   "dst": "httpie.utils",
+   "at": "httpie/models.py:18"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.compat",
+   "at": "httpie/context.py:16"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.config",
+   "at": "httpie/context.py:17"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.encoding",
+   "at": "httpie/context.py:18"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.utils",
+   "at": "httpie/context.py:20"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.output.ui.palette",
+   "at": "httpie/context.py:21"
+  },
+  {
+   "src": "httpie.context",
+   "dst": "httpie.output.ui.rich_palette",
+   "at": "httpie/context.py:194"
+  },
+  {
+   "src": "httpie.utils",
+   "dst": "httpie.compat",
+   "at": "httpie/utils.py:230"
+  },
+  {
+   "src": "httpie.output.streams",
+   "dst": "httpie.output.processing",
+   "at": "httpie/output/streams.py:5"
+  },
+  {
+   "src": "httpie.output.streams",
+   "dst": "httpie.context",
+   "at": "httpie/output/streams.py:6"
+  },
+  {
+   "src": "httpie.output.streams",
+   "dst": "httpie.encoding",
+   "at": "httpie/output/streams.py:7"
+  },
+  {
+   "src": "httpie.output.streams",
+   "dst": "httpie.models",
+   "at": "httpie/output/streams.py:8"
+  },
+  {
+   "src": "httpie.output.streams",
+   "dst": "httpie.utils",
+   "at": "httpie/output/streams.py:9"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/output/writer.py:5"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.context",
+   "at": "httpie/output/writer.py:6"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.models",
+   "at": "httpie/output/writer.py:7"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.output.models",
+   "at": "httpie/output/writer.py:15"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.output.processing",
+   "at": "httpie/output/writer.py:16"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.output.streams",
+   "at": "httpie/output/writer.py:17"
+  },
+  {
+   "src": "httpie.output.writer",
+   "dst": "httpie.utils",
+   "at": "httpie/output/writer.py:20"
+  },
+  {
+   "src": "httpie.output.models",
+   "dst": "httpie.context",
+   "at": "httpie/output/models.py:4"
+  },
+  {
+   "src": "httpie.output.models",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/output/models.py:5"
+  },
+  {
+   "src": "httpie.output.models",
+   "dst": "httpie.cli.argtypes",
+   "at": "httpie/output/models.py:6"
+  },
+  {
+   "src": "httpie.output.models",
+   "dst": "httpie.output.formatters.colors",
+   "at": "httpie/output/models.py:7"
+  },
+  {
+   "src": "httpie.output.processing",
+   "dst": "httpie.plugins",
+   "at": "httpie/output/processing.py:4"
+  },
+  {
+   "src": "httpie.output.processing",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/output/processing.py:5"
+  },
+  {
+   "src": "httpie.output.processing",
+   "dst": "httpie.context",
+   "at": "httpie/output/processing.py:6"
+  },
+  {
+   "src": "httpie.output.utils",
+   "dst": "httpie.utils",
+   "at": "httpie/output/utils.py:5"
+  },
+  {
+   "src": "httpie.output.utils",
+   "dst": "httpie.output.lexers.json",
+   "at": "httpie/output/utils.py:6"
+  },
+  {
+   "src": "httpie.output.ui.rich_progress",
+   "dst": "httpie.context",
+   "at": "httpie/output/ui/rich_progress.py:4"
+  },
+  {
+   "src": "httpie.output.ui.rich_utils",
+   "dst": "httpie.output.ui.rich_palette",
+   "at": "httpie/output/ui/rich_utils.py:9"
+  },
+  {
+   "src": "httpie.output.ui.rich_help",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/output/ui/rich_help.py:11"
+  },
+  {
+   "src": "httpie.output.ui.rich_help",
+   "dst": "httpie.cli.options",
+   "at": "httpie/output/ui/rich_help.py:12"
+  },
+  {
+   "src": "httpie.output.ui.rich_help",
+   "dst": "httpie.output.ui.palette",
+   "at": "httpie/output/ui/rich_help.py:13"
+  },
+  {
+   "src": "httpie.output.ui.man_pages",
+   "dst": "httpie.context",
+   "at": "httpie/output/ui/man_pages.py:5"
+  },
+  {
+   "src": "httpie.output.ui.rich_palette",
+   "dst": "httpie.output.ui.palette",
+   "at": "httpie/output/ui/rich_palette.py:7"
+  },
+  {
+   "src": "httpie.output.lexers.http",
+   "dst": "httpie.output.lexers.common",
+   "at": "httpie/output/lexers/http.py:3"
+  },
+  {
+   "src": "httpie.output.lexers.metadata",
+   "dst": "httpie.models",
+   "at": "httpie/output/lexers/metadata.py:3"
+  },
+  {
+   "src": "httpie.output.lexers.metadata",
+   "dst": "httpie.output.lexers.common",
+   "at": "httpie/output/lexers/metadata.py:4"
+  },
+  {
+   "src": "httpie.output.formatters.headers",
+   "dst": "httpie.plugins",
+   "at": "httpie/output/formatters/headers.py:1"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.output.lexers.json",
+   "at": "httpie/output/formatters/colors.py:18"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.output.lexers.metadata",
+   "at": "httpie/output/formatters/colors.py:19"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.output.ui.palette",
+   "at": "httpie/output/formatters/colors.py:20"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.context",
+   "at": "httpie/output/formatters/colors.py:21"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.plugins",
+   "at": "httpie/output/formatters/colors.py:22"
+  },
+  {
+   "src": "httpie.output.formatters.colors",
+   "dst": "httpie.output.lexers.http",
+   "at": "httpie/output/formatters/colors.py:71"
+  },
+  {
+   "src": "httpie.output.formatters.json",
+   "dst": "httpie.plugins",
+   "at": "httpie/output/formatters/json.py:3"
+  },
+  {
+   "src": "httpie.output.formatters.json",
+   "dst": "httpie.output.utils",
+   "at": "httpie/output/formatters/json.py:20"
+  },
+  {
+   "src": "httpie.output.formatters.xml",
+   "dst": "httpie.encoding",
+   "at": "httpie/output/formatters/xml.py:3"
+  },
+  {
+   "src": "httpie.output.formatters.xml",
+   "dst": "httpie.plugins",
+   "at": "httpie/output/formatters/xml.py:4"
+  },
+  {
+   "src": "httpie.manager.cli",
+   "dst": "httpie.cli.argparser",
+   "at": "httpie/manager/cli.py:2"
+  },
+  {
+   "src": "httpie.manager.cli",
+   "dst": "httpie.cli.options",
+   "at": "httpie/manager/cli.py:3"
+  },
+  {
+   "src": "httpie.manager.cli",
+   "dst": "httpie",
+   "at": "httpie/manager/cli.py:4"
+  },
+  {
+   "src": "httpie.manager.core",
+   "dst": "httpie.context",
+   "at": "httpie/manager/core.py:4"
+  },
+  {
+   "src": "httpie.manager.core",
+   "dst": "httpie.status",
+   "at": "httpie/manager/core.py:5"
+  },
+  {
+   "src": "httpie.manager.core",
+   "dst": "httpie.manager.cli",
+   "at": "httpie/manager/core.py:6"
+  },
+  {
+   "src": "httpie.manager.core",
+   "dst": "httpie.manager.tasks",
+   "at": "httpie/manager/core.py:7"
+  },
+  {
+   "src": "httpie.manager.compat",
+   "dst": "httpie.compat",
+   "at": "httpie/manager/compat.py:7"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.context",
+   "at": "httpie/manager/__main__.py:6"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.status",
+   "at": "httpie/manager/__main__.py:7"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.manager.cli",
+   "at": "httpie/manager/__main__.py:16"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.manager.core",
+   "at": "httpie/manager/__main__.py:9"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.cli.definition",
+   "at": "httpie/manager/__main__.py:15"
+  },
+  {
+   "src": "httpie.manager.__main__",
+   "dst": "httpie.core",
+   "at": "httpie/manager/__main__.py:33"
+  },
+  {
+   "src": "httpie.manager.tasks.check_updates",
+   "dst": "httpie.context",
+   "at": "httpie/manager/tasks/check_updates.py:2"
+  },
+  {
+   "src": "httpie.manager.tasks.check_updates",
+   "dst": "httpie.status",
+   "at": "httpie/manager/tasks/check_updates.py:3"
+  },
+  {
+   "src": "httpie.manager.tasks.check_updates",
+   "dst": "httpie.internal.update_warnings",
+   "at": "httpie/manager/tasks/check_updates.py:4"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.sessions",
+   "at": "httpie/manager/tasks/sessions.py:3"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.status",
+   "at": "httpie/manager/tasks/sessions.py:4"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.context",
+   "at": "httpie/manager/tasks/sessions.py:5"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.legacy",
+   "at": "httpie/manager/tasks/sessions.py:6"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.legacy.v3_1_0_session_cookie_format",
+   "at": "httpie/manager/tasks/sessions.py:6"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.legacy.v3_2_0_session_header_format",
+   "at": "httpie/manager/tasks/sessions.py:6"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.manager.cli",
+   "at": "httpie/manager/tasks/sessions.py:7"
+  },
+  {
+   "src": "httpie.manager.tasks.sessions",
+   "dst": "httpie.utils",
+   "at": "httpie/manager/tasks/sessions.py:8"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.manager.compat",
+   "at": "httpie/manager/tasks/plugins.py:11"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.manager.cli",
+   "at": "httpie/manager/tasks/plugins.py:12"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.compat",
+   "at": "httpie/manager/tasks/plugins.py:13"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.context",
+   "at": "httpie/manager/tasks/plugins.py:14"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.status",
+   "at": "httpie/manager/tasks/plugins.py:15"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.utils",
+   "at": "httpie/manager/tasks/plugins.py:16"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/manager/tasks/plugins.py:197"
+  },
+  {
+   "src": "httpie.manager.tasks.plugins",
+   "dst": "httpie.plugins.manager",
+   "at": "httpie/manager/tasks/plugins.py:222"
+  },
+  {
+   "src": "httpie.manager.tasks",
+   "dst": "httpie.manager.tasks.sessions",
+   "at": "httpie/manager/tasks/__init__.py:1"
+  },
+  {
+   "src": "httpie.manager.tasks",
+   "dst": "httpie.manager.tasks.export_args",
+   "at": "httpie/manager/tasks/__init__.py:2"
+  },
+  {
+   "src": "httpie.manager.tasks",
+   "dst": "httpie.manager.tasks.plugins",
+   "at": "httpie/manager/tasks/__init__.py:3"
+  },
+  {
+   "src": "httpie.manager.tasks",
+   "dst": "httpie.manager.tasks.check_updates",
+   "at": "httpie/manager/tasks/__init__.py:4"
+  },
+  {
+   "src": "httpie.manager.tasks.export_args",
+   "dst": "httpie.cli.definition",
+   "at": "httpie/manager/tasks/export_args.py:4"
+  },
+  {
+   "src": "httpie.manager.tasks.export_args",
+   "dst": "httpie.cli.options",
+   "at": "httpie/manager/tasks/export_args.py:5"
+  },
+  {
+   "src": "httpie.manager.tasks.export_args",
+   "dst": "httpie.output.writer",
+   "at": "httpie/manager/tasks/export_args.py:6"
+  },
+  {
+   "src": "httpie.manager.tasks.export_args",
+   "dst": "httpie.status",
+   "at": "httpie/manager/tasks/export_args.py:7"
+  },
+  {
+   "src": "httpie.manager.tasks.export_args",
+   "dst": "httpie.context",
+   "at": "httpie/manager/tasks/export_args.py:8"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie",
+   "at": "httpie/cli/definition.py:7"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.cli.argtypes",
+   "at": "httpie/cli/definition.py:8"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/cli/definition.py:11"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.cli.options",
+   "at": "httpie/cli/definition.py:19"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.output.formatters.colors",
+   "at": "httpie/cli/definition.py:20"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.plugins.builtin",
+   "at": "httpie/cli/definition.py:22"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/cli/definition.py:23"
+  },
+  {
+   "src": "httpie.cli.definition",
+   "dst": "httpie.ssl_",
+   "at": "httpie/cli/definition.py:24"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.cli.argtypes",
+   "at": "httpie/cli/requestitems.py:5"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/cli/requestitems.py:6"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.cli.dicts",
+   "at": "httpie/cli/requestitems.py:14"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.cli.exceptions",
+   "at": "httpie/cli/requestitems.py:19"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.cli.nested_json",
+   "at": "httpie/cli/requestitems.py:20"
+  },
+  {
+   "src": "httpie.cli.requestitems",
+   "dst": "httpie.utils",
+   "at": "httpie/cli/requestitems.py:21"
+  },
+  {
+   "src": "httpie.cli.argtypes",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/cli/argtypes.py:8"
+  },
+  {
+   "src": "httpie.cli.argtypes",
+   "dst": "httpie.sessions",
+   "at": "httpie/cli/argtypes.py:9"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.cli.argtypes",
+   "at": "httpie/cli/argparser.py:12"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.cli.constants",
+   "at": "httpie/cli/argparser.py:18"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.cli.exceptions",
+   "at": "httpie/cli/argparser.py:25"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.cli.requestitems",
+   "at": "httpie/cli/argparser.py:26"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.context",
+   "at": "httpie/cli/argparser.py:27"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.plugins.registry",
+   "at": "httpie/cli/argparser.py:28"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.utils",
+   "at": "httpie/cli/argparser.py:29"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.ssl_",
+   "at": "httpie/cli/argparser.py:270"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.output.ui",
+   "at": "httpie/cli/argparser.py:577"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.output.ui.man_pages",
+   "at": "httpie/cli/argparser.py:562"
+  },
+  {
+   "src": "httpie.cli.argparser",
+   "dst": "httpie.output.ui.rich_help",
+   "at": "httpie/cli/argparser.py:577"
+  },
+  {
+   "src": "httpie.cli.options",
+   "dst": "httpie.cli.argparser",
+   "at": "httpie/cli/options.py:8"
+  },
+  {
+   "src": "httpie.cli.options",
+   "dst": "httpie.cli.utils",
+   "at": "httpie/cli/options.py:9"
+  },
+  {
+   "src": "httpie.cli.nested_json.interpret",
+   "dst": "httpie.cli.nested_json.parse",
+   "at": "httpie/cli/nested_json/interpret.py:3"
+  },
+  {
+   "src": "httpie.cli.nested_json.interpret",
+   "dst": "httpie.cli.nested_json.errors",
+   "at": "httpie/cli/nested_json/interpret.py:4"
+  },
+  {
+   "src": "httpie.cli.nested_json.interpret",
+   "dst": "httpie.cli.nested_json.tokens",
+   "at": "httpie/cli/nested_json/interpret.py:5"
+  },
+  {
+   "src": "httpie.cli.nested_json.parse",
+   "dst": "httpie.cli.nested_json.errors",
+   "at": "httpie/cli/nested_json/parse.py:3"
+  },
+  {
+   "src": "httpie.cli.nested_json.parse",
+   "dst": "httpie.cli.nested_json.tokens",
+   "at": "httpie/cli/nested_json/parse.py:4"
+  },
+  {
+   "src": "httpie.cli.nested_json.errors",
+   "dst": "httpie.cli.nested_json.tokens",
+   "at": "httpie/cli/nested_json/errors.py:3"
+  },
+  {
+   "src": "httpie.cli.nested_json",
+   "dst": "httpie.cli.nested_json.interpret",
+   "at": "httpie/cli/nested_json/__init__.py:9"
+  },
+  {
+   "src": "httpie.cli.nested_json",
+   "dst": "httpie.cli.nested_json.errors",
+   "at": "httpie/cli/nested_json/__init__.py:10"
+  },
+  {
+   "src": "httpie.cli.nested_json",
+   "dst": "httpie.cli.nested_json.tokens",
+   "at": "httpie/cli/nested_json/__init__.py:11"
+  },
+  {
+   "src": "httpie.legacy.v3_1_0_session_cookie_format",
+   "dst": "httpie.sessions",
+   "at": "httpie/legacy/v3_1_0_session_cookie_format.py:5"
+  },
+  {
+   "src": "httpie.legacy.v3_2_0_session_header_format",
+   "dst": "httpie.sessions",
+   "at": "httpie/legacy/v3_2_0_session_header_format.py:68"
+  },
+  {
+   "src": "httpie.plugins.manager",
+   "dst": "httpie.compat",
+   "at": "httpie/plugins/manager.py:11"
+  },
+  {
+   "src": "httpie.plugins.manager",
+   "dst": "httpie.utils",
+   "at": "httpie/plugins/manager.py:13"
+  },
+  {
+   "src": "httpie.plugins.manager",
+   "dst": "httpie.plugins",
+   "at": "httpie/plugins/manager.py:14"
+  },
+  {
+   "src": "httpie.plugins.manager",
+   "dst": "httpie.plugins.base",
+   "at": "httpie/plugins/manager.py:15"
+  },
+  {
+   "src": "httpie.plugins",
+   "dst": "httpie.plugins.base",
+   "at": "httpie/plugins/__init__.py:6"
+  },
+  {
+   "src": "httpie.plugins.builtin",
+   "dst": "httpie.plugins.base",
+   "at": "httpie/plugins/builtin.py:5"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.plugins.manager",
+   "at": "httpie/plugins/registry.py:1"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.plugins.builtin",
+   "at": "httpie/plugins/registry.py:2"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.output.formatters.headers",
+   "at": "httpie/plugins/registry.py:3"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.output.formatters.json",
+   "at": "httpie/plugins/registry.py:4"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.output.formatters.xml",
+   "at": "httpie/plugins/registry.py:5"
+  },
+  {
+   "src": "httpie.plugins.registry",
+   "dst": "httpie.output.formatters.colors",
+   "at": "httpie/plugins/registry.py:6"
+  },
+  {
+   "src": "httpie.internal.update_warnings",
+   "dst": "httpie",
+   "at": "httpie/internal/update_warnings.py:9"
+  },
+  {
+   "src": "httpie.internal.update_warnings",
+   "dst": "httpie.context",
+   "at": "httpie/internal/update_warnings.py:10"
+  },
+  {
+   "src": "httpie.internal.update_warnings",
+   "dst": "httpie.internal.__build_channel__",
+   "at": "httpie/internal/update_warnings.py:11"
+  },
+  {
+   "src": "httpie.internal.update_warnings",
+   "dst": "httpie.internal.daemons",
+   "at": "httpie/internal/update_warnings.py:12"
+  },
+  {
+   "src": "httpie.internal.update_warnings",
+   "dst": "httpie.utils",
+   "at": "httpie/internal/update_warnings.py:13"
+  },
+  {
+   "src": "httpie.internal.daemon_runner",
+   "dst": "httpie.context",
+   "at": "httpie/internal/daemon_runner.py:5"
+  },
+  {
+   "src": "httpie.internal.daemon_runner",
+   "dst": "httpie.internal.update_warnings",
+   "at": "httpie/internal/daemon_runner.py:6"
+  },
+  {
+   "src": "httpie.internal.daemon_runner",
+   "dst": "httpie.status",
+   "at": "httpie/internal/daemon_runner.py:7"
+  },
+  {
+   "src": "httpie.internal.daemons",
+   "dst": "httpie.__main__",
+   "at": "httpie/internal/daemons.py:12"
+  },
+  {
+   "src": "httpie.internal.daemons",
+   "dst": "httpie.compat",
+   "at": "httpie/internal/daemons.py:16"
+  },
+  {
+   "src": "httpie.internal.daemons",
+   "dst": "httpie.core",
+   "at": "httpie/internal/daemons.py:64"
+  }
+ ]
+}

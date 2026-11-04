@@ -1,0 +1,154 @@
+{
+ "window_commits": 300,
+ "hotspots": [
+  {
+   "file": "src/click/core.py",
+   "commits": 29,
+   "max_ccn": 36,
+   "score": 1044,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Yuri Shevtsov"
+   ]
+  },
+  {
+   "file": "src/click/termui.py",
+   "commits": 17,
+   "max_ccn": 21,
+   "score": 357,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Andreas Backx"
+   ]
+  },
+  {
+   "file": "src/click/_termui_impl.py",
+   "commits": 17,
+   "max_ccn": 20,
+   "score": 340,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Eddie Girling"
+   ]
+  },
+  {
+   "file": "src/click/types.py",
+   "commits": 12,
+   "max_ccn": 18,
+   "score": 216,
+   "top_authors": [
+    "Kevin Deldycke",
+    "jorenham"
+   ]
+  },
+  {
+   "file": "src/click/shell_completion.py",
+   "commits": 15,
+   "max_ccn": 10,
+   "score": 150,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Zhihua Lai"
+   ]
+  },
+  {
+   "file": "src/click/_compat.py",
+   "commits": 7,
+   "max_ccn": 21,
+   "score": 147,
+   "top_authors": [
+    "Kevin Deldycke",
+    "David Lord"
+   ]
+  },
+  {
+   "file": "src/click/utils.py",
+   "commits": 11,
+   "max_ccn": 13,
+   "score": 143,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Eddie Girling"
+   ]
+  },
+  {
+   "file": "src/click/exceptions.py",
+   "commits": 4,
+   "max_ccn": 13,
+   "score": 52,
+   "top_authors": [
+    "jorenham",
+    "Kevin Deldycke"
+   ]
+  },
+  {
+   "file": "src/click/__init__.py",
+   "commits": 5,
+   "max_ccn": 7,
+   "score": 35,
+   "top_authors": [
+    "Eddie Girling",
+    "Kevin Deldycke"
+   ]
+  },
+  {
+   "file": "src/click/formatting.py",
+   "commits": 5,
+   "max_ccn": 7,
+   "score": 35,
+   "top_authors": [
+    "Kevin Deldycke",
+    "jorenham"
+   ]
+  },
+  {
+   "file": "src/click/decorators.py",
+   "commits": 3,
+   "max_ccn": 10,
+   "score": 30,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Eric Platon"
+   ]
+  },
+  {
+   "file": "src/click/_textwrap.py",
+   "commits": 1,
+   "max_ccn": 30,
+   "score": 30,
+   "top_authors": [
+    "Kevin Deldycke"
+   ]
+  },
+  {
+   "file": "src/click/parser.py",
+   "commits": 3,
+   "max_ccn": 10,
+   "score": 30,
+   "top_authors": [
+    "Eric Platon",
+    "Andreas Backx"
+   ]
+  },
+  {
+   "file": "tests/test_termui.py",
+   "commits": 17,
+   "max_ccn": 0,
+   "score": 17,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Andreas Backx"
+   ]
+  },
+  {
+   "file": "src/click/_winconsole.py",
+   "commits": 2,
+   "max_ccn": 7,
+   "score": 14,
+   "top_authors": [
+    "Kevin Deldycke",
+    "Eric Platon"
+   ]
+  }
+ ]
+}

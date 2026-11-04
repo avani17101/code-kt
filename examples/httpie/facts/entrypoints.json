@@ -1,0 +1,40 @@
+{
+ "entrypoints": [
+  {
+   "kind": "console_script",
+   "name": "http",
+   "target": "httpie.__main__:main",
+   "at": "setup.cfg"
+  },
+  {
+   "kind": "console_script",
+   "name": "https",
+   "target": "httpie.__main__:main",
+   "at": "setup.cfg"
+  },
+  {
+   "kind": "console_script",
+   "name": "httpie",
+   "target": "httpie.manager.__main__:main",
+   "at": "setup.cfg"
+  },
+  {
+   "kind": "module_main",
+   "at": "httpie/__main__.py:1"
+  },
+  {
+   "kind": "script_main",
+   "at": "httpie/__main__.py:17"
+  },
+  {
+   "kind": "module_main",
+   "at": "httpie/manager/__main__.py:1"
+  },
+  {
+   "kind": "script_main",
+   "at": "httpie/manager/__main__.py:60"
+  }
+ ],
+ "count": 7,
+ "repo_kind": "application"
+}
