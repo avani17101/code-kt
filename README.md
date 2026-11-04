@@ -1,5 +1,10 @@
 # code-kt
 
+I felt like a need for a tool to onboard on any codebase and built one!
+Ever felt like a need for a KT-session? Here is a claude skill to try..
+It explores the codebase and builds a step by step tutorial to onboard you!
+
+
 **Knowledge transfer for codebases, the way a senior dev does it.**
 
 Joining a repo? A good handover isn't a wiki. A senior engineer:
